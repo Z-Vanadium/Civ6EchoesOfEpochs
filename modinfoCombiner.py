@@ -10,6 +10,12 @@ def get_mod_folders():
     return [
         'Asia/Palmyra',
         'Asia/Palmyra_XP1',
+
+
+
+
+
+        'Balance/Balance',
     ]
 
 def combine_modinfo_files():

@@ -4,7 +4,7 @@
     <Name>CCB适配资料片：纪元回响 Echoes Of Epochs</Name>
     <Description>强度适配 CCB 的文明6资料片，包含大量新文明、新领袖</Description>
     <Authors>Vanadium (alphabetical order)</Authors>
-    <SpecialThanks>Merrick (alphabetical order)</SpecialThanks>
+    <SpecialThanks>Merrick, Vanadium (alphabetical order)</SpecialThanks>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>
 <Dependencies>
@@ -46,6 +46,19 @@
 <UpdateText id="NewAction">
 <File>Asia/Palmyra_XP1/Core/Zenobia_GameText.xml</File>
 </UpdateText>
+
+<UpdateDatabase id="NewAction">
+<File>Balance/Balance/GameData.sql</File>
+</UpdateDatabase>
+<UpdateColors id="NewAction">
+<File>Balance/Balance/Color.sql</File>
+</UpdateColors>
+<UpdateText id="NewAction">
+<File>Balance/Balance/Text.xml</File>
+</UpdateText>
+<UpdateDatabase id="NewAction">
+<File>Balance/Balance/Config.sql</File>
+</UpdateDatabase>
 </FrontEndActions>
 <InGameActions>
 <UpdateArt id="NewAction">
@@ -85,6 +98,16 @@
 </UpdateIcons>
 <UpdateText id="NewAction">
 <File>Asia/Palmyra_XP1/Core/Zenobia_GameText.xml</File>
+</UpdateText>
+
+<UpdateDatabase id="NewAction">
+<File>Balance/Balance/GameData.sql</File>
+</UpdateDatabase>
+<UpdateColors id="NewAction">
+<File>Balance/Balance/Color.sql</File>
+</UpdateColors>
+<UpdateText id="NewAction">
+<File>Balance/Balance/Text.xml</File>
 </UpdateText>
 </InGameActions>
 <Files>
@@ -376,5 +399,10 @@
 <File>Asia/Palmyra_XP1/Platforms/MacOS/BLPs/UI/Icons.blp</File>
 <File>Asia/Palmyra_XP1/Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
 <File>Asia/Palmyra_XP1/Platforms/Windows/BLPs/UI/Icons.blp</File>
+
+<File>Balance/Balance/Color.sql</File>
+<File>Balance/Balance/Config.sql</File>
+<File>Balance/Balance/GameData.sql</File>
+<File>Balance/Balance/Text.xml</File>
 </Files>
 </Mod>

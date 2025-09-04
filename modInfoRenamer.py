@@ -10,7 +10,8 @@ def get_areas():
         'MiddleEast',
         'NorthAmerica',
         'SouthAmerica',
-        'SouthEastAsia'
+        'SouthEastAsia',
+        'Balance',
     ]
     
 def get_mods_in_area(area):

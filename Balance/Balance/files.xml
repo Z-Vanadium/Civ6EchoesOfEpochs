@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a94faf82-c9b0-4d2b-b926-ea816300bd9c" version="1">
+  <Properties>
+    <Name>EchoesOfEpochsBalance</Name>
+    <Description>This is a brief description of the mod.</Description>
+    <Created>1756964599</Created>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Authors>Vanadium</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="NewAction">
+      <File>GameData.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="NewAction">
+      <File>Color.sql</File>
+    </UpdateColors>
+    <UpdateText id="NewAction">
+      <File>Text.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="NewAction">
+      <File>Config.sql</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>GameData.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="NewAction">
+      <File>Color.sql</File>
+    </UpdateColors>
+    <UpdateText id="NewAction">
+      <File>Text.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Color.sql</File>
+    <File>Config.sql</File>
+    <File>GameData.sql</File>
+    <File>Text.xml</File>
+  </Files>
+</Mod>
