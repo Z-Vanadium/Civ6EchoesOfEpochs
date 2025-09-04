@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_MER_PALMYRA" 		  IconSize="22" 	IconsPerRow="1" IconsPerColumn="1" Filename="PALMYRA_22.dds"/>
+		<Row Name="ICON_ATLAS_MER_PALMYRA" 		  IconSize="30" 	IconsPerRow="1" IconsPerColumn="1" Filename="PALMYRA_30.dds"/>
+		<Row Name="ICON_ATLAS_MER_PALMYRA" 		  IconSize="32" 	IconsPerRow="1" IconsPerColumn="1" Filename="PALMYRA_32.dds"/>
+		<Row Name="ICON_ATLAS_MER_PALMYRA" 		  IconSize="36" 	IconsPerRow="1" IconsPerColumn="1" Filename="PALMYRA_36.dds"/>
+		<Row Name="ICON_ATLAS_MER_PALMYRA" 		  IconSize="44" 	IconsPerRow="1" IconsPerColumn="1" Filename="PALMYRA_44.dds"/>
+		<Row Name="ICON_ATLAS_MER_PALMYRA" 		  IconSize="48" 	IconsPerRow="1" IconsPerColumn="1" Filename="PALMYRA_48.dds"/>
+		<Row Name="ICON_ATLAS_MER_PALMYRA" 		  IconSize="50" 	IconsPerRow="1" IconsPerColumn="1" Filename="PALMYRA_50.dds"/>
+		<Row Name="ICON_ATLAS_MER_PALMYRA" 		  IconSize="64" 	IconsPerRow="1" IconsPerColumn="1" Filename="PALMYRA_64.dds"/>
+		<Row Name="ICON_ATLAS_MER_PALMYRA" 		  IconSize="80" 	IconsPerRow="1" IconsPerColumn="1" Filename="PALMYRA_80.dds"/>
+		<Row Name="ICON_ATLAS_MER_PALMYRA" 		  IconSize="128" 	IconsPerRow="1" IconsPerColumn="1" Filename="PALMYRA_128.dds"/>
+		<Row Name="ICON_ATLAS_MER_PALMYRA" 		  IconSize="200" 	IconsPerRow="1" IconsPerColumn="1" Filename="PALMYRA_200.dds"/>
+		<Row Name="ICON_ATLAS_MER_PALMYRA" 		  IconSize="256" 	IconsPerRow="1" IconsPerColumn="1" Filename="PALMYRA_256.dds"/>
+		<Row Name="ICON_ATLAS_MER_ODAENATHUS" 		  IconSize="32" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_ODAENATHUS_32.dds"/>
+		<Row Name="ICON_ATLAS_MER_ODAENATHUS" 		  IconSize="45" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_ODAENATHUS_45.dds"/>
+		<Row Name="ICON_ATLAS_MER_ODAENATHUS" 		  IconSize="48" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_ODAENATHUS_48.dds"/>
+		<Row Name="ICON_ATLAS_MER_ODAENATHUS" 		  IconSize="50" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_ODAENATHUS_50.dds"/>
+		<Row Name="ICON_ATLAS_MER_ODAENATHUS" 		  IconSize="55" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_ODAENATHUS_55.dds"/>
+		<Row Name="ICON_ATLAS_MER_ODAENATHUS" 		  IconSize="64" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_ODAENATHUS_64.dds"/>
+		<Row Name="ICON_ATLAS_MER_ODAENATHUS" 		  IconSize="80" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_ODAENATHUS_80.dds"/>
+		<Row Name="ICON_ATLAS_MER_ODAENATHUS" 		  IconSize="256" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_ODAENATHUS_256.dds"/>
+		<Row Name="ICON_ATLAS_MER_CLIBANARII" 	  IconSize="32" 	IconsPerRow="1" IconsPerColumn="1" Filename="CLIBANARII_32.dds"/>
+		<Row Name="ICON_ATLAS_MER_CLIBANARII" 	  IconSize="38" 	IconsPerRow="1" IconsPerColumn="1" Filename="CLIBANARII_38.dds"/>
+		<Row Name="ICON_ATLAS_MER_CLIBANARII" 	  IconSize="50" 	IconsPerRow="1" IconsPerColumn="1" Filename="CLIBANARII_50.dds"/>
+		<Row Name="ICON_ATLAS_MER_CLIBANARII" 	  IconSize="80" 	IconsPerRow="1" IconsPerColumn="1" Filename="CLIBANARII_80.dds"/>
+		<Row Name="ICON_ATLAS_MER_CLIBANARII" 	  IconSize="256" 	IconsPerRow="1" IconsPerColumn="1" Filename="CLIBANARII_256.dds"/>
+		<Row Name="ICON_ATLAS_MER_FUNERARY_TOWERS" 		  IconSize="38" 	IconsPerRow="1" IconsPerColumn="1" Filename="FUNERARY_TOWER_38.dds"/>
+		<Row Name="ICON_ATLAS_MER_FUNERARY_TOWERS" 		  IconSize="40" 	IconsPerRow="1" IconsPerColumn="1" Filename="FUNERARY_TOWER_40.dds"/>
+		<Row Name="ICON_ATLAS_MER_FUNERARY_TOWERS" 		  IconSize="50" 	IconsPerRow="1" IconsPerColumn="1" Filename="FUNERARY_TOWER_50.dds"/>
+		<Row Name="ICON_ATLAS_MER_FUNERARY_TOWERS" 		  IconSize="80" 	IconsPerRow="1" IconsPerColumn="1" Filename="FUNERARY_TOWER_80.dds"/>
+		<Row Name="ICON_ATLAS_MER_FUNERARY_TOWERS" 		  IconSize="200" 	IconsPerRow="1" IconsPerColumn="1" Filename="FUNERARY_TOWER_200.dds"/>
+		<Row Name="ICON_ATLAS_MER_FUNERARY_TOWERS" 		  IconSize="256" 	IconsPerRow="1" IconsPerColumn="1" Filename="FUNERARY_TOWER_256.dds"/>
+		<Row Name="PORTRAIT_ATLAS_MER_CLIBANARII" 		  IconSize="256" 	IconsPerRow="1" IconsPerColumn="1" Filename="ClibanariiUnitPortrait256.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_MER_PALMYRA" 		 Atlas="ICON_ATLAS_MER_PALMYRA" 		Index="0"/>
+		<Row Name="ICON_UNIT_MER_CLIBANARII" 				 Atlas="ICON_ATLAS_MER_CLIBANARII" 		Index="0"/>
+		<Row Name="ICON_UNIT_MER_CLIBANARII_PORTRAIT" 		 Atlas="PORTRAIT_ATLAS_MER_CLIBANARII" 		Index="0"/>
+		<Row Name="ICON_IMPROVEMENT_MER_FUNERARY_TOWERS" 		 Atlas="ICON_ATLAS_MER_FUNERARY_TOWERS" 		Index="0"/>
+		<Row Name="ICON_LEADER_MER_ODAENATHUS" 			 Atlas="ICON_ATLAS_MER_ODAENATHUS" 		Index="0"/>
+	</IconDefinitions>
+</GameInfo>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mod id="7b2fd0cc-894e-11f0-848b-743af48c76bf" version="100">
+  <Properties>
+    <Name>CCB适配资料片：纪元回响 Echoes Of Epochs</Name>
+    <Description>强度适配 CCB 的文明6资料片，包含大量新文明、新领袖</Description>
+    <Authors>Vanadium (alphabetical order)</Authors>
+    <SpecialThanks>Merrick (alphabetical order)</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+<Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="LOC_EXPANSION1_MOD_TITLE"/>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="LOC_EXPANSION2_MOD_TITLE"/>
+    <Mod id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" title="LOC_GRANCOLOMBIA_MAYA_MOD_TITLE"/>
+    <Mod id="A1100FC4-70F2-4129-AC27-2A65A685ED08" title="LOC_BYZANTIUM_GAUL_MOD_TITLE"/>
+    <Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="LOC_MACEDONIA_PERSIA_MOD_TITLE"/>
+</Dependencies>
+<FrontEndActions>
+<UpdateArt id="NewAction">
+<File>Asia/Palmyra/Merrick's Palmyra.dep</File>
+</UpdateArt>
+<UpdateColors id="NewAction">
+<File>Asia/Palmyra/Core/Odaenathus_Colours.sql</File>
+</UpdateColors>
+<UpdateDatabase id="NewAction">
+<File>Asia/Palmyra/Core/Palmyra_Config.xml</File>
+</UpdateDatabase>
+<UpdateIcons id="NewAction">
+<File>Asia/Palmyra/Core/Palmyra_IconDefinitions.xml</File>
+</UpdateIcons>
+<UpdateText id="NewAction">
+<File>Asia/Palmyra/Core/Palmyra_GameText.xml</File>
+</UpdateText>
+
+<UpdateArt id="NewAction">
+<File>Asia/Palmyra_XP1/Merrick's Zenobia (Palmyra).dep</File>
+</UpdateArt>
+<UpdateColors id="NewAction">
+<File>Asia/Palmyra_XP1/Core/ZenobiaColours.sql</File>
+</UpdateColors>
+<UpdateDatabase id="NewAction">
+<File>Asia/Palmyra_XP1/Core/Zenobia_Config.xml</File>
+</UpdateDatabase>
+<UpdateIcons id="NewAction">
+<File>Asia/Palmyra_XP1/Core/Zenobia_IconDefinitions.sql</File>
+</UpdateIcons>
+<UpdateText id="NewAction">
+<File>Asia/Palmyra_XP1/Core/Zenobia_GameText.xml</File>
+</UpdateText>
+</FrontEndActions>
+<InGameActions>
+<UpdateArt id="NewAction">
+<File>Asia/Palmyra/Merrick's Palmyra.dep</File>
+</UpdateArt>
+<UpdateColors id="NewAction">
+<File>Asia/Palmyra/Core/Odaenathus_Colours.sql</File>
+</UpdateColors>
+<UpdateDatabase id="NewAction">
+<File>Asia/Palmyra/Core/Palmyra_GameDefines.sql</File>
+<File>Asia/Palmyra/Core/Support.sql</File>
+<File>Asia/Palmyra/Core/Palmyra_Units.sql</File>
+<File>Asia/Palmyra/Core/Palmyra_Improvement.sql</File>
+<File>Asia/Palmyra/Core/Palmyra_NamedPlaces.sql</File>
+<File>Asia/Palmyra/Core/Palmyra_Moments.sql</File>
+</UpdateDatabase>
+<UpdateIcons id="NewAction">
+<File>Asia/Palmyra/Core/Palmyra_IconDefinitions.xml</File>
+</UpdateIcons>
+<UpdateText id="NewAction">
+<File>Asia/Palmyra/Core/Palmyra_GameText.xml</File>
+<File>Asia/Palmyra/Core/DiploText.xml</File>
+</UpdateText>
+
+<UpdateArt id="NewAction">
+<File>Asia/Palmyra_XP1/Merrick's Zenobia (Palmyra).dep</File>
+</UpdateArt>
+<UpdateColors id="NewAction">
+<File>Asia/Palmyra_XP1/Core/ZenobiaColours.sql</File>
+</UpdateColors>
+<UpdateDatabase id="NewAction">
+<File>Asia/Palmyra_XP1/Core/Zenobia_GameDefines.sql</File>
+<File>Asia/Palmyra_XP1/Core/Support.sql</File>
+</UpdateDatabase>
+<UpdateIcons id="NewAction">
+<File>Asia/Palmyra_XP1/Core/Zenobia_IconDefinitions.sql</File>
+</UpdateIcons>
+<UpdateText id="NewAction">
+<File>Asia/Palmyra_XP1/Core/Zenobia_GameText.xml</File>
+</UpdateText>
+</InGameActions>
+<Files>
+<File>Asia/Palmyra/ArtDefs/Civilizations.artdef</File>
+<File>Asia/Palmyra/ArtDefs/Cultures.artdef</File>
+<File>Asia/Palmyra/ArtDefs/FallbackLeaders.artdef</File>
+<File>Asia/Palmyra/ArtDefs/Improvements.artdef</File>
+<File>Asia/Palmyra/ArtDefs/Landmarks.artdef</File>
+<File>Asia/Palmyra/ArtDefs/Leaders.artdef</File>
+<File>Asia/Palmyra/ArtDefs/Overlay.artdef</File>
+<File>Asia/Palmyra/ArtDefs/Units.artdef</File>
+<File>Asia/Palmyra/Core/DiploText.xml</File>
+<File>Asia/Palmyra/Core/Odaenathus_Colours.sql</File>
+<File>Asia/Palmyra/Core/Palmyra_Config.xml</File>
+<File>Asia/Palmyra/Core/Palmyra_GameDefines.sql</File>
+<File>Asia/Palmyra/Core/Palmyra_GameText.xml</File>
+<File>Asia/Palmyra/Core/Palmyra_IconDefinitions.xml</File>
+<File>Asia/Palmyra/Core/Palmyra_Improvement.sql</File>
+<File>Asia/Palmyra/Core/Palmyra_Moments.sql</File>
+<File>Asia/Palmyra/Core/Palmyra_NamedPlaces.sql</File>
+<File>Asia/Palmyra/Core/Palmyra_Units.sql</File>
+<File>Asia/Palmyra/Core/Support.sql</File>
+<File>Asia/Palmyra/Merrick's Palmyra.dep</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/LeaderFallback.blp</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_CavalryHorse_ReactA</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_CavalryHorse_SpawnA</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_ReactA</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_SpawnA</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_Victory</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horse_JoustDeathA</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horse_JoustDefendA</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horse_TurnLeftA</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horse_TurnRightA</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_KnightMounted_RunFwdB</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_CombatIdleA</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_IdleC</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_IdleD</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_JoustDeathA</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_JoustDefendA</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_ReactRangedA</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_ReactRangedB</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_RunStopC</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_RunStopD</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_BreathingA</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_MountedTurnLeftA</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_BreathingB</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_CombatIdleA</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_IdleC</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_IdleD</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_MountedDeathC</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunFwdB</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunStopC</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunStopD</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathA</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathB</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathC</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UniyHeavy_MountedTurnRightA</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CrouchingTigerArmor_ao</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CrouchingTigerArmor_g</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CrouchingTigerArmor_m</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CrouchingTigerArmor_n0</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CrouchingTigerArmor_n1</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Clibanarii_B_Spearman_Tint</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Clibanarii_Helm_B_legion_t</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Clibanarii_HorseArmor_B_mamluk_t</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CrouchingTigerArmor_a_null</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_AW_Grounds_B_null</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_RPal_Palace_B_null</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foliage_Bld_B_null</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foundation_Ancient_Cobblestones_B_null</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foundation_Brick_Gray_B_null</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_FuneraryTower_B_null</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Horseman_a_Horseman_t</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Male_albedo_Male_tint</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillaged_Foliage_B_null</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Tree_Jungle_B_null</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Petra_B_null</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RMED_A</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RMED_E</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RMED_G</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RMED_M</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RPHO_Palace_A</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RPHO_Palace_E</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RPHO_Palace_G</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RPHO_Palace_M</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RPHO_Palace_N0</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RPHO_Palace_N1</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_G</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_N0</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_N1</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Ancient_Cobblestones_G</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Ancient_Cobblestones_N0</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Ancient_Cobblestones_N1</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_G</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_N0</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_N1</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FuneraryTower_N0</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FuneraryTower_N1</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Horseman_ao</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Horseman_g</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Horseman_m</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Horseman_n0</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Horseman_n1</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_legion_ao</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_legion_g</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_legion_m</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_legion_n0</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_legion_n1</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_Palmyra</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_Palmyra</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Male_ao</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Male_gloss</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Male_metalness</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Male_normal0</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Male_normal1</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_mamluk_ao</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_mamluk_g</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_mamluk_m</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_mamluk_n0</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_mamluk_n1</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillaged_Foliage_O</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_spearman_AO</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Spearman_gloss</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Spearman_metalness</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Spearman_normal0</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Spearman_normal1</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Tree_Jungle_G</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Tree_Jungle_N0</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Tree_Jungle_N1</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Petra_A</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Petra_G</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Petra_M</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Petra_N0</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Petra_N1</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/Tilebase.blp</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/UILensAsset.blp</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/UITexture.blp</File>
+<File>Asia/Palmyra/Platforms/MacOS/BLPs/Unit.blp</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/LeaderFallback.blp</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_CavalryHorse_ReactA</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_CavalryHorse_SpawnA</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_ReactA</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_SpawnA</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_Victory</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horse_JoustDeathA</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horse_JoustDefendA</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horse_TurnLeftA</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horse_TurnRightA</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_KnightMounted_RunFwdB</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_CombatIdleA</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_IdleC</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_IdleD</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_JoustDeathA</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_JoustDefendA</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_ReactRangedA</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_ReactRangedB</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_RunStopC</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_RunStopD</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_BreathingA</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_MountedTurnLeftA</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_BreathingB</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_CombatIdleA</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_IdleC</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_IdleD</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_MountedDeathC</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunFwdB</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunStopC</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunStopD</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathA</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathB</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathC</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UniyHeavy_MountedTurnRightA</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CrouchingTigerArmor_ao</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CrouchingTigerArmor_g</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CrouchingTigerArmor_m</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CrouchingTigerArmor_n0</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CrouchingTigerArmor_n1</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Clibanarii_B_Spearman_Tint</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Clibanarii_Helm_B_legion_t</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Clibanarii_HorseArmor_B_mamluk_t</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CrouchingTigerArmor_a_null</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_AW_Grounds_B_null</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_RPal_Palace_B_null</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foliage_Bld_B_null</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foundation_Ancient_Cobblestones_B_null</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foundation_Brick_Gray_B_null</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_FuneraryTower_B_null</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Horseman_a_Horseman_t</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Male_albedo_Male_tint</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillaged_Foliage_B_null</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Tree_Jungle_B_null</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Petra_B_null</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RMED_A</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RMED_E</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RMED_G</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RMED_M</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RPHO_Palace_A</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RPHO_Palace_E</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RPHO_Palace_G</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RPHO_Palace_M</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RPHO_Palace_N0</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RPHO_Palace_N1</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_G</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_N0</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_N1</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Ancient_Cobblestones_G</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Ancient_Cobblestones_N0</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Ancient_Cobblestones_N1</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_G</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_N0</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_N1</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FuneraryTower_N0</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FuneraryTower_N1</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Horseman_ao</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Horseman_g</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Horseman_m</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Horseman_n0</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Horseman_n1</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_legion_ao</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_legion_g</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_legion_m</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_legion_n0</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_legion_n1</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_Palmyra</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_Palmyra</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Male_ao</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Male_gloss</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Male_metalness</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Male_normal0</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Male_normal1</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_mamluk_ao</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_mamluk_g</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_mamluk_m</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_mamluk_n0</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_mamluk_n1</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillaged_Foliage_O</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_spearman_AO</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Spearman_gloss</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Spearman_metalness</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Spearman_normal0</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Spearman_normal1</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Tree_Jungle_G</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Tree_Jungle_N0</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Tree_Jungle_N1</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Petra_A</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Petra_G</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Petra_M</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Petra_N0</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Petra_N1</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/Tilebase.blp</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/UILensAsset.blp</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/UITexture.blp</File>
+<File>Asia/Palmyra/Platforms/Windows/BLPs/Unit.blp</File>
+
+<File>Asia/Palmyra_XP1/ArtDefs/FallbackLeaders.artdef</File>
+<File>Asia/Palmyra_XP1/ArtDefs/Leaders.artdef</File>
+<File>Asia/Palmyra_XP1/Core/Support.sql</File>
+<File>Asia/Palmyra_XP1/Core/ZenobiaColours.sql</File>
+<File>Asia/Palmyra_XP1/Core/Zenobia_Config.xml</File>
+<File>Asia/Palmyra_XP1/Core/Zenobia_GameDefines.sql</File>
+<File>Asia/Palmyra_XP1/Core/Zenobia_GameText.xml</File>
+<File>Asia/Palmyra_XP1/Core/Zenobia_IconDefinitions.sql</File>
+<File>Asia/Palmyra_XP1/Merrick's Zenobia (Palmyra).dep</File>
+<File>Asia/Palmyra_XP1/Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+<File>Asia/Palmyra_XP1/Platforms/MacOS/BLPs/UI/Icons.blp</File>
+<File>Asia/Palmyra_XP1/Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+<File>Asia/Palmyra_XP1/Platforms/Windows/BLPs/UI/Icons.blp</File>
+</Files>
+</Mod>

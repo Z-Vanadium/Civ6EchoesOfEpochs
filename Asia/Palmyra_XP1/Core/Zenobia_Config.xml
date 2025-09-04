@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_MER_PALMYRA</CivilizationType>
+			<LeaderType>LEADER_MER_ZENOBIA</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_MER_PALMYRA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_MER_PALMYRA</CivilizationIcon>
+			<LeaderName>LOC_LEADER_MER_ZENOBIA_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_MER_ZENOBIA</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_MER_PEARL_OF_THE_DESERT_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_MER_PEARL_OF_THE_DESERT_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_MER_PALMYRA</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_MER_IMPERIAL_ASPIRATIONS_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_MER_IMPERIAL_ASPIRATIONS_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_MER_ZENOBIA</LeaderAbilityIcon>
+			<Portrait>LEADER_MER_ZENOBIA_NEUTRAL.dds</Portrait>
+			<PortraitBackground>LEADER_HOJO_BACKGROUND</PortraitBackground>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_MER_PALMYRA</CivilizationType>
+			<LeaderType>LEADER_MER_ZENOBIA</LeaderType>
+			<Type>IMPROVEMENT_MER_FUNERARY_TOWERS</Type>
+			<Name>LOC_IMPROVEMENT_MER_FUNERARY_TOWERS_NAME</Name>
+			<Description>LOC_IMPROVEMENT_MER_FUNERARY_TOWERS_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_MER_FUNERARY_TOWERS</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_MER_PALMYRA</CivilizationType>
+			<LeaderType>LEADER_MER_ZENOBIA</LeaderType>
+			<Type>UNIT_MER_CLIBANARII</Type>
+			<Name>LOC_UNIT_MER_CLIBANARII_NAME</Name>
+			<Description>LOC_UNIT_MER_CLIBANARII_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_MER_CLIBANARII</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>
+
+
