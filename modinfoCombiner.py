@@ -11,6 +11,7 @@ def get_mod_folders():
         'Asia/Palmyra',
         'Asia/Palmyra_XP1',
         'Europe/Austria',
+        'Europe/Russia_XP1',
 
 
 
@@ -18,6 +19,7 @@ def get_mod_folders():
 
         'Balance/Palmyra',
         'Balance/Austria',
+        'Balance/Russia_XP1',
     ]
 
 def combine_modinfo_files():
@@ -92,8 +94,8 @@ def combine_modinfo_files():
     newFileStr = f'''<?xml version="1.0" encoding="UTF-8"?>
 <Mod id="7b2fd0cc-894e-11f0-848b-743af48c76bf" version="100">
   <Properties>
-    <Name>CCB适配资料片：纪元回响 Echoes Of Epochs</Name>
-    <Description>强度适配 CCB 的文明6资料片，包含大量新文明、新领袖</Description>
+    <Name>CCB 适配：扩展包 纪元回响 Echoes Of Epochs</Name>
+    <Description>强度适配以 CCB 为平衡模组的文明 6 PVP，包含新文明、新领袖</Description>
     <Authors>{', '.join(sorted_authors)} (alphabetical order)</Authors>
     <SpecialThanks>{', '.join(sorted_special_thanks)} (alphabetical order)</SpecialThanks>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>

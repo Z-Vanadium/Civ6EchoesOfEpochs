@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4f73fd2e-8457-479f-96ca-9262f7c0dce0" version="1">
+  <Properties>
+    <Name>[COLOR_Grey]Gedemo[ENDCOLOR] [COLOR_FLOAT_FAITH]Catherine[ENDCOLOR]</Name>
+    <Description>[COLOR_Grey]Catherine II the Great[ENDCOLOR] leads [COLOR_Grey]Russia[ENDCOLOR], as an alternative leader for Peter.[NewLine][NewLine][COLOR_Grey]Leader Trait:[ENDCOLOR] Siberian Riches[NewLine]Strategic Resources provide +1  Production, and Improvements of  Iron, Horses and  Uranium accumulate +2 resources per turn.[NewLine]If in Trade Route range of your Capital, the cities adjacent to a Snow or a Tundra tile that you found or conquer are connected to it by a road.[NewLine][NewLine][COLOR_Grey]Agenda:[ENDCOLOR] Northern Semiramis[NewLine]Tries to include as much territory as possible in her empire, and likes those who do the same. Dislikes civilizations with little territory.[NewLine][NewLine][COLOR_Grey]Support:[ENDCOLOR][NewLine]Ynaemp (Giant, Greatest, LargestEarthCustom, LargeEurope, PlayEuropeAgain and Cordiform)[NewLine]Zobtzler NorthernEurope Map[NewLine]40sw4rm's "Old World"[NewLine]Tomatekh's Historical Religions[NewLine]English and french languages[NewLine][NewLine][COLOR_Grey]Credits:[ENDCOLOR] Civilization V</Description>
+    <Created>1606941624</Created>
+    <Teaser>Adds Catherine II the Great as an alternative leader for Russia.</Teaser>
+    <Authors>Gedemo</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="NewAction">
+      <File>Core/Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction">
+      <File>Core/Catherine2_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="NewAction">
+      <File>Core/Catherine2_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="NewAction">
+      <File>Core/Colour.sql</File>
+    </UpdateColors>
+    <UpdateArt id="NewAction">
+      <File>Gedemo_Catherine.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateIcons id="NewAction">
+      <File>Core/Catherine2_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>Core/Catherine2_Text.xml</File>
+    </UpdateText>
+    <UpdateColors id="NewAction">
+      <File>Core/Colour.sql</File>
+    </UpdateColors>
+    <UpdateDatabase id="NewAction">
+      <File>Core/MJ_ynaempSupportTable.sql</File>
+      <File>Core/Oldworld.sql</File>
+      <File>Core/Template_GameDefines.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="NewAction">
+      <File>Gedemo_Catherine.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>Core/Catherine2_Icons.xml</File>
+    <File>Core/Catherine2_Text.xml</File>
+    <File>Core/Colour.sql</File>
+    <File>Core/Config.xml</File>
+    <File>Core/MJ_ynaempSupportTable.sql</File>
+    <File>Core/Oldworld.sql</File>
+    <File>Core/Template_GameDefines.sql</File>
+    <File>Gedemo_Catherine.Art.xml</File>
+    <File>Gedemo_Catherine.dep</File>
+    <File>Platforms/MacOS/BLPs/Icons.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderBackgrounds.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/LEADER_GEDEMO_CATHERINE2.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderBackgrounds.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/LEADER_GEDEMO_CATHERINE2.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Textures/ART_LEADER_CATHERINE2.dds</File>
+    <File>Textures/ART_LEADER_CATHERINE2.tex</File>
+    <File>Textures/FALLBACK_NEUTRAL_CATHERINE2.dds</File>
+    <File>Textures/FALLBACK_NEUTRAL_CATHERINE2.tex</File>
+    <File>Textures/ICON_CATHERINE2_256.dds</File>
+    <File>Textures/ICON_CATHERINE2_256.tex</File>
+    <File>Textures/ICON_CATHERINE2_32.dds</File>
+    <File>Textures/ICON_CATHERINE2_32.tex</File>
+    <File>Textures/ICON_CATHERINE2_45.dds</File>
+    <File>Textures/ICON_CATHERINE2_45.tex</File>
+    <File>Textures/ICON_CATHERINE2_48.dds</File>
+    <File>Textures/ICON_CATHERINE2_48.tex</File>
+    <File>Textures/ICON_CATHERINE2_50.dds</File>
+    <File>Textures/ICON_CATHERINE2_50.tex</File>
+    <File>Textures/ICON_CATHERINE2_55.dds</File>
+    <File>Textures/ICON_CATHERINE2_55.tex</File>
+    <File>Textures/ICON_CATHERINE2_64.dds</File>
+    <File>Textures/ICON_CATHERINE2_64.tex</File>
+    <File>Textures/ICON_CATHERINE2_80.dds</File>
+    <File>Textures/ICON_CATHERINE2_80.tex</File>
+    <File>Textures/LEADER_CATHERINE2_BACKGROUND.dds</File>
+    <File>Textures/LEADER_CATHERINE2_BACKGROUND.tex</File>
+    <File>Textures/LEADER_CATHERINE2_NEUTRAL.dds</File>
+    <File>Textures/LEADER_CATHERINE2_NEUTRAL.tex</File>
+    <File>XLPs/Icons.xlp</File>
+    <File>XLPs/LeaderBackgrounds.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/Leader_CATHERINE2.xlp</File>
+    <File>XLPs/UILeaders.xlp</File>
+  </Files>
+</Mod>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Mod id="7b2fd0cc-894e-11f0-848b-743af48c76bf" version="100">
   <Properties>
-    <Name>CCB适配资料片：纪元回响 Echoes Of Epochs</Name>
-    <Description>强度适配 CCB 的文明6资料片，包含大量新文明、新领袖</Description>
+    <Name>CCB 适配：扩展包 纪元回响 Echoes Of Epochs</Name>
+    <Description>强度适配以 CCB 为平衡模组的文明 6 PVP，包含新文明、新领袖</Description>
     <Authors>Vanadium (alphabetical order)</Authors>
-    <SpecialThanks>Merrick, Vanadium (alphabetical order)</SpecialThanks>
+    <SpecialThanks>Gedemo, Merrick, Vanadium (alphabetical order)</SpecialThanks>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>
 <Dependencies>
@@ -64,54 +64,80 @@
 </UpdateColors>
 
 <UpdateDatabase id="NewAction">
+<File>Europe/Russia_XP1/Core/Config.xml</File>
+</UpdateDatabase>
+<UpdateText id="NewAction">
+<File>Europe/Russia_XP1/Core/Catherine2_Text.xml</File>
+</UpdateText>
+<UpdateIcons id="NewAction">
+<File>Europe/Russia_XP1/Core/Catherine2_Icons.xml</File>
+</UpdateIcons>
+<UpdateColors id="NewAction">
+<File>Europe/Russia_XP1/Core/Colour.sql</File>
+</UpdateColors>
+<UpdateArt id="NewAction">
+<File>Europe/Russia_XP1/Gedemo_Catherine.dep</File>
+</UpdateArt>
+
+<UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>69999</LoadOrder>
+<LoadOrder>59999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>69999</LoadOrder>
+<LoadOrder>59999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>69999</LoadOrder>
+<LoadOrder>59999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>69999</LoadOrder>
+<LoadOrder>59999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Config.sql</File>
 </UpdateDatabase>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>59999</LoadOrder>
+<LoadOrder>49999</LoadOrder>
 </Properties>
 <File>Balance/Austria/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>59999</LoadOrder>
+<LoadOrder>49999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>59999</LoadOrder>
+<LoadOrder>49999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>59999</LoadOrder>
+<LoadOrder>49999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Config.sql</File>
 </UpdateDatabase>
+
+<UpdateDatabase id="NewAction">
+<File>Balance/Russia_XP1/main.sql</File>
+</UpdateDatabase>
+<UpdateText id="NewAction">
+<File>Balance/Russia_XP1/lang_chinese.xml</File>
+</UpdateText>
+<UpdateArt id="NewAction">
+<File>Balance/Russia_XP1/Catherine_BBGV_balance.dep</File>
+</UpdateArt>
 </FrontEndActions>
 <InGameActions>
 <UpdateArt id="NewAction">
@@ -178,43 +204,71 @@
 <File>Europe/Austria/Core/SC_Austria.lua</File>
 </AddGameplayScripts>
 
+<UpdateIcons id="NewAction">
+<File>Europe/Russia_XP1/Core/Catherine2_Icons.xml</File>
+</UpdateIcons>
+<UpdateText id="NewAction">
+<File>Europe/Russia_XP1/Core/Catherine2_Text.xml</File>
+</UpdateText>
+<UpdateColors id="NewAction">
+<File>Europe/Russia_XP1/Core/Colour.sql</File>
+</UpdateColors>
+<UpdateDatabase id="NewAction">
+<File>Europe/Russia_XP1/Core/MJ_ynaempSupportTable.sql</File>
+<File>Europe/Russia_XP1/Core/Oldworld.sql</File>
+<File>Europe/Russia_XP1/Core/Template_GameDefines.sql</File>
+</UpdateDatabase>
+<UpdateArt id="NewAction">
+<File>Europe/Russia_XP1/Gedemo_Catherine.dep</File>
+</UpdateArt>
+
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>69999</LoadOrder>
+<LoadOrder>59999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>69999</LoadOrder>
+<LoadOrder>59999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>69999</LoadOrder>
+<LoadOrder>59999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Text.xml</File>
 </UpdateText>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>59999</LoadOrder>
+<LoadOrder>49999</LoadOrder>
 </Properties>
 <File>Balance/Austria/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>59999</LoadOrder>
+<LoadOrder>49999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>59999</LoadOrder>
+<LoadOrder>49999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Text.xml</File>
 </UpdateText>
+
+<UpdateDatabase id="NewAction">
+<File>Balance/Russia_XP1/main.sql</File>
+</UpdateDatabase>
+<UpdateText id="NewAction">
+<File>Balance/Russia_XP1/lang_chinese.xml</File>
+</UpdateText>
+<UpdateArt id="NewAction">
+<File>Balance/Russia_XP1/Catherine_BBGV_balance.dep</File>
+</UpdateArt>
 </InGameActions>
 <Files>
 <File>Asia/Palmyra/ArtDefs/Civilizations.artdef</File>
@@ -740,6 +794,57 @@
 <File>Europe/Austria/Platforms/Windows/BLPs/UITexture.blp</File>
 <File>Europe/Austria/Platforms/Windows/BLPs/Unit.blp</File>
 
+<File>Europe/Russia_XP1/ArtDefs/FallbackLeaders.artdef</File>
+<File>Europe/Russia_XP1/ArtDefs/Leaders.artdef</File>
+<File>Europe/Russia_XP1/Core/Catherine2_Icons.xml</File>
+<File>Europe/Russia_XP1/Core/Catherine2_Text.xml</File>
+<File>Europe/Russia_XP1/Core/Colour.sql</File>
+<File>Europe/Russia_XP1/Core/Config.xml</File>
+<File>Europe/Russia_XP1/Core/MJ_ynaempSupportTable.sql</File>
+<File>Europe/Russia_XP1/Core/Oldworld.sql</File>
+<File>Europe/Russia_XP1/Core/Template_GameDefines.sql</File>
+<File>Europe/Russia_XP1/Gedemo_Catherine.Art.xml</File>
+<File>Europe/Russia_XP1/Gedemo_Catherine.dep</File>
+<File>Europe/Russia_XP1/Platforms/MacOS/BLPs/Icons.blp</File>
+<File>Europe/Russia_XP1/Platforms/MacOS/BLPs/LeaderBackgrounds.blp</File>
+<File>Europe/Russia_XP1/Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+<File>Europe/Russia_XP1/Platforms/MacOS/BLPs/LEADER_GEDEMO_CATHERINE2.blp</File>
+<File>Europe/Russia_XP1/Platforms/MacOS/BLPs/UILeaders.blp</File>
+<File>Europe/Russia_XP1/Platforms/Windows/BLPs/Icons.blp</File>
+<File>Europe/Russia_XP1/Platforms/Windows/BLPs/LeaderBackgrounds.blp</File>
+<File>Europe/Russia_XP1/Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+<File>Europe/Russia_XP1/Platforms/Windows/BLPs/LEADER_GEDEMO_CATHERINE2.blp</File>
+<File>Europe/Russia_XP1/Platforms/Windows/BLPs/UILeaders.blp</File>
+<File>Europe/Russia_XP1/Textures/ART_LEADER_CATHERINE2.dds</File>
+<File>Europe/Russia_XP1/Textures/ART_LEADER_CATHERINE2.tex</File>
+<File>Europe/Russia_XP1/Textures/FALLBACK_NEUTRAL_CATHERINE2.dds</File>
+<File>Europe/Russia_XP1/Textures/FALLBACK_NEUTRAL_CATHERINE2.tex</File>
+<File>Europe/Russia_XP1/Textures/ICON_CATHERINE2_256.dds</File>
+<File>Europe/Russia_XP1/Textures/ICON_CATHERINE2_256.tex</File>
+<File>Europe/Russia_XP1/Textures/ICON_CATHERINE2_32.dds</File>
+<File>Europe/Russia_XP1/Textures/ICON_CATHERINE2_32.tex</File>
+<File>Europe/Russia_XP1/Textures/ICON_CATHERINE2_45.dds</File>
+<File>Europe/Russia_XP1/Textures/ICON_CATHERINE2_45.tex</File>
+<File>Europe/Russia_XP1/Textures/ICON_CATHERINE2_48.dds</File>
+<File>Europe/Russia_XP1/Textures/ICON_CATHERINE2_48.tex</File>
+<File>Europe/Russia_XP1/Textures/ICON_CATHERINE2_50.dds</File>
+<File>Europe/Russia_XP1/Textures/ICON_CATHERINE2_50.tex</File>
+<File>Europe/Russia_XP1/Textures/ICON_CATHERINE2_55.dds</File>
+<File>Europe/Russia_XP1/Textures/ICON_CATHERINE2_55.tex</File>
+<File>Europe/Russia_XP1/Textures/ICON_CATHERINE2_64.dds</File>
+<File>Europe/Russia_XP1/Textures/ICON_CATHERINE2_64.tex</File>
+<File>Europe/Russia_XP1/Textures/ICON_CATHERINE2_80.dds</File>
+<File>Europe/Russia_XP1/Textures/ICON_CATHERINE2_80.tex</File>
+<File>Europe/Russia_XP1/Textures/LEADER_CATHERINE2_BACKGROUND.dds</File>
+<File>Europe/Russia_XP1/Textures/LEADER_CATHERINE2_BACKGROUND.tex</File>
+<File>Europe/Russia_XP1/Textures/LEADER_CATHERINE2_NEUTRAL.dds</File>
+<File>Europe/Russia_XP1/Textures/LEADER_CATHERINE2_NEUTRAL.tex</File>
+<File>Europe/Russia_XP1/XLPs/Icons.xlp</File>
+<File>Europe/Russia_XP1/XLPs/LeaderBackgrounds.xlp</File>
+<File>Europe/Russia_XP1/XLPs/LeaderFallbacks.xlp</File>
+<File>Europe/Russia_XP1/XLPs/Leader_CATHERINE2.xlp</File>
+<File>Europe/Russia_XP1/XLPs/UILeaders.xlp</File>
+
 <File>Balance/Palmyra/Color.sql</File>
 <File>Balance/Palmyra/Config.sql</File>
 <File>Balance/Palmyra/GameData.sql</File>
@@ -749,5 +854,8 @@
 <File>Balance/Austria/Config.sql</File>
 <File>Balance/Austria/GameData.sql</File>
 <File>Balance/Austria/Text.xml</File>
+
+<File>Balance/Russia_XP1/lang_chinese.xml</File>
+<File>Balance/Russia_XP1/main.sql</File>
 </Files>
 </Mod>

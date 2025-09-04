@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="466346db-82ef-4ab3-8740-81d39c05960e" version="1">
+  <Properties>
+    <Name>BBGV平衡：叶卡捷琳娜领导的俄罗斯</Name>
+    <Description>对创意工坊中Gedemo Catherine的平衡补丁，以适配BBG强度
+此mod仅为补丁，请额外订阅原mod
+
+原mod：https://steamcommunity.com/sharedfiles/filedetails/?id=1978431516&amp;searchtext=Catherine</Description>
+    <Created>1755932741</Created>
+    <Teaser>对创意工坊中Gedemo Catherine的平衡补丁</Teaser>
+    <Authors>Vanadium</Authors>
+    <SpecialThanks>Gedemo</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4f73fd2e-8457-479f-96ca-9262f7c0dce0" title="[COLOR_Grey]Gedemo[ENDCOLOR] [COLOR_FLOAT_FAITH]Catherine[ENDCOLOR]" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="NewAction">
+      <File>main.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction">
+      <File>lang_chinese.xml</File>
+    </UpdateText>
+    <UpdateArt id="NewAction">
+      <File>Catherine_BBGV_balance.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>main.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction">
+      <File>lang_chinese.xml</File>
+    </UpdateText>
+    <UpdateArt id="NewAction">
+      <File>Catherine_BBGV_balance.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>lang_chinese.xml</File>
+    <File>main.sql</File>
+  </Files>
+</Mod>

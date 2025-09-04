@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- lang_CN -->
+<!-- Author: 10549 -->
+<!-- DateCreated: 8/23/2025 12:36:25 PM -->
+<GameData>
+
+	<LocalizedText>
+		<Row Tag="LOC_TRAIT_LEADER_GEDEMO_CATHERINE2_NAME" Language="zh_Hans_CN">
+			<Text>自然财富</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_GEDEMO_CATHERINE2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>市中心+1 [ICON_FOOD] 粮食。改良后的资源+1 [ICON_GOLD] 金币。</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_GEDEMO_CATHERINE2" Language="zh_Hans_CN">
+			<Text>叶卡捷琳娜</Text>
+		</Row>
+    
+		<Row Tag="LOC_LOADING_INFO_LEADER_GEDEMO_CATHERINE2" Language="zh_Hans_CN">
+			<Text>向您致敬，全俄罗斯的伟大女皇，尊贵的叶卡捷琳娜陛下。您统御着世界上疆域最辽阔的国家。强大的俄罗斯东起太平洋，西抵波罗的海。纵然历经战乱、干旱与种种灾厄，英勇的俄罗斯人民依然生生不息、繁荣昌盛，他们的艺术家与科学家堪称世界翘楚。如今的俄罗斯帝国仍是人类历史上最强大的国家之一——一个真正的超级大国，掌握着有史以来最强大的毁灭性力量。叶卡捷琳娜，您的人民期盼您为俄罗斯及其子民开创辉煌时代，重振国家雄风，再现启蒙运动的荣光。您能否再次引领人民走向伟大？能否建立一座经得起时间考验的文明丰碑？</Text>
+		</Row>
+		<!--Civilopedia-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GEDEMO_CATHERINE2_TITLE" Language="zh_Hans_CN">
+			<Text>叶卡捷琳娜</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GEDEMO_CATHERINE2_SUBTITLE" Language="zh_Hans_CN">
+			<Text>全俄罗斯女皇</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GEDEMO_CATHERINE2_QUOTE" Language="zh_Hans_CN">
+			<Text>胜者不受评判。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GEDEMO_CATHERINE2_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>叶卡捷琳娜是一位德国亲王之女。15岁时，她远赴俄罗斯与皇位继承人彼得三世成婚。通过阅读欧洲文学作品，她实现了自我教育。她美丽、聪慧且机智，赢得了俄罗斯贵族的倾心——他们显然更青睐她而非据说心智不全的丈夫。在她33岁策划宫廷政变夺取权力时，获得了贵族们的热烈支持。叶卡捷琳娜在位三十载。在此期间，她扩张了俄罗斯帝国疆域，获得了黑海和里海沿岸的重要领土，并向东越过了乌拉尔山脉。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GEDEMO_CATHERINE2_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>1772年波兰被奥地利、普鲁士和俄罗斯瓜分时，叶卡捷琳娜也为帝国夺取了大片波兰领土——尽管长远来看，这些土地带来的负担远大于利益。在位期间，她还推行了许多重要改革，试图改善地方政府组织并打击腐败。尽管享有开明声誉，但她对俄罗斯农民并无特别优待；事实上，农奴制（奴隶劳动）这一恶习在其统治时期显著加剧，普通农民的处境愈发艰难。叶卡捷琳娜于1796年逝世。</Text>
+		</Row>
+
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>欢迎你，陌生人！倘若你如外表般聪慧得体，我们定能相处甚欢。</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>你好，我是叶卡捷琳娜大帝，全俄罗斯的女皇！可愿参观我们最近的城市？</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>感谢邀请。</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>我邀请您交换我们各自首都的信息。</Text>
+		</Row>
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>您好！(Здравствуйте!)</Text>
+		</Row>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>我欣然接受您的代表团。</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>很遗憾，恕难接受。</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>我向您派遣了一支商务代表团，携我国礼物：套娃、伏特加与皮草。</Text>
+		</Row>
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>好吧，我同意向您的小士兵们开放边界。</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>我们目前暂无兴趣。</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>您是否允许我方单位穿越您的领土？</Text>
+		</Row>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>我接受您的友谊提议。</Text>
+		</Row>
+		<!--AI Rejects from human -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>我拒绝如此荒谬的提议。</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>为贵国利益计，请慎重考虑此项友谊提案。</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>感谢您，朋友。</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>真令人失望。</Text>
+		</Row>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>您可愿结成同盟？</Text>
+		</Row>
+		<!--KUDOS & WARNINGS-->
+		<!--AI Kudos-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>您颇具韧性，我很欣赏。</Text>
+		</Row>
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>你真是个懦夫！</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>一群令人作呕的士兵聚集在我国边境……是否愿在不幸事件发生前将其撤离？</Text>
+		</Row>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_GEDEMO_CATHERINE2_ANY}</Text>
+		</Row>
+		<!--AI Rejects Deal-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_GEDEMO_CATHERINE2_ANY}</Text>
+		</Row>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>我公开谴责你。</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>你正在背后密谋。我必将警示他人！（谴责您）</Text>
+		</Row>
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>你错将我的热忱当作软弱，定会追悔莫及。</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>你行为卑劣，心知肚明。现在是付出代价的时候了。</Text>
+		</Row>
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>我们讲和吧！</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>当然不。</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>我提议休战，您意下如何？</Text>
+		</Row>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>我们战败了，我因此成为您的阶下囚。想来还有更糟的命运。</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_GEDEMO_CATHERINE2_ANY" Language="zh_Hans_CN">
+			<Text>[LOC_DIPLO_DEFEAT_FROM_AI_LEADER_GEDEMO_CATHERINE2_ANY]</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_GEDEMO_CATHERINE2_NAME" Language="zh_Hans_CN">
+			<Text>北方塞米勒米斯</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_GEDEMO_CATHERINE2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>力图将尽可能多的领土纳入帝国，并欣赏同样行事的文明。厌恶领土狭小的文明。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -205,5 +205,191 @@
 	<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="en_US">
 		<Text>The world will continue on without you, a better place.</Text>
 	</Row>
+
+	<!--百科-->
+	<Row Tag="LOC_CIVINFO_MER_AUSTRIA_LOCATION" Language="zh_Hans_CN">
+		<Text>奥地利</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_AUSTRIA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+		<Text>奥地利是中欧的德语国家，以山村、巴洛克建筑、帝国历史和崎岖的阿尔卑斯地貌为特色。其首都维也纳坐落于多瑙河畔，拥有美泉宫和霍夫堡皇宫。莫扎特、施特劳斯和弗洛伊德等名人曾在此居住。该国其他著名地区包括北部的波希米亚森林、特劳恩湖以及东部的山坡葡萄园。</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_ASTRIA_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+		<Text>1273年至1918年间，奥地利由哈布斯堡王朝和哈布斯堡-洛林王朝（奥地利家族）统治。1808年，奥地利皇帝弗朗茨二世解散神圣罗马帝国后，奥地利成为奥地利帝国，并一直是德意志邦联的一部分，直至1866年普奥战争。1867年，奥地利与匈牙利组成二元君主制国家：奥匈帝国（1867-1918）。第一次世界大战结束后的1918年，奥匈帝国崩溃，奥地利疆域缩减至帝国主要德语区（即现今版图），并采用"德意志-奥地利共和国"的国号。但该联盟与国号遭《凡尔赛条约》协约国禁止，导致奥地利第一共和国（1918-1933）的建立。</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_AUSTRIA_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+		<Text>第一共和国时期，奥地利法西斯主义试图保持国家独立于德意志帝国。恩格尔伯特·陶尔斐斯承认多数奥地利人具有德意志民族属性，但坚持奥地利应独立于德国。1938年，出生于奥地利的阿道夫·希特勒通过受到多数奥地利人支持的"德奥合并"吞并奥地利。二战结束十年后，奥地利于1955年作为第二共和国再度成为独立国家。</Text>
+	</Row>
+
+	<!--DOM-->
+	<Row Tag="LOC_LOADING_INFO_LEADER_MER_MARIA_THERESA" Language="zh_Hans_CN">
+		<Text>愿上帝保佑您，玛丽亚·特蕾西亚，文德边疆女侯爵、奥地利女皇。您的职责与希望是将广袤的皇室领地凝聚为拥有共同愿景、共同信念与共同尊荣的单一国度。通过外交、善治与对高雅艺术的推崇，您的国家必将繁荣昌盛——但利剑须与文笔共同为奥地利服务。为您希望的抗争已经开始，夫人。始于今日。</Text>
+	</Row>
+
+	<!--议程-->
+	<Row Tag="LOC_AGENDA_MER_THERESA_AGENDA_NAME" Language="zh_Hans_CN">
+		<Text>国教体制</Text>
+	</Row>
+	<Row Tag="LOC_AGENDA_MER_THERESA_AGENDA_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>青睐与其政体和宗教相同的文明，厌恶政体与宗教相异者。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_KUDOS_LEADER_MER_MARIA_THERESA_REASON_RELIGION" Language="zh_Hans_CN">
+		<Text>（你们拥有相同政体与宗教）</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_MODIFIER_MER_MARIA_THERESA_THERESA_AGENDA_SAME_REL_GOV" Language="zh_Hans_CN">
+		<Text>玛丽亚·特蕾西亚赞赏你们共同的政体与宗教。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_WARNING_LEADER_MER_MARIA_THERESA_REASON_NO_RELIGION" Language="zh_Hans_CN">
+		<Text>（你们未拥有相同政体与宗教）</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_MODIFIER_MER_MARIA_THERESA_THERESA_AGENDA_DIFF_REL_GOV" Language="zh_Hans_CN">
+		<Text>玛丽亚·特蕾西亚憎恶你们的政体与宗教。</Text>
+	</Row>
+
+	<!--文明百科-->
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_TITLE" Language="zh_Hans_CN">
+		<Text>玛丽亚·特蕾西亚</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_SUBTITLE" Language="zh_Hans_CN">
+		<Text>神圣罗马帝国皇后，奥地利女大公，匈牙利及克罗地亚女王</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_QUOTE" Language="zh_Hans_CN">
+		<Text>唯有我，在所有这些磨难中，仍怀揣最坚定的勇气，以孩童般的信赖和频繁的祈祷呼唤上帝的庇佑。</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+		<Text>玛丽亚·特蕾西亚·瓦尔堡·阿玛莉亚·克里斯蒂娜是哈布斯堡领地唯一的女性统治者，也是哈布斯堡王朝的最后一位君主。她统治着奥地利、匈牙利、克罗地亚、波希米亚、特兰西瓦尼亚、曼图亚、米兰、洛多梅里亚和加利西亚、奥属尼德兰以及帕尔马。通过婚姻，她成为洛林女公爵、托斯卡纳女大公和神圣罗马帝国皇后。</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+		<Text>1740年10月其父查理六世皇帝驾崩后，她开始了长达40年的统治。查理六世通过1713年《国事诏书》为其继位铺平道路，并倾其一生确保诏书效力。其父驾崩后，萨克森、普鲁士、巴伐利亚和法国均推翻了此前承认的诏书。普鲁士的腓特烈二世（在其统治的大部分时间里成为特蕾西亚最大的对手）立即入侵并占领了富庶的哈布斯堡省份西里西亚，引发了长达七年的奥地利王位继承战争。战争期间，尽管失去了西里西亚和意大利部分小领土，特蕾西亚成功捍卫了对大部分哈布斯堡帝国的统治。此后在七年战争期间，她曾试图夺回西里西亚但未成功。</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+		<Text>玛丽亚·特蕾西亚与其夫神圣罗马皇帝弗朗茨一世育有十一位女儿（包括法国王后、那不勒斯与西西里王后、帕尔马女公爵）和五位儿子（包括两位神圣罗马皇帝约瑟夫二世与利奥波德二世）。十六名子女中有十人活到成年。尽管她被期望将权力移交给在奥地利和波希米亚名义上共治的弗朗茨和约瑟夫，特蕾西亚仍是听取顾问意见的绝对君主。她多次批评并反对约瑟夫的诸多决策。特蕾西亚深知公众形象的重要性，能同时赢得臣民的尊敬与爱戴。</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+		<Text>奥地利专注于城市建设和城邦外交。</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+		<Text>玛丽亚·特蕾西亚统治下的奥地利专注于建设城市与首都，以提供各项加成。</Text>
+	</Row>
+
+	<!--外交-->
+	<!--初次会面-->
+	<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>奥地利女大公欢迎阁下莅临……哦，速速完成仪式吧！我四点钟还要用午宴。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>请来访我们美丽的城市，此处美景不胜枚举。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>甚愿往访。我深居宫闱已久未外出了。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>我们应当交换情报。</Text>
+	</Row>
+
+	<!--问候-->
+	<Row Tag="LOC_DIPLO_GREETING_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>我正在听。</Text>
+	</Row>
+
+	<!--代表团-->
+	<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>谨表谢意，此番定增趣不少。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>眼下我不接见任何访客。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>我已派遣代表团携最上品的咖啡与果馅卷前往。望君悦纳，这些可作绝佳开胃点心。</Text>
+	</Row>
+
+	<!--开放边境-->
+	<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>此议可接受。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>恕难同意。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>共享边界将使两国人民共同成长，并促进文化交流。</Text>
+	</Row>
+
+	<!--宣告友谊-->
+	<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>欣然接受！我们的友谊必将惠及两国。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>岂能与你这般卑贱之人缔结友谊。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>缔结友谊将造福双方人民。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>想来这是最佳选择。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>放肆？！</Text>
+	</Row>
+
+	<!--联盟-->
+	<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>无人可指摘本宫不公。让我们达成协议！</Text>
+	</Row>
+
+	<!--称赞与警告-->
+	<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>祝贺你作出明智抉择。你深谙治国之道。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>你的信仰与统治方式愚不可及，你的臣民盲目追随更是可悲。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>你在求战吗？立即撤军！</Text>
+	</Row>
+
+	<!--交易-->
+	<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>我接受。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>休要痴愚。</Text>
+	</Row>
+
+	<!--谴责-->
+	<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>恕我耳拙？你岂是当真？！</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>你的帝国需要一位能代表人民作出更果断决策的统治者。你并非其人。（谴责你）</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_MER_MARIA_THERESA_THERESA_AGENDA_DIFF_REL_GOV" Language="zh_Hans_CN">
+		<Text>（你们拥有不同宗教和/或政体）</Text>
+	</Row>
+
+	<!--宣战-->
+	<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>何等愚行！你终将迅速而悲惨地灭亡。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>事已至此实属遗憾。但这是你自找的。下次务请慎言。</Text>
+	</Row>
+
+	<!--议和-->
+	<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>望你如今心满意足。种种可笑姿态，终归徒劳无功。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>绝无可能！</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>实属无聊至极。</Text>
+	</Row>
+
+	<!--战败-->
+	<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>世间皆可悲！既无美善，亦无智慧。我几欣慰于离去。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="zh_Hans_CN">
+		<Text>世界将继续前行——一个没有你的更美好世界。</Text>
+	</Row>
 	</LocalizedText>
 </GameData>
