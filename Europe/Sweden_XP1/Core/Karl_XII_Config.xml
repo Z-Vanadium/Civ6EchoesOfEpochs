@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_SWEDEN</CivilizationType>
+			<LeaderType>LEADER_MER_KARL_XII</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_SWEDEN_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_SWEDEN</CivilizationIcon>
+			<LeaderName>LOC_LEADER_MER_KARL_XII_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_MER_KARL_XII</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_SWEDEN</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_MER_NEVER_AN_UNJUST_WAR_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_MER_NEVER_AN_UNJUST_WAR_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_MER_KARL_XII</LeaderAbilityIcon>
+			<Portrait>LEADER_MER_KARL_XII_NEUTRAL.dds</Portrait>
+			<PortraitBackground>LEADER_HOJO_BACKGROUND</PortraitBackground>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_SWEDEN" LeaderType="LEADER_MER_KARL_XII" Type="UNIT_SWEDEN_CAROLEAN" Icon="ICON_UNIT_SWEDEN_CAROLEAN" Name="LOC_UNIT_SWEDEN_CAROLEAN_NAME" Description="LOC_UNIT_SWEDEN_CAROLEAN_DESCRIPTION" SortIndex="10" />
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_SWEDEN" LeaderType="LEADER_MER_KARL_XII" Type="IMPROVEMENT_OPEN_AIR_MUSEUM" Icon="ICON_IMPROVEMENT_OPEN_AIR_MUSEUM" Name="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_NAME" Description="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_DESCRIPTION" SortIndex="20" />
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_SWEDEN" LeaderType="LEADER_MER_KARL_XII" Type="UNIT_MER_DRABANT" Icon="ICON_UNIT_MER_DRABANT" Name="LOC_UNIT_MER_DRABANT_NAME" Description="LOC_UNIT_MER_DRABANT_DESCRIPTION" SortIndex="30" />
+	</PlayerItems>
+</GameData>
+
+

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<LocalizedText>
+		<!--LEADER-->
+		<Row Tag="LOC_LEADER_MER_KARL_XII_NAME" Language="en_US">
+			<Text>Karl XII</Text>
+		</Row>
+		<!--Agenda-->
+		<Row Tag="LOC_AGENDA_MER_CAROLUS_REX_NAME" Language="en_US">
+			<Text>Carolus Rex</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_MER_CAROLUS_REX_DESCRIPTION" Language="en_US">
+			<Text>Won't declare surprise wars, seeks to expand his borders, and avoids surrending. Admires civilizations with a large standing army. Hates civilizations that declare surprise wars.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_MER_KARL_XII_REASON_STANDING_ARMY" Language="en_US">
+			<Text>(You have a large standing army)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_MER_CAROLUS_REX_STANDING_ARMY" Language="en_US">
+			<Text>Karl XII admires your military strength</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_MER_KARL_XII_REASON_SURPRISE_WAR" Language="en_US">
+			<Text>(You have declared a surprise war.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_MER_CAROLUS_REX_SURPRISE_WAR" Language="en_US">
+			<Text>Karl XII hates to see you declared a surprise war</Text>
+		</Row>
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_MER_KARL_XII" Language="en_US">
+			<Text>With the lord your protector, it's your time to rule at last, Carolus Rex. A lifetime spent on the battlefield will provide your people with a leader strong enough to lead them into another great age of power, and reforge the Swedish empire into it's former glory. Chosen by heaven, you alone can make the world bow to your will.</Text>
+		</Row>
+		<!--Traits-->
+		<Row Tag="LOC_TRAIT_LEADER_MER_NEVER_AN_UNJUST_WAR_NAME" Language="en_US">
+			<Text>Never an Unjust War</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_MER_NEVER_AN_UNJUST_WAR_DESCRIPTION" Language="en_US">
+			<Text>When [ICON_Promotion] promoting a unit receive [ICON_Science] Science equal to the base [ICON_Strength] Combat Strength of that unit. Land military units have +1 [ICON_Movement] Movement when in friendly territory. Land military units gain +15% more combat experience. Gains the Drabant unique unit with Ballistics.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MER_KARL_MOVEMENT_DESC" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement if starting turn in friendly territory (from Karl XII).</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MER_KARL_EXPERIENCE_DESC" Language="en_US">
+			<Text>+15% combat experience gain (from Karl XII).</Text>
+		</Row>
+		<!--DRABANT-->
+		<Row Tag="LOC_UNIT_MER_DRABANT_NAME" Language="en_US">
+			<Text>Drabant</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_DRABANT_DESCRIPTION" Language="en_US">
+			<Text>Swedish Cuirassier replacement when Karl XII is their leader.[NEWLINE]Higher [ICON_Strength] Combat Strength (68 vs. 64), but higher [ICON_Production] Production cost (350 vs. 330). Earns [ICON_GreatGeneral] Great General Points from combat victories. Receives one free [ICON_Promotion] Promotion when first trained, purchased, or upgraded from an earlier unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_DRABANT_DESCRIPTION_INGAME" Language="en_US">
+			<Text>Earns [ICON_GreatGeneral] Great General Points from combat victories.[NEWLINE][NEWLINE]Receives one free [ICON_Promotion] Promotion when first trained, purchased, or upgraded from an earlier unit.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MER_DRABANT_DESCRIPTION" Language="en_US">
+			<Text>Earns [ICON_GreatGeneral] Great General points from kills.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MER_DRABANT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Drabant Corps of Charles XII was the most prestigious unit in the Swedish Army during the time of the Great Northern War. All personnel in the corps received an officer's rank with increased wages, while its size was eventually set at 168 men. Those serving as Drabants were almost exclusively recruited from the Swedish Empire, with most coming from Sweden. The corps was issued the finest weapons, horses, and clothing was often adorned with gold lacing. They fought according to the cavalry regulations of the Caroleans, emphasizing the cold-steel charge in slight wedge formations, knee behind knee, over the more common caracole. This strategy allowed them to function as a bodyguard for the king as well as an elite combat unit, often playing a crucial role in the battles despite their relatively small size. During the war, the corps frequently marched with the main army and the king, fighting in most battles.</Text>
+		</Row>
+		<!--MOD SUPPORT-->
+		<!--Civilopedia-->
+		<!--Civilopedia-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FB_KARL_XII_TITLE" Language="en_US">
+			<Text>Karl XII</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FB_KARL_XII_SUBTITLE" Language="en_US">
+			<Text>King of Sweden</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FB_KARL_XII_QUOTE" Language="en_US">
+			<Text>I have resolved never to start an unjust war but never to end a legitimate one except by defeating my enemies</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FB_KARL_XII_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Karl XII, Latinized to Carolus Rex, was the King of Sweden from 1697 to 1718. He belonged to the House of Palatinate-Zweibrücken, a branch line of the House of Wittelsbach. Charles was the only surviving son of Charles XI and Ulrika Eleonora the Elder. He assumed power, after a seven-month caretaker government, at the age of fifteen.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FB_KARL_XII_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>In 1700, a triple alliance of Denmark–Norway, Saxony–Poland–Lithuania and Russia launched a threefold attack on the Swedish protectorate of Swedish Holstein-Gottorp and provinces of Livonia and Ingria, aiming to draw advantage as Sweden was unaligned and ruled by a young and inexperienced king, thus initiating the Great Northern War. Leading the Swedish army against the alliance Charles won multiple victories despite being usually significantly outnumbered. A major victory over a Russian army some three times the size in 1700 at the Battle of Narva compelled Peter the Great to sue for peace which Charles then rejected. By 1706 Charles, now 24 years old, had forced all of his foes into submission including, in that year, a decisively devastating victory by Swedish forces under general Carl Gustav Rehnskiöld over a combined army of Saxony and Russia at the Battle of Fraustadt. Russia was now the sole remaining hostile power. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FB_KARL_XII_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Charles' subsequent march on Moscow met with initial success as victory followed victory, the most significant of which was the Battle of Holowczyn where the smaller Swedish army routed a Russian army twice the size. The campaign ended with disaster when the Swedish army suffered heavy losses to a Russian force more than twice its size at Poltava. Charles had been incapacitated by a wound prior to the battle, rendering him unable to take command. The defeat was followed by the Surrender at Perevolochna. Charles spent the following years in exile in the Ottoman Empire before returning to lead an assault on Norway, trying to evict the Danish king from the war once more in order to aim all his forces at the Russians. Two campaigns met with frustration and ultimate failure, concluding with his death at the Siege of Fredriksten in 1718. At the time, most of the Swedish Empire was under foreign military occupation, though Sweden itself was still free. This situation was later formalized, albeit moderated in the subsequent Treaty of Nystad. The result was the end of the Swedish Empire, and also of its effectively organized absolute monarchy and war machine, commencing a parliamentarian government unique for continental Europe, which would last for half a century until royal autocracy was restored by Gustav III.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FB_KARL_XII_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>Charles was an exceptionally skilled military leader and tactician as well as an able politician, credited with introducing important tax and legal reforms. As for his famous reluctance towards peace efforts, he is quoted by Voltaire as saying upon the outbreak of the war; "I have resolved never to start an unjust war but never to end a legitimate one except by defeating my enemies". With the war consuming more than half his life and nearly all his reign, he never married and fathered no children. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FB_KARL_XII_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Karl XII's Sweden focuses on supporting a strong military force with scientific advances and bonuses from Great People. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FB_KARL_XII_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Sweden focuses heavily on science and the creation of Great People to ensure military victory. Staying ahead of the curve will ensure your military will dominate over others. Great People will provide support to your military as they are generated. Scientists helping with the advance of science, Generals and Admirals will support your forces.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_KARL_XII_QUOTE" Language="en_US">
+			<Text>"I have resolved never to start an unjust war but never to end a legitimate one except by defeating my enemies"</Text>
+		</Row>
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>You stand before Carolus Rex, crowned by divine right, not by any man on earth. All will bow to my will.</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>I invite you to see Sweden's capital, and It's strength.</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>I do enjoy a ride across country, I'll be happy to accept your invitation.</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>We should share information, it can aid in both our causes.</Text>
+		</Row>
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>Yes?</Text>
+		</Row>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>Your delegation will receive a safe escort to the capital.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>I cannot accept this.</Text>
+		</Row>
+		<!--AI Requests-->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>I have sent a delegation to your land with supplies of bread, groats, brandy, and tobacco. A true ruler dines on the rations of their army. It keeps you humble.</Text>
+		</Row>
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>Thank you for this opportunity.</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>You must think me a fool.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>Sweden needs access to your lands. It will be easier for you to say yes.</Text>
+		</Row>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>We stand side by side, for now.</Text>
+		</Row>
+		<!--AI Rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>You are beneath me. Prove yourself first.</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>Your friendship would be of great value to me, and mine to you.</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>A wise decision.</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>So be it. Perhaps I was foolish to think you smart enough to say yes.</Text>
+		</Row>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>Let us combine our strengths in an alliance.</Text>
+		</Row>
+		<!--KUDOS & WARNINGS-->
+		<!--AI Kudos-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>I see you share a similiar passion for military life.</Text>
+		</Row>
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>You lack true cause for your bloodshed.</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>My armies are ready for any threat. Do not think you can scare me with a show of force.</Text>
+		</Row>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FB_KARL_XII_ANY}</Text>
+		</Row>
+		<!-- AI Rejects Deal -->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FB_KARL_XII_ANY}</Text>
+		</Row>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>I will make you pay for this. I swear by the Lord, you will pay!</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FB_JUST_WAR_SURPRISE_WAR" Language="en_US">
+			<Text>You lack a just cause for your bloodshed. Why fight without reason? Without conviction? (Denounces You).</Text>
+		</Row>
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>The sounds of warfare will be my music. And it will be your swan song.</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>I warn you, I have resolved never to start an unjust war, but never to end a legitimate one... except by defeating my enemies.</Text>
+		</Row>
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>Of course.</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>I will not end this war until my enemy is defeated.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>This war has gone on too long, and we have both suffered.</Text>
+		</Row>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>I was crowned by God, with him my protector, and yet i have failed. The world was to bow to my will, they were to say my name when they prayed. That is all over now.</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_FB_KARL_XII_ANY" Language="en_US">
+			<Text>All Embrace me. It's my time to rule at last, and people will remember me as Carolus Rex.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

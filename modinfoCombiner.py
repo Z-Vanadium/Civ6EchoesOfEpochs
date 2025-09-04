@@ -12,6 +12,7 @@ def get_mod_folders():
         'Asia/Palmyra_XP1',
         'Europe/Austria',
         'Europe/Russia_XP1',
+        'Europe/Sweden_XP1',
 
 
 
@@ -20,6 +21,7 @@ def get_mod_folders():
         'Balance/Palmyra',
         'Balance/Austria',
         'Balance/Russia_XP1',
+        'Balance/Sweden_XP1',
     ]
 
 def combine_modinfo_files():

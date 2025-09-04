@@ -80,51 +80,67 @@
 </UpdateArt>
 
 <UpdateDatabase id="NewAction">
+<File>Europe/Sweden_XP1/Core/Karl_XII_Config.xml</File>
+</UpdateDatabase>
+<UpdateArt id="NewAction">
+<File>Europe/Sweden_XP1/Merrick's Karl XII (Sweden).dep</File>
+</UpdateArt>
+<UpdateColors id="NewAction">
+<File>Europe/Sweden_XP1/Core/Karl_XII_Colours.sql</File>
+</UpdateColors>
+<UpdateIcons id="NewAction">
+<File>Europe/Sweden_XP1/Core/Karl_XII_IconDefinitions.sql</File>
+</UpdateIcons>
+<UpdateText id="NewAction">
+<File>Europe/Sweden_XP1/Core/Karl_XII_GameText.xml</File>
+</UpdateText>
+
+<UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>59999</LoadOrder>
+<LoadOrder>49999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>59999</LoadOrder>
+<LoadOrder>49999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>59999</LoadOrder>
+<LoadOrder>49999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>59999</LoadOrder>
+<LoadOrder>49999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Config.sql</File>
 </UpdateDatabase>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>49999</LoadOrder>
+<LoadOrder>39999</LoadOrder>
 </Properties>
 <File>Balance/Austria/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>49999</LoadOrder>
+<LoadOrder>39999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>49999</LoadOrder>
+<LoadOrder>39999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>49999</LoadOrder>
+<LoadOrder>39999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Config.sql</File>
 </UpdateDatabase>
@@ -138,6 +154,31 @@
 <UpdateArt id="NewAction">
 <File>Balance/Russia_XP1/Catherine_BBGV_balance.dep</File>
 </UpdateArt>
+
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>19999</LoadOrder>
+</Properties>
+<File>Balance/Sweden_XP1/GameData.sql</File>
+</UpdateDatabase>
+<UpdateColors id="NewAction">
+<Properties>
+<LoadOrder>19999</LoadOrder>
+</Properties>
+<File>Balance/Sweden_XP1/Color.sql</File>
+</UpdateColors>
+<UpdateText id="NewAction">
+<Properties>
+<LoadOrder>19999</LoadOrder>
+</Properties>
+<File>Balance/Sweden_XP1/Text.xml</File>
+</UpdateText>
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>19999</LoadOrder>
+</Properties>
+<File>Balance/Sweden_XP1/Config.sql</File>
+</UpdateDatabase>
 </FrontEndActions>
 <InGameActions>
 <UpdateArt id="NewAction">
@@ -222,40 +263,61 @@
 <File>Europe/Russia_XP1/Gedemo_Catherine.dep</File>
 </UpdateArt>
 
+<UpdateArt id="NewAction">
+<File>Europe/Sweden_XP1/Merrick's Karl XII (Sweden).dep</File>
+</UpdateArt>
+<UpdateColors id="NewAction">
+<File>Europe/Sweden_XP1/Core/Karl_XII_Colours.sql</File>
+</UpdateColors>
+<UpdateDatabase id="NewAction">
+<File>Europe/Sweden_XP1/Core/Karl_XII_GameDefines.sql</File>
+<File>Europe/Sweden_XP1/Core/Karl_XII_Moment.sql</File>
+<File>Europe/Sweden_XP1/Core/Karl_XII_Unique.sql</File>
+</UpdateDatabase>
+<UpdateIcons id="NewAction">
+<File>Europe/Sweden_XP1/Core/Karl_XII_IconDefinitions.sql</File>
+</UpdateIcons>
+<UpdateText id="NewAction">
+<File>Europe/Sweden_XP1/Core/Karl_XII_GameText.xml</File>
+</UpdateText>
+<AddGameplayScripts id="NewAction">
+<File>Europe/Sweden_XP1/lua/ChrisyKarl.lua</File>
+</AddGameplayScripts>
+
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>59999</LoadOrder>
+<LoadOrder>49999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>59999</LoadOrder>
+<LoadOrder>49999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>59999</LoadOrder>
+<LoadOrder>49999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Text.xml</File>
 </UpdateText>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>49999</LoadOrder>
+<LoadOrder>39999</LoadOrder>
 </Properties>
 <File>Balance/Austria/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>49999</LoadOrder>
+<LoadOrder>39999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>49999</LoadOrder>
+<LoadOrder>39999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Text.xml</File>
 </UpdateText>
@@ -269,6 +331,25 @@
 <UpdateArt id="NewAction">
 <File>Balance/Russia_XP1/Catherine_BBGV_balance.dep</File>
 </UpdateArt>
+
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>19999</LoadOrder>
+</Properties>
+<File>Balance/Sweden_XP1/GameData.sql</File>
+</UpdateDatabase>
+<UpdateColors id="NewAction">
+<Properties>
+<LoadOrder>19999</LoadOrder>
+</Properties>
+<File>Balance/Sweden_XP1/Color.sql</File>
+</UpdateColors>
+<UpdateText id="NewAction">
+<Properties>
+<LoadOrder>19999</LoadOrder>
+</Properties>
+<File>Balance/Sweden_XP1/Text.xml</File>
+</UpdateText>
 </InGameActions>
 <Files>
 <File>Asia/Palmyra/ArtDefs/Civilizations.artdef</File>
@@ -845,6 +926,107 @@
 <File>Europe/Russia_XP1/XLPs/Leader_CATHERINE2.xlp</File>
 <File>Europe/Russia_XP1/XLPs/UILeaders.xlp</File>
 
+<File>Europe/Sweden_XP1/ArtDefs/LeaderFallback.artdef</File>
+<File>Europe/Sweden_XP1/ArtDefs/Leaders.artdef</File>
+<File>Europe/Sweden_XP1/ArtDefs/Units.artdef</File>
+<File>Europe/Sweden_XP1/Core/Karl_XII_Colours.sql</File>
+<File>Europe/Sweden_XP1/Core/Karl_XII_Config.xml</File>
+<File>Europe/Sweden_XP1/Core/Karl_XII_GameDefines.sql</File>
+<File>Europe/Sweden_XP1/Core/Karl_XII_GameText.xml</File>
+<File>Europe/Sweden_XP1/Core/Karl_XII_IconDefinitions.sql</File>
+<File>Europe/Sweden_XP1/Core/Karl_XII_Moment.sql</File>
+<File>Europe/Sweden_XP1/Core/Karl_XII_Unique.sql</File>
+<File>Europe/Sweden_XP1/lua/ChrisyKarl.lua</File>
+<File>Europe/Sweden_XP1/Merrick's Karl XII (Sweden).dep</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_AttackA</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_BraceA</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_BraceB</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_CombatA</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_CombatB</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_CombatC</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_CombatD</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_DeathB</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_IdleE</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_PikeDeathA</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_PikeDeathB</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_ReactA</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_RunFwdB</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_RunStopE</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_SpawnA</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_TurnLeft</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_TurnRight</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_Victory</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_BreathingA</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathA</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathB</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathC</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Carolean_ao</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Carolean_gloss</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Carolean_metalness</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Carolean_normal0</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Carolean_normal1</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Cuirassier_ao</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Cuirassier_gloss</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Cuirassier_metalness</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Cuirassier_normal0</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Cuirassier_normal1</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Cuirassier_albedo_Cuirassier_tint</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Drabant_Armor_A_null</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Drabant_Clothes_A_Carolean_tint</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Drabant_Hat_A_null</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Drabant_Hat_G</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Drabant_Hat_M</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_redcoat_ao</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_redcoat_n0</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_redcoat_n1</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/UI/Icons.blp</File>
+<File>Europe/Sweden_XP1/Platforms/MacOS/BLPs/Unit.blp</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_AttackA</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_BraceA</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_BraceB</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_CombatA</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_CombatB</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_CombatC</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_CombatD</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_DeathB</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_IdleE</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_PikeDeathA</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_PikeDeathB</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_ReactA</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_RunFwdB</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_RunStopE</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_SpawnA</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_TurnLeft</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_TurnRight</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_Victory</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_BreathingA</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathA</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathB</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathC</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Carolean_ao</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Carolean_gloss</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Carolean_metalness</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Carolean_normal0</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Carolean_normal1</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Cuirassier_ao</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Cuirassier_gloss</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Cuirassier_metalness</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Cuirassier_normal0</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Cuirassier_normal1</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Cuirassier_albedo_Cuirassier_tint</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Drabant_Armor_A_null</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Drabant_Clothes_A_Carolean_tint</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Drabant_Hat_A_null</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Drabant_Hat_G</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Drabant_Hat_M</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_redcoat_ao</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_redcoat_n0</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_redcoat_n1</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/UI/Icons.blp</File>
+<File>Europe/Sweden_XP1/Platforms/Windows/BLPs/Unit.blp</File>
+
 <File>Balance/Palmyra/Color.sql</File>
 <File>Balance/Palmyra/Config.sql</File>
 <File>Balance/Palmyra/GameData.sql</File>
@@ -857,5 +1039,10 @@
 
 <File>Balance/Russia_XP1/lang_chinese.xml</File>
 <File>Balance/Russia_XP1/main.sql</File>
+
+<File>Balance/Sweden_XP1/Color.sql</File>
+<File>Balance/Sweden_XP1/Config.sql</File>
+<File>Balance/Sweden_XP1/GameData.sql</File>
+<File>Balance/Sweden_XP1/Text.xml</File>
 </Files>
 </Mod>
