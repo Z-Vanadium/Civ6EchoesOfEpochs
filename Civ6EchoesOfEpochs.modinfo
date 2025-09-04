@@ -48,16 +48,28 @@
 </UpdateText>
 
 <UpdateDatabase id="NewAction">
-<File>Balance/Balance/GameData.sql</File>
+<Properties>
+<LoadOrder>79999</LoadOrder>
+</Properties>
+<File>Balance/Palmyra/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
-<File>Balance/Balance/Color.sql</File>
+<Properties>
+<LoadOrder>79999</LoadOrder>
+</Properties>
+<File>Balance/Palmyra/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
-<File>Balance/Balance/Text.xml</File>
+<Properties>
+<LoadOrder>79999</LoadOrder>
+</Properties>
+<File>Balance/Palmyra/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
-<File>Balance/Balance/Config.sql</File>
+<Properties>
+<LoadOrder>79999</LoadOrder>
+</Properties>
+<File>Balance/Palmyra/Config.sql</File>
 </UpdateDatabase>
 </FrontEndActions>
 <InGameActions>
@@ -101,13 +113,22 @@
 </UpdateText>
 
 <UpdateDatabase id="NewAction">
-<File>Balance/Balance/GameData.sql</File>
+<Properties>
+<LoadOrder>79999</LoadOrder>
+</Properties>
+<File>Balance/Palmyra/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
-<File>Balance/Balance/Color.sql</File>
+<Properties>
+<LoadOrder>79999</LoadOrder>
+</Properties>
+<File>Balance/Palmyra/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
-<File>Balance/Balance/Text.xml</File>
+<Properties>
+<LoadOrder>79999</LoadOrder>
+</Properties>
+<File>Balance/Palmyra/Text.xml</File>
 </UpdateText>
 </InGameActions>
 <Files>
@@ -400,9 +421,9 @@
 <File>Asia/Palmyra_XP1/Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
 <File>Asia/Palmyra_XP1/Platforms/Windows/BLPs/UI/Icons.blp</File>
 
-<File>Balance/Balance/Color.sql</File>
-<File>Balance/Balance/Config.sql</File>
-<File>Balance/Balance/GameData.sql</File>
-<File>Balance/Balance/Text.xml</File>
+<File>Balance/Palmyra/Color.sql</File>
+<File>Balance/Palmyra/Config.sql</File>
+<File>Balance/Palmyra/GameData.sql</File>
+<File>Balance/Palmyra/Text.xml</File>
 </Files>
 </Mod>

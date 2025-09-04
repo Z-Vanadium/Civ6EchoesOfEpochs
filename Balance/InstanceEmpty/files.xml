@@ -10,26 +10,47 @@
   </Properties>
   <FrontEndActions>
     <UpdateDatabase id="NewAction">
+      <Properties>
+        <LoadOrder>9999</LoadOrder>
+      </Properties>
       <File>GameData.sql</File>
     </UpdateDatabase>
     <UpdateColors id="NewAction">
+      <Properties>
+        <LoadOrder>9999</LoadOrder>
+      </Properties>
       <File>Color.sql</File>
     </UpdateColors>
     <UpdateText id="NewAction">
+      <Properties>
+        <LoadOrder>9999</LoadOrder>
+      </Properties>
       <File>Text.xml</File>
     </UpdateText>
     <UpdateDatabase id="NewAction">
+      <Properties>
+        <LoadOrder>9999</LoadOrder>
+      </Properties>
       <File>Config.sql</File>
     </UpdateDatabase>
   </FrontEndActions>
   <InGameActions>
     <UpdateDatabase id="NewAction">
+      <Properties>
+        <LoadOrder>9999</LoadOrder>
+      </Properties>
       <File>GameData.sql</File>
     </UpdateDatabase>
     <UpdateColors id="NewAction">
+      <Properties>
+        <LoadOrder>9999</LoadOrder>
+      </Properties>
       <File>Color.sql</File>
     </UpdateColors>
     <UpdateText id="NewAction">
+      <Properties>
+        <LoadOrder>9999</LoadOrder>
+      </Properties>
       <File>Text.xml</File>
     </UpdateText>
   </InGameActions>

@@ -204,5 +204,206 @@
 	<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_MER_ODAENATHUS_ANY" Language="en_US">
 		<Text>Your Empire will be forgotten, while Palmyra will stand forever.</Text>
 	</Row>
+
+		<!--百科-->
+		<Row Tag="LOC_CIVINFO_MER_PALMYRA_LOCATION" Language="zh_Hans_CN">
+			<Text>叙利亚</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_PALMYRA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>帕尔米拉是位于今叙利亚霍姆斯省的一个古老闪族城市。考古发现可追溯至新石器时代，文献首次提及该城市是在公元前二千年初。在成为公元一世纪罗马帝国的属国之前，帕尔米拉曾在不同帝国间多次易手。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_PALMYRA_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>这座城市因贸易商队而富裕起来；帕尔米拉人以商人闻名，他们沿着丝绸之路建立殖民地并在整个罗马帝国境内经营。帕尔米拉的财富使得大型工程项目得以建设，如大柱廊、贝尔神庙和独特的塔式陵墓。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_PALMYRA_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>到公元三世纪，帕尔米拉已成为一个繁荣的地区中心。它在260年代达到权力顶峰，当时帕尔米拉国王奥登纳图斯击败了波斯皇帝沙普尔一世。国王由摄政女王芝诺比娅继位，她反抗罗马并建立了帕尔米拉帝国。公元273年，罗马皇帝奥勒良摧毁了这座城市，后来戴克里先以缩小规模重建了它。帕尔米拉人在四世纪改信基督教，并在七世纪拉希德哈里发国征服后的几个世纪里改信伊斯兰教，此后帕尔米拉语和希腊语被阿拉伯语取代。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_PALMYRA_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>在公元273年之前，帕尔米拉享有自治权，隶属于罗马叙利亚行省，其政治组织在公元头两个世纪受到希腊城邦模式的影响。该城在三世纪成为罗马殖民地，导致罗马治理机构的引入，后在260年成为君主国。在273年被毁后，帕尔米拉成为拜占庭及后续帝国统治下的次要中心。1400年帖木儿王朝的破坏使其沦为一个小村庄。在1932年法国委任统治下，居民被迁至新村庄塔德穆尔，古城遗址得以进行考古发掘。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_PALMYRA_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>在2015年叙利亚内战期间，帕尔米拉被伊斯兰国（ISIL）控制，随后在该 militant 组织和叙利亚军队之间多次易手，叙利亚军队于2017年3月2日夺回该城。伊斯兰国破坏了许多文物并摧毁了大量建筑，严重损坏了古城遗址。</Text>
+		</Row>
+	<!--加载界面-->
+	<Row Tag="LOC_LOADING_INFO_LEADER_MER_ODAENATHUS" Language="zh_Hans_CN">
+		<Text>祝福您，奥登纳图斯，帕尔米拉的建国之王，东方万王之王。在您的统治下，帕尔米拉掌控了中东大部分地区，并与强大帝国抗衡。帕尔米拉再次需要您智慧的指引，将其从微小的开端带至世界舞台的前沿。雇佣兵和铁甲骑兵已准备好保卫您的商人和前哨站；您必须领导他们。</Text>
+	</Row>
+	<!--议程-->
+	<Row Tag="LOC_AGENDA_MER_ORIENTIS_NAME" Language="zh_Hans_CN">
+		<Text>东方全境修正者</Text>
+	</Row>
+	<Row Tag="LOC_AGENDA_MER_ORIENTIS_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>青睐采用相同政体类型且不与邻国交战的文明。厌恶政体不同且与邻国交战的文明。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_KUDOS_LEADER_MER_ODAENATHUS_SAME_GOVERNMENT" Language="zh_Hans_CN">
+		<Text>（你们政体相同且不与邻国交战）</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_MODIFIER_MER_ODAENATHUS_ORIENTIS_SAME_GOVERNMENT" Language="zh_Hans_CN">
+		<Text>奥登纳图斯很高兴你们政体相同且不与邻国交战。</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_WARNING_LEADER_MER_ODAENATHUS_REASON_DIFF_GOVERNMENT" Language="zh_Hans_CN">
+		<Text>（你们政体不同且与邻国交战）</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_MODIFIER_MER_ODAENATHUS_ORIENTIS_DIFF_GOVERNMENT" Language="zh_Hans_CN">
+		<Text>奥登纳图斯对你们的政体和战争行为表示担忧。</Text>
+	</Row>
+	<!--文明百科-->
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_ODAENATHUS_TITLE" Language="zh_Hans_CN">
+		<Text>奥登纳图斯</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_ODAENATHUS_SUBTITLE" Language="zh_Hans_CN">
+		<Text>帕尔米拉国王</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_ODAENATHUS_QUOTE" Language="zh_Hans_CN">
+		<Text>那时将出现一位太阳派遣者，一只有力而可怕的狮子，喷吐大量火焰。然后他将以极大的无耻胆量摧毁……最巨大的野兽——有毒、可怕并发出大量嘶嘶声。</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_ODAENATHUS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+		<Text>奥登纳图斯是以叙利亚帕尔米拉为中心的帕尔米拉王国的建国国王。他将自己的城市从隶属于罗马的地区中心地位提升为东方的最高权力者。奥登纳图斯出身于一个帕尔米拉贵族家庭，该家族在190年代塞维鲁王朝时期获得罗马公民权。他是纳索尔后裔海兰的儿子。他崛起的情况模糊不清；早在240年代他就成为城市的领主（Ras），这是一个为他创设的职位，到258年，他被称为consularis（执政官级），表明在罗马帝国拥有高位。</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_ODAENATHUS_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+		<Text>260年，皇帝瓦勒良被波斯萨珊君主沙普尔一世击败和俘虏，使得罗马东部省份 largely 处于波斯人的掌控之下。奥登纳图斯站在罗马一边；自称国王，他率领帕尔米拉军队在波斯人渡过幼发拉底河到东岸之前袭击了他们，并使他们遭受重创。然后，奥登纳图斯支持皇帝加里恩努斯（瓦勒良的儿子和继承人），后者正面临富尔维乌斯·马克里安努斯的篡位。叛军宣布他的儿子们为皇帝，一个留在叙利亚，另一个带往欧洲。奥登纳图斯攻击了剩余的篡位者并平息了叛乱。皇帝授予他许多特殊头衔，正式确认了他在东方自我建立的的地位。实际上，皇帝除了接受奥登纳图斯宣称的名义忠诚外，几乎无能为力。</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_ODAENATHUS_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+		<Text>从262年开始，在一系列迅速成功的战役中，他渡过幼发拉底河，收复了卡莱和尼西比斯。然后他向波斯腹地进攻，兵临其首都泰西封城墙下。该城经受住了短暂的围困，但奥登纳图斯收复了自252年波斯入侵以来占领的所有罗马土地。奥登纳图斯庆祝胜利并自称万王之王，立其子海兰一世为共治国王。到263年，奥登纳图斯有效控制了黎凡特、美索不达米亚和安纳托利亚东部地区。</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_ODAENATHUS_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+		<Text>奥登纳图斯遵守所有对皇帝的正式礼仪，但实际上作为独立君主统治。266年，国王发动第二次入侵波斯的战役，但不得不放弃 campaign，北上比提尼亚以击退围攻赫拉克利亚·庞蒂卡城的日耳曼骑兵的攻击。他于267年在安纳托利亚 campaign 期间或之后不久与海兰一同被暗杀。凶手或主谋的身份未知，古代资料中存在许多故事、指控和猜测。他的儿子瓦巴拉图斯在其遗孀芝诺比娅的摄政下继位，芝诺比娅利用奥登纳图斯建立的权力于270年建立了帕尔米拉帝国。</Text>
+	</Row>
+	<!--外交-->
+	<!--首次见面-->
+	<!--AI首句-->
+	<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>您好，朋友。我是奥登纳图斯，帕尔米拉国王。也许未来我们可以通过贸易分享财富？</Text>
+	</Row>
+	<!--AI邀请访问附近城市-->
+	<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>帕尔米拉是一座贸易与文化之城，我们永远欢迎有闲钱的人。</Text>
+	</Row>
+	<!--AI接受玩家邀请-->
+	<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>我很乐意接受。</Text>
+	</Row>
+	<!--AI邀请交换首都信息-->
+	<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>我们应该分享智慧。</Text>
+	</Row>
+	<!--问候-->
+	<Row Tag="LOC_DIPLO_GREETING_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>问候</Text>
+	</Row>
+	<!--代表团-->
+	<!--AI接受-->
+	<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>您的礼物在此备受欢迎，已送至我的宫殿。</Text>
+	</Row>
+	<!--AI拒绝-->
+	<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>我必须拒绝。</Text>
+	</Row>
+	<!--AI请求-->
+	<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>我派遣了一个代表团，携带一些小型雕塑和我个人资金中的黄金礼物。我们希望您接受此作为未来合作的象征。</Text>
+	</Row>
+	<!--开放边境-->
+	<!--AI接受玩家请求-->
+	<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>开放边境将让我们的人民自由往来，并分享财富。我接受。</Text>
+	</Row>
+	<!--AI拒绝玩家请求-->
+	<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>我无法从中受益。</Text>
+	</Row>
+	<!--AI向玩家请求-->
+	<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>如果我们开放边境，金钱将在我们的土地间自由流动，我们的军队可以保护我们的商人。请考虑这个提议。</Text>
+	</Row>
+	<!--宣布友谊-->
+	<!--AI接受玩家请求-->
+	<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>我希望这是一段长久的友谊，或许未来还能结盟。</Text>
+	</Row>
+	<!--AI拒绝玩家请求-->
+	<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>我不会与挥霍财富和智慧的人分享这些。</Text>
+	</Row>
+	<!--AI向玩家请求友谊-->
+	<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>正式宣告我们的友谊将加强贸易流动，并让我们能够保护经济免受破坏者侵害。</Text>
+	</Row>
+	<!--玩家接受AI请求，AI回应-->
+	<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>这将带来伟大的成就。</Text>
+	</Row>
+	<!--玩家拒绝AI请求，AI回应-->
+	<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>您做了一个糟糕的决定。</Text>
+	</Row>
+	<!--联盟-->
+	<!--AI向玩家请求联盟-->
+	<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>我们都理解强大治理的重要性。如果我们结合财富和力量，我们将对土地拥有更多控制权。</Text>
+	</Row>
+	<!--称赞与警告-->
+	<!--AI称赞-->
+	<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>您用强大的军队和强大的政府保护您的人民。您确实明智。</Text>
+	</Row>
+	<!--AI警告-->
+	<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>您让您的人民追随虚假理想和战争，不过是个傻瓜。</Text>
+	</Row>
+	<!--AI警告玩家边境驻军-->
+	<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>我们的商人受到保护，边境也是如此。您最好退后。</Text>
+	</Row>
+	<!--贸易-->
+	<!--AI接受交易-->
+	<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MER_ODAENATHUS_ANY}</Text>
+	</Row>
+	<!-- AI拒绝交易 -->
+	<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MER_ODAENATHUS_ANY}</Text>
+	</Row>
+	<!--谴责-->
+	<!--来自玩家-->
+	<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>我没有理由听您胡言乱语。只需知道您会后悔的。</Text>
+	</Row>
+	<!--来自AI-->
+	<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>您缺乏成为强大领导者所需的财富和智慧。如果世界上还有其他人 somehow 没注意到这一点，他们现在会知道了。（谴责您）</Text>
+	</Row>
+	<!--宣战-->
+	<!--玩家宣战-->
+	<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>我不会袖手旁观您声称帕尔米拉土地为您所有。我将回应这场战争的召唤。</Text>
+	</Row>
+	<!--AI宣战-->
+	<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>您的罪行未被忽视。我们不会再袖手旁观。</Text>
+	</Row>
+	<!--议和-->
+	<!--AI接受玩家议和-->
+	<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>造成的破坏已经够多了。</Text>
+	</Row>
+	<!--AI拒绝玩家议和-->
+	<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>我不会向您这样的人投降。</Text>
+	</Row>
+	<!--AI向玩家请求议和-->
+	<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>肯定是时候结束了吧？</Text>
+	</Row>
+	<!--战败-->
+	<!--AI战败-->
+	<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>我统治我的王国时，它处于前所未有的强盛时期，但现在看来我统治到了尽头。我只能希望历史不会忘记帕尔米拉。</Text>
+	</Row>
+	<!--玩家战败（在热座模式中会看到）-->
+	<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_MER_ODAENATHUS_ANY" Language="zh_Hans_CN">
+		<Text>您的帝国将被遗忘，而帕尔米拉将永存。</Text>
+	</Row>
 	</LocalizedText>
 </GameData>

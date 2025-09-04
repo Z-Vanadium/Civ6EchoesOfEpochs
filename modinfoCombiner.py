@@ -15,7 +15,7 @@ def get_mod_folders():
 
 
 
-        'Balance/Balance',
+        'Balance/Palmyra',
     ]
 
 def combine_modinfo_files():

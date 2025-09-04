@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+        <!-- Palmyra -->
+		<Row Tag="LOC_MODIFIER_VAN_COMMERCIAL_GOLD_DESERT" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Gold] 金币来自相邻的沙漠单元格</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_VAN_COMMERCIAL_GOLD_DESERT_HILLS" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Gold] 金币来自相邻的沙漠丘陵单元格</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_VAN_CITY_CENTER_PROD_DESERT" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_PRODUCTION] 生产力来自相邻的沙漠单元格</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_VAN_CITY_CENTER_PROD_DESERT_HILLS" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_PRODUCTION] 生产力来自相邻的沙漠丘陵单元格</Text>
+		</Row>
+
+		<!-- Leader_XP1 -->
+		<Row Tag="LOC_VAN_MER_ZENOBIA_HC_CS_ABILITY_NAME" Language="zh_Hans_CN">
+			<Text>+2 [ICON_STRENGTH] 战斗力，来自帝国雄心</Text>
+		</Row>
+		<Row Tag="LOC_VAN_MER_ZENOBIA_HC_CS_ABILITY_DESC" Language="zh_Hans_CN">
+			<Text>+2 [ICON_STRENGTH] 战斗力，来自帝国雄心</Text>
+		</Row>
+	</LocalizedText>
+
+</GameData>

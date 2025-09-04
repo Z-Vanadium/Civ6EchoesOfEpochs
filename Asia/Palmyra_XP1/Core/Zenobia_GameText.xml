@@ -198,5 +198,202 @@
 			<Text>[LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MER_ZENOBIA_ANY]</Text>
 		</Row>
 		<!--MOD SUPPORT-->
+
+				<!--领袖-->
+		<Row Tag="LOC_LEADER_MER_ZENOBIA_NAME" Language="zh_Hans_CN">
+			<Text>芝诺比娅</Text>
+		</Row>
+		<!--议程-->
+		<Row Tag="LOC_AGENDA_MER_PAIDEIA_NAME" Language="zh_Hans_CN">
+			<Text>派代亚</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_MER_PAIDEIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>厌恶邻国并想要征服他们的土地。青睐收集伟人的文明。针对此领袖的怨念以双倍速度衰减。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDOS_LEADER_MER_ZENOBIA_REASON_GREAT_PEOPLE" Language="zh_Hans_CN">
+			<Text>（您正在收集伟人）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_MER_PAIDEIA_GREAT_PEOPLE" Language="zh_Hans_CN">
+			<Text>芝诺比娅对您收集的伟人印象深刻。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_MER_ZENOBIA_REASON_NEIGHBOUR" Language="zh_Hans_CN">
+			<Text>（您是芝诺比娅的邻国）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_MER_PAIDEIA_NEIGHBOUR" Language="zh_Hans_CN">
+			<Text>芝诺比娅觊觎您的土地。</Text>
+		</Row>
+		<!--加载界面-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_MER_ZENOBIA" Language="zh_Hans_CN">
+			<Text>最亲爱的芝诺比娅女皇，您的军队等待您的命令。您面对的是试图夺取您宣称拥有土地的大帝国，这些土地理应属于您。帕尔米拉的财富和遗产支持着您的征服，芝诺比娅，所以前进吧，扩展它的影响力。</Text>
+		</Row>
+		<!--特性-->
+		<Row Tag="LOC_TRAIT_LEADER_MER_IMPERIAL_ASPIRATIONS_NAME" Language="zh_Hans_CN">
+			<Text>帝国雄心</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_MER_IMPERIAL_ASPIRATIONS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建立在沙漠且有 [ICON_GOVERNOR] 总督就职的城市，训练的重骑兵单位 +2 [ICON_STRENGTH] 战斗力[newline][newline]建成市场时，城市获得一个免费的重骑兵单位。免费获得的重骑兵单位无需维护资源。</Text>
+		</Row>
+		<!--文明百科-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_ZENOBIA_TITLE" Language="zh_Hans_CN">
+			<Text>芝诺比娅</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_ZENOBIA_SUBTITLE" Language="zh_Hans_CN">
+			<Text>帕尔米拉帝国女王</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_ZENOBIA_QUOTE" Language="zh_Hans_CN">
+			<Text>您要求我投降，仿佛不知道克里奥帕特拉宁愿作为女王死去，也不愿以任何高贵的身份活着。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_ZENOBIA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>塞普蒂米娅·芝诺比娅是叙利亚帕尔米拉帝国的三世纪女王。关于她的血统有许多传说；她可能不是平民，并嫁给了城市统治者奥登纳图斯。她的丈夫在260年成为国王，通过击败萨珊王朝并稳定罗马东方，将帕尔米拉提升为近东的最高权力。奥登纳图斯被暗杀后，芝诺比娅成为儿子瓦巴拉图斯的摄政王，并在其整个统治期间掌握实际权力。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_ZENOBIA_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>270年，芝诺比娅发动了一次入侵，将罗马东方大部分地区纳入其统治之下，并以吞并埃及告终。到271年中，她的王国从安纳托利亚中部的安卡拉延伸到埃及南部，尽管她在名义上仍隶属于罗马。然而，为了应对罗马皇帝奥勒良在272年的征讨，芝诺比娅宣布她的儿子为皇帝并自封女皇（宣布帕尔米拉脱离罗马独立）。经过激烈战斗，罗马人获胜；女王在她的首都遭到围困并被奥勒良俘虏，后者将她流放到罗马，她在那里度过了余生。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_ZENOBIA_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>芝诺比娅是一位有教养的君主，在她的宫廷中培养了一个知识分子环境，向学者和哲学家开放。她宽容对待臣民并保护宗教少数群体。女王维持了一个稳定的行政机构，管理着一个多元文化、多种族的帝国。芝诺比娅在274年后去世，关于她的命运记录了许多故事。她的兴衰激励了历史学家、艺术家和小说家，她是叙利亚的民族英雄。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_ZENOBIA_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>芝诺比娅的帕尔米拉通过和平与征服产生伟人。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_ZENOBIA_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>作为芝诺比娅的帕尔米拉，您在战争与和平时期都获得优势。</Text>
+		</Row>
+		<!--外交-->
+		<!--首次见面-->
+		<!--AI首句-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>您站在芝诺比娅面前，帕尔米拉和东方的女皇，这个称号我当之无愧。那么您是谁？</Text>
+		</Row>
+		<!--AI邀请访问附近城市-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>我邀请您参观我的美丽城市。</Text>
+		</Row>
+		<!--AI接受玩家邀请-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>是的，当然。</Text>
+		</Row>
+		<!--AI邀请交换首都信息-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>我们应该分享地图。</Text>
+		</Row>
+		<!--问候-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>欢迎。</Text>
+		</Row>
+		<!--代表团-->
+		<!--AI接受-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>您的代表团在我面前表现出尊重和风度。他们为您说了好话。</Text>
+		</Row>
+		<!--AI拒绝-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>我不能接受。</Text>
+		</Row>
+		<!--AI请求-->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>我从宫廷派遣了一个代表团，您应该会觉得他们是好伙伴。</Text>
+		</Row>
+		<!--开放边境-->
+		<!--AI接受玩家请求-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>我接受这些条款。</Text>
+		</Row>
+		<!--AI拒绝玩家请求-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>我们的城门对您关闭。</Text>
+		</Row>
+		<!--AI向玩家请求-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>开放我们的边境并分享土地财富对我们双方都有利。</Text>
+		</Row>
+		<!--宣布友谊-->
+		<!--AI接受玩家请求-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>我期待未来与您合作。</Text>
+		</Row>
+		<!--AI拒绝玩家请求-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>不，我不能同意。</Text>
+		</Row>
+		<!--AI向玩家请求友谊-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>我想伸出友谊之手。</Text>
+		</Row>
+		<!--玩家接受AI请求，AI回应-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>太好了。</Text>
+		</Row>
+		<!--玩家拒绝AI请求，AI回应-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>至少可以说，令人失望。</Text>
+		</Row>
+		<!--联盟-->
+		<!--AI向玩家请求联盟-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>我们的帝国在一起会更强大。</Text>
+		</Row>
+		<!--称赞与警告-->
+		<!--AI称赞-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>伟大的统治者必须让自己置身于伟人的宫廷中，然后才能在智者的帮助下统治。</Text>
+		</Row>
+		<!--AI警告-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>我是您的女皇和女王，您的土地由我统治。</Text>
+		</Row>
+		<!--AI警告玩家边境驻军-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>多么可悲的武力展示。别再浪费我的时间了。</Text>
+		</Row>
+		<!--贸易-->
+		<!--AI接受交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MER_ZENOBIA_ANY}</Text>
+		</Row>
+		<!--AI拒绝交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MER_ZENOBIA_ANY}</Text>
+		</Row>
+		<!--谴责-->
+		<!--来自玩家-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>您以为我在乎您的想法吗？</Text>
+		</Row>
+		<!--来自AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>您最好听听顾问的意见，他们肯定比您自己更聪明。（谴责您）</Text>
+		</Row>
+		<!--宣战-->
+		<!--玩家宣战-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>我是女王和女皇，我将作为这样的人生活，不向任何人低头。</Text>
+		</Row>
+		<!--AI宣战-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>您的土地属于帕尔米拉，这是众神的旨意。</Text>
+		</Row>
+		<!--议和-->
+		<!--AI接受玩家议和-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>有些东西通过政治思考能更好地获得。</Text>
+		</Row>
+		<!--AI拒绝玩家议和-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>您想这么轻易地结束这件事？</Text>
+		</Row>
+		<!--AI向玩家请求议和-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>我请求暂时结束此事。</Text>
+		</Row>
+		<!--战败-->
+		<!--AI战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>我宁愿作为女王死去，也不愿以任何更低等的身份度过余生。</Text>
+		</Row>
+		<!--玩家战败（在热座模式中会看到）-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_MER_ZENOBIA_ANY" Language="zh_Hans_CN">
+			<Text>[LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MER_ZENOBIA_ANY]</Text>
+		</Row>
+		<!--MOD支持-->
 	</LocalizedText>
 </GameData>

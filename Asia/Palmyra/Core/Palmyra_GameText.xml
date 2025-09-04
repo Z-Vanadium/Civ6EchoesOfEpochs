@@ -293,5 +293,297 @@
 		<Row Tag="LOC_NAMED_DESERT_MER_SYRIAN_NAME" Language="en_US">
 			<Text>Syrian Desert</Text>
 		</Row>
+
+
+		<Row Tag="LOC_LEADER_MER_ODAENATHUS_NAME" Language="zh_Hans_CN">
+			<Text>奥登纳图斯</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_MER_KING_OF_KINGS_NAME" Language="zh_Hans_CN">
+			<Text>东方万王之王</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_MER_KING_OF_KINGS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建立在沙漠且有 [ICON_Governor] 总督就职的城市 +1 [ICON_AMENITIES] 宜居度[newline][newline]建成市场时，城市获得 [ICON_TradingPost] 贸易站。您的 [ICON_TradingPost] 贸易站为您的贸易路线提供 +1 [ICON_Production]生产力。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MER_PEARL_OF_THE_DESERT_NAME" Language="zh_Hans_CN">
+			<Text>沙漠明珠</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MER_PEARL_OF_THE_DESERT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>商业中心从沙漠、沙漠丘陵地块获得少量相邻加成（分别计算）。建立在沙漠上的城市修建商业中心时 +20% [ICON_Production] 生产力[newline][newline]对外贸易后，市中心每相邻 1 个沙漠、沙漠丘陵地块 +1 [ICON_Production]生产力。[newline][newline][ICON_BULLET]出生地关联：T1 沙漠、T1 沙漠丘陵</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_OASIS_GOLD" Language="zh_Hans_CN">
+			<Text>来自相邻{1_Num : plural 1?绿洲单元格; other?绿洲单元格;}的+{2_num} [ICON_Gold] 金币。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_OASIS_CULTURE" Language="zh_Hans_CN">
+			<Text>来自相邻{1_Num : plural 1?绿洲单元格; other?绿洲单元格;}的+{2_num} [ICON_Culture] 文化值。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_OASIS_FAITH" Language="zh_Hans_CN">
+			<Text>来自相邻{1_Num : plural 1?绿洲单元格; other?绿洲单元格;}的+{2_num} [ICON_Faith] 信仰值。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_FUNERARY_FAITH" Language="zh_Hans_CN">
+			<Text>来自相邻陵塔的+{1_num} [ICON_Faith] 信仰值。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_FUNERARY_GOLD" Language="zh_Hans_CN">
+			<Text>来自相邻{1_Num : plural 1?陵塔; other?陵塔;}的+{1_num} [ICON_Gold] 金币。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_FUNERARY_CULTURE" Language="zh_Hans_CN">
+			<Text>来自相邻{1_Num : plural 1?陵塔; other?陵塔;}的+{1_num} [ICON_Culture] 文化值。</Text>
+		</Row>
+		<Update>
+			<Set Text="{Value : number +#;-#}% ({ActualValue : number +#.#;-#.#}) 来自拥有{1}个{1 : plural 1?晋升; other?晋升;}的[ICON_Governor]总督"/>
+			<Where Tag="LOC_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE_TOOLTIP" Language="zh_Hans_CN"/>
+		</Update>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_CLIBANARII_NAME" Language="zh_Hans_CN">
+			<Text>铁甲骑兵</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_CLIBANARII_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>独特的骑兵单位</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_CLIBANARII_NAME" Language="zh_Hans_CN">
+			<Text>铁甲骑兵</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_CLIBANARII_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>帕尔米拉中世纪特色重骑兵单位，替代骑士。解锁于雇佣兵，攻击生命全满的单位和区域时 +3 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MER_CLIBANARII_NAME" Language="zh_Hans_CN">
+			<Text>铁甲</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MER_CLIBANARII_CLEAR_MOVEMENT_DESC" Language="zh_Hans_CN">
+			<Text>在开阔地形上+1 [ICON_Movement] 移动力。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MER_CLIBANARII_FULL_STRENGTH_DESC" Language="zh_Hans_CN">
+			<Text>对未受伤的敌人+3 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_MER_CLIBANARII_FULL_STRENGTH_DESC" Language="zh_Hans_CN">
+			<Text>对未受伤的敌人+3 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_MER_FUNERARY_TOWERS_NAME" Language="zh_Hans_CN">
+			<Text>葬塔</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_MER_FUNERARY_TOWERS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>独特的改良设施</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_MER_FUNERARY_TOWERS_NAME" Language="zh_Hans_CN">
+			<Text>葬塔</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_MER_FUNERARY_TOWERS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>砌砖解锁建造者修建独特改良设施葬塔[newline][newline]+2 [icon_food]粮食[newline][newline]每处相邻市中心、商业中心 +1 [icon_production]生产力[newline][newline]每与 2 座葬塔相邻提供 +1 [icon_production]生产力[newline][newline]为相邻单元格+2吸引力，必须建造在无泛滥平原的沙漠或沙漠丘陵地块</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_PALMYRA_NAME" Language="zh_Hans_CN">
+			<Text>帕尔米拉</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_PALMYRA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>帕尔米拉帝国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_PALMYRA_DESCRIPTION_JFD_CIVILIZATION" Language="zh_Hans_CN">
+			<Text>帕尔米拉文明</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_PALMYRA_ADJECTIVE"	  Language="zh_Hans_CN">
+			<Text>帕尔米拉的</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_1" Language="zh_Hans_CN">
+			<Text>帕尔米拉</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_2" Language="zh_Hans_CN">
+			<Text>杜拉-欧罗普斯</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_3" Language="zh_Hans_CN">
+			<Text>埃梅萨</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_4" Language="zh_Hans_CN">
+			<Text>阿帕梅亚</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_5" Language="zh_Hans_CN">
+			<Text>埃德萨</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_6" Language="zh_Hans_CN">
+			<Text>大马士革</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_7" Language="zh_Hans_CN">
+			<Text>贝罗埃亚</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_8" Language="zh_Hans_CN">
+			<Text>埃皮法尼亚</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_9" Language="zh_Hans_CN">
+			<Text>布斯特拉</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_10" Language="zh_Hans_CN">
+			<Text>塔尔苏斯</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_11" Language="zh_Hans_CN">
+			<Text>劳迪西亚</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_12" Language="zh_Hans_CN">
+			<Text>提亚纳</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_13" Language="zh_Hans_CN">
+			<Text>伊科尼乌姆</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_14" Language="zh_Hans_CN">
+			<Text>安基拉</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_15" Language="zh_Hans_CN">
+			<Text>凯撒利亚</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_16" Language="zh_Hans_CN">
+			<Text>佩特拉</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_17" Language="zh_Hans_CN">
+			<Text>耶路撒冷</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_18" Language="zh_Hans_CN">
+			<Text>西顿</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_19" Language="zh_Hans_CN">
+			<Text>安条克</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_20" Language="zh_Hans_CN">
+			<Text>的黎波里</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_21" Language="zh_Hans_CN">
+			<Text>贝里图斯</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_22" Language="zh_Hans_CN">
+			<Text>杰拉什</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_23" Language="zh_Hans_CN">
+			<Text>费城</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_24" Language="zh_Hans_CN">
+			<Text>卡利尼库姆</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_25" Language="zh_Hans_CN">
+			<Text>伊苏斯</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_26" Language="zh_Hans_CN">
+			<Text>卡莱</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_PALMYRA_27" Language="zh_Hans_CN">
+			<Text>芝诺比娅</Text>
+		</Row>
+		<!--公民-->
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MALE_1" Language="zh_Hans_CN">
+			<Text>海兰</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MALE_2" Language="zh_Hans_CN">
+			<Text>梅奥尼乌斯</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MALE_3" Language="zh_Hans_CN">
+			<Text>瓦巴拉图斯</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MALE_4" Language="zh_Hans_CN">
+			<Text>安条克</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MALE_5" Language="zh_Hans_CN">
+			<Text>卡西乌斯</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MALE_6" Language="zh_Hans_CN">
+			<Text>沃罗德</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MALE_7" Language="zh_Hans_CN">
+			<Text>提摩劳斯</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MALE_8" Language="zh_Hans_CN">
+			<Text>赫罗狄安努斯</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MALE_9" Language="zh_Hans_CN">
+			<Text>扎布达斯</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MALE_10" Language="zh_Hans_CN">
+			<Text>扎巴伊</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MODERN_MALE_1" Language="zh_Hans_CN">
+			<Text>艾哈迈德</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MODERN_MALE_2" Language="zh_Hans_CN">
+			<Text>阿卜杜勒</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MODERN_MALE_3" Language="zh_Hans_CN">
+			<Text>马拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MODERN_MALE_4" Language="zh_Hans_CN">
+			<Text>哈桑</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MODERN_MALE_5" Language="zh_Hans_CN">
+			<Text>阿里</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MODERN_MALE_6" Language="zh_Hans_CN">
+			<Text>萨利赫</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MODERN_MALE_7" Language="zh_Hans_CN">
+			<Text>塔勒</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MODERN_MALE_8" Language="zh_Hans_CN">
+			<Text>土耳其</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MODERN_MALE_9" Language="zh_Hans_CN">
+			<Text>马哈茂德</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MODERN_MALE_10" Language="zh_Hans_CN">
+			<Text>阿布</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_FEMALE_1" Language="zh_Hans_CN">
+			<Text>露西亚</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_FEMALE_2" Language="zh_Hans_CN">
+			<Text>塞普蒂米娅</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_FEMALE_3" Language="zh_Hans_CN">
+			<Text>帕塔比尼亚娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_FEMALE_4" Language="zh_Hans_CN">
+			<Text>巴尔比拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_FEMALE_5" Language="zh_Hans_CN">
+			<Text>提利亚</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_FEMALE_6" Language="zh_Hans_CN">
+			<Text>内波提拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_FEMALE_7" Language="zh_Hans_CN">
+			<Text>萨米拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_FEMALE_8" Language="zh_Hans_CN">
+			<Text>卡斯林</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_FEMALE_9" Language="zh_Hans_CN">
+			<Text>伊莉莎特</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_FEMALE_10" Language="zh_Hans_CN">
+			<Text>阿米娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MODERN_FEMALE_1" Language="zh_Hans_CN">
+			<Text>阿利亚</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MODERN_FEMALE_2" Language="zh_Hans_CN">
+			<Text>阿丽莎</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MODERN_FEMALE_3" Language="zh_Hans_CN">
+			<Text>亚斯明</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MODERN_FEMALE_4" Language="zh_Hans_CN">
+			<Text>陶菲基亚</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MODERN_FEMALE_5" Language="zh_Hans_CN">
+			<Text>谢娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MODERN_FEMALE_6" Language="zh_Hans_CN">
+			<Text>克里斯蒂娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MODERN_FEMALE_7" Language="zh_Hans_CN">
+			<Text>汉娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MODERN_FEMALE_8" Language="zh_Hans_CN">
+			<Text>阿舍拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MODERN_FEMALE_9" Language="zh_Hans_CN">
+			<Text>森托拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_PALMYRA_MODERN_FEMALE_10" Language="zh_Hans_CN">
+			<Text>法蒂拉</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_MER_SYRIAN_NAME" Language="zh_Hans_CN">
+			<Text>叙利亚沙漠</Text>
+		</Row>
 	</LocalizedText>
 </GameData>
