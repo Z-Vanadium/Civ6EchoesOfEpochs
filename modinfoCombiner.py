@@ -94,9 +94,9 @@ def combine_modinfo_files():
     for key, value in extraDependencies.items():
         dependenciesStr += f'    <Mod id="{key}" title="{value}"/>\n'
     newFileStr = f'''<?xml version="1.0" encoding="UTF-8"?>
-<Mod id="7b2fd0cc-894e-11f0-848b-743af48c76bf" version="100">
+<Mod id="7b2fd0cc-894e-11f0-848b-743af48c76bf" version="101">
   <Properties>
-    <Name>CCB 适配：扩展包 纪元回响 Echoes Of Epochs</Name>
+    <Name>CCB 适配：扩展包 纪元回响 Echoes Of Epochs 1.01</Name>
     <Description>强度适配以 CCB 为平衡模组的文明 6 PVP，包含新文明、新领袖</Description>
     <Authors>{', '.join(sorted_authors)} (alphabetical order)</Authors>
     <SpecialThanks>{', '.join(sorted_special_thanks)} (alphabetical order)</SpecialThanks>

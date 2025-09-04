@@ -26,7 +26,8 @@ local tTraitPlayers = C15_GetValidTraitPlayers("TRAIT_LEADER_MER_NEVER_AN_UNJUST
 
 local bLevel = false -- My idea or your idea
 local iLevelMod = 0 -- Tapers for either idea
-local iCombatMod = 1
+-- local iCombatMod = 1
+local iCombatMod = 0.4	-- nerf to 40%
 
 local tUnits = {}
 if not bLevel then

@@ -228,4 +228,232 @@
 			<Text>All Embrace me. It's my time to rule at last, and people will remember me as Carolus Rex.</Text>
 		</Row>
 	</LocalizedText>
+
+	<LocalizedText>
+		<!--领袖-->
+		<Row Tag="LOC_LEADER_MER_KARL_XII_NAME" Language="zh_Hans_CN">
+			<Text>卡尔十二世</Text>
+		</Row>
+		<!--议程-->
+		<Row Tag="LOC_AGENDA_MER_CAROLUS_REX_NAME" Language="zh_Hans_CN">
+			<Text>卡罗勒斯·雷克斯</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_MER_CAROLUS_REX_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>不会宣布局部战争，寻求扩张疆域，且避免投降。钦佩拥有庞大常备军的文明。憎恶宣布局部战争的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_MER_KARL_XII_REASON_STANDING_ARMY" Language="zh_Hans_CN">
+			<Text>（您拥有一支庞大的常备军）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_MER_CAROLUS_REX_STANDING_ARMY" Language="zh_Hans_CN">
+			<Text>卡尔十二世钦佩您的军事实力</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_MER_KARL_XII_REASON_SURPRISE_WAR" Language="zh_Hans_CN">
+			<Text>（您已宣布局部战争。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_MER_CAROLUS_REX_SURPRISE_WAR" Language="zh_Hans_CN">
+			<Text>卡尔十二世憎恶您宣布局部战争</Text>
+		</Row>
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_MER_KARL_XII" Language="zh_Hans_CN">
+			<Text>有主为您的守护者，您的统治时代终于来临，卡罗勒斯·雷克斯。毕生征战沙场将为您的人民提供一位强大的领袖，足以引领他们进入另一个伟大的强权时代，并重铸瑞典帝国往日的荣光。天命所归，唯您能使世界臣服于您的意志。</Text>
+		</Row>
+		<!--特质-->
+		<Row Tag="LOC_TRAIT_LEADER_MER_NEVER_AN_UNJUST_WAR_NAME" Language="zh_Hans_CN">
+			<Text>正义战争</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_MER_NEVER_AN_UNJUST_WAR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位 [ICON_Promotion] 晋升时获得等同于该单位基础 [ICON_Strength] 战斗力 20% 的[ICON_Science]科技值（联机速度下）。陆地军事单位在友方领土内 +1 [ICON_Movement] 移动力。陆地军事单位获得 +15% 战斗经验。[NEWLINE][Newline]解锁弹道学后获得独特单位“德拉班特近卫军”。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MER_KARL_MOVEMENT_DESC" Language="zh_Hans_CN">
+			<Text>若在友方领土内开始回合，则+1[ICON_Movement]移动力（来自卡尔十二世）。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MER_KARL_EXPERIENCE_DESC" Language="zh_Hans_CN">
+			<Text>+15%战斗经验获取（来自卡尔十二世）。</Text>
+		</Row>
+		<!--DRABANT近卫军-->
+		<Row Tag="LOC_UNIT_MER_DRABANT_NAME" Language="zh_Hans_CN">
+			<Text>德拉班特近卫军</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_DRABANT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>卡尔十二世作为领袖时，瑞典工业时代特色重骑兵，替代瑞典胸甲骑兵。获得一次免费 [ICON_Promotion] 强化。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_DRABANT_DESCRIPTION_INGAME" Language="zh_Hans_CN">
+			<Text>获得一次免费[ICON_Promotion]强化。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MER_DRABANT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>通过击杀获得[ICON_GreatGeneral]大将军点数。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MER_DRABANT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>卡尔十二世的德拉班特近卫军是大北方战争时期瑞典军队中最负盛名的部队。该军团所有人员均享有军官衔级与更高薪俸，其规模最终定为168人。服役于近卫军者几乎全部从瑞典帝国招募，且大多来自瑞典本土。军团配发了最精良的武器、马匹，制服常饰以金边绶带。他们依照卡罗琳式骑兵条令作战，强调以轻微楔形阵型发起冷兵器冲锋（膝踵相接），而非当时更常见的卡拉克尔战术（轮番射击）。此战术使其既能充当国王的卫队，亦是一支精锐战斗单位，尽管规模相对较小，却常在战役中扮演关键角色。战争期间，该军团常随主力部队与国王一同行军，参与了多数战役。</Text>
+		</Row>
+		<!--模组支持-->
+		<!--文明百科-->
+		<!--文明百科-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FB_KARL_XII_TITLE" Language="zh_Hans_CN">
+			<Text>卡尔十二世</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FB_KARL_XII_SUBTITLE" Language="zh_Hans_CN">
+			<Text>瑞典国王</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FB_KARL_XII_QUOTE" Language="zh_Hans_CN">
+			<Text>我立志永不发动非正义战争，但也绝不结束一场正义战争，除非击败我的敌人</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FB_KARL_XII_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>卡尔十二世（拉丁化称卡罗勒斯·雷克斯）于1697年至1718年间担任瑞典国王。他属于维特尔斯巴赫家族的支系——茨韦布吕肯-比肯费尔德帕拉蒂尼家族。查理是查理十一世与乌尔丽卡·埃莱奥诺拉（长老）唯一存世的儿子。在经过七个月的摄政政府后，他于十五岁时亲政。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FB_KARL_XII_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>1700年，丹麦-挪威、萨克森-波兰-立陶宛及俄罗斯的三方联盟向瑞典的保护国荷尔斯泰因-戈托普以及利沃尼亚和英格里亚省份发动了三路进攻，企图趁瑞典未结盟且由年轻缺乏经验的国王统治之机牟利，从而引发了大北方战争。查理率领瑞典军队对抗该联盟，尽管通常以少敌多，仍取得了多次胜利。1700年在纳尔瓦战役中对规模约三倍于己的俄军取得重大胜利，迫使彼得大帝求和，但遭查理拒绝。至1706年，时年24岁的查理已迫使所有敌人屈服，其中包括当年由卡尔·古斯塔夫·雷恩斯基尔德将军指挥的瑞典军队在弗劳斯塔特战役中对萨克森与俄罗斯联军取得的决定性毁灭胜利。俄罗斯成为唯一残存的敌对势力。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FB_KARL_XII_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>查理随后向莫斯科的进军初期捷报频传，其中最显著的是霍洛夫琴战役，规模较小的瑞典军队击溃了两倍于己的俄军。但当瑞典军队在波尔塔瓦遭受两倍多兵力的俄军重创时，战役以灾难告终。查理在战前因伤无法指挥。此败之后发生了佩雷沃洛奇纳投降事件。查理随后数年流亡奥斯曼帝国，之后返回领导对挪威的进攻，试图再次将丹麦国王逐出战争以便全力对付俄罗斯。两次战役均遭挫败并最终失败，以1718年他在腓特烈斯顿围城战中阵亡告终。彼时，瑞典帝国大部分领土处于外国军事占领之下，尽管瑞典本土仍保持自由。这一局面后来在《尼斯塔德条约》中得到正式确认 albeit moderated in the subsequent Treaty of Nystad. The result was the end of the Swedish Empire, and also of its effectively organized absolute monarchy and war machine, commencing a parliamentarian government unique for continental Europe, which would last for half a century until royal autocracy was restored by Gustav III.（此句原文冗长，大意：此结果标志着瑞典帝国的终结，及其高效组织的绝对君主制与战争机器的终结，开启了欧洲大陆独特的议会制政府，该制度持续了半个世纪，直至古斯塔夫三世恢复君主专制）。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FB_KARL_XII_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>查理是一位异常娴熟的军事领袖和战术家，也是一位能干的政治家，被誉为推行了重要的税收和法律改革。关于他著名的对和平努力的抵触，伏尔泰引用他在战争爆发时的话：“我立志永不发动非正义战争，但也绝不结束一场正义战争，除非击败我的敌人”。战争消耗了他大半生和几乎整个统治期，他终身未娶，亦无子嗣。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FB_KARL_XII_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>卡尔十二世的瑞典专注于以科技进步和伟人加成支持强大的军事力量。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FB_KARL_XII_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>瑞典高度重视科技和伟人的创造以确保军事胜利。保持领先优势将确保您的军队主宰战场。生成的伟人将为您的军队提供支援：科学家助力科技进步，将军与海军上将则支援您的部队。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_KARL_XII_QUOTE" Language="zh_Hans_CN">
+			<Text>“我立志永不发动非正义战争，但也绝不结束一场正义战争，除非击败我的敌人”</Text>
+		</Row>
+		<!--外交-->
+		<!--初次会面-->
+		<!--AI首句-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>您正站在卡罗勒斯·雷克斯面前，我由神权而非世间任何人加冕。众生皆将臣服于我的意志。</Text>
+		</Row>
+		<!--AI邀请访问附近城市-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>我邀请您参观瑞典首都及其力量所在。</Text>
+		</Row>
+		<!--AI接受人类邀请-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>我确喜欢驰骋乡间，乐接受您的邀请。</Text>
+		</Row>
+		<!--AI邀请交换首都信息-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>我们应共享信息，这有助于我们双方的事业。</Text>
+		</Row>
+		<!--问候-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>何事？</Text>
+		</Row>
+		<!--代表团-->
+		<!--AI接受-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>您的代表团将获得安全护送前往首都。</Text>
+		</Row>
+		<!--AI拒绝-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>我无法接受此事。</Text>
+		</Row>
+		<!--AI请求-->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>我已向贵国派遣代表团，携有面包、格罗特麦片、白兰地及烟草补给。真正的统治者与军队同甘共苦。这使您保持谦逊。</Text>
+		</Row>
+		<!--开放边境-->
+		<!--AI接受人类请求-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>感谢您给予此机会。</Text>
+		</Row>
+		<!--AI拒绝人类请求-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>您必视我如愚夫。</Text>
+		</Row>
+		<!--AI向人类请求-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>瑞典需要进入贵国领土。您爽快答应对彼此都更便利。</Text>
+		</Row>
+		<!--宣告友谊-->
+		<!--AI接受人类请求-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>我们暂且并肩而立。</Text>
+		</Row>
+		<!--AI拒绝人类请求-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>您不配与我为友。先证明您自己。</Text>
+		</Row>
+		<!--AI向人类请求友谊-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>您的友谊于我有巨大价值，我的友谊于您亦然。</Text>
+		</Row>
+		<!--人类接受AI请求，AI回应-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>明智的决定。</Text>
+		</Row>
+		<!--人类拒绝AI请求，AI回应-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>既然如此。或许我愚蠢地以为您足够聪明会答应。</Text>
+		</Row>
+		<!--联盟-->
+		<!--AI向人类请求联盟-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>让我们结盟合力。</Text>
+		</Row>
+		<!--称赞与警告-->
+		<!--AI称赞-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>我见您同样热衷军旅生活。</Text>
+		</Row>
+		<!--AI警告-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>您的杀戮缺乏正当理由。</Text>
+		</Row>
+		<!--AI因边境军队警告玩家-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>我的军队已备战任何威胁。休想以武力展示恫吓我。</Text>
+		</Row>
+		<!--交易-->
+		<!--AI接受交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FB_KARL_XII_ANY}</Text>
+		</Row>
+		<!-- AI拒绝交易 -->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FB_KARL_XII_ANY}</Text>
+		</Row>
+		<!--谴责-->
+		<!--来自人类-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>我必令您付出代价。我对主起誓，您定将付出代价！</Text>
+		</Row>
+		<!--来自AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FB_JUST_WAR_SURPRISE_WAR" Language="zh_Hans_CN">
+			<Text>您的杀戮缺乏正当理由。为何无端而战？毫无信念？（谴责您）。</Text>
+		</Row>
+		<!--宣战-->
+		<!--人类宣战-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>战争之声将成为我的乐章。而它将是您的绝唱。</Text>
+		</Row>
+		<!--AI宣战-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>我警告您，我立志永不发动非正义战争，但也绝不结束一场正义战争……除非击败我的敌人。</Text>
+		</Row>
+		<!--议和-->
+		<!--AI接受人类请求-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>当然。</Text>
+		</Row>
+		<!--AI拒绝人类-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>我绝不会在击败敌人前结束这场战争。</Text>
+		</Row>
+		<!--AI向人类请求-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>这场战争持续太久，我们双方皆已受损。</Text>
+		</Row>
+		<!--战败-->
+		<!--AI战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>我蒙神加冕，有祂为守护者，然我已失败。世界本应臣服于我意，众生祈祷本应呼我之名。而今一切皆成过往。</Text>
+		</Row>
+		<!--人类战败（将在热座模式中看到）-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_FB_KARL_XII_ANY" Language="zh_Hans_CN">
+			<Text>众生拥戴我。我的统治时代终于来临，世人将铭记我为卡罗勒斯·雷克斯。</Text>
+		</Row>
+	</LocalizedText>
 </GameData>
