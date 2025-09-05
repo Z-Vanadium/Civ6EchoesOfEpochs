@@ -366,7 +366,7 @@
 			<Text>葬塔</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_MER_FUNERARY_TOWERS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>砌砖解锁建造者修建独特改良设施葬塔[newline][newline]+2 [icon_food]粮食[newline][newline]每处相邻市中心、商业中心 +1 [icon_production]生产力[newline][newline]每与 2 座葬塔相邻提供 +1 [icon_production]生产力[newline][newline]为相邻单元格+2吸引力，必须建造在无泛滥平原的沙漠或沙漠丘陵地块</Text>
+			<Text>解锁建造者修建独特改良设施葬塔[newline][newline]+2 [icon_food] 粮食 +1 [ICON_Culture] 文化值。[newline][newline]为相邻单元格+2吸引力，必须建造在无泛滥平原的沙漠或沙漠丘陵地块</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_MER_PALMYRA_NAME" Language="zh_Hans_CN">
 			<Text>帕尔米拉</Text>

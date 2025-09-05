@@ -133,28 +133,24 @@ DELETE FROM UnitAbilities
 -- uu full strength to +3
 UPDATE ModifierArguments SET Value = '3' WHERE ModifierId = 'MODIFIER_MER_CLIBANARII_FULL_STRENGTH';
 
--- ui base to +2 food
+-- ui base to +2 food +1 culture
 DELETE FROM Improvement_YieldChanges
       WHERE ImprovementType = 'IMPROVEMENT_MER_FUNERARY_TOWERS' AND
             YieldType IN ('YIELD_CULTURE', 'YIELD_FAITH');
+DELETE FROM Improvement_Tourism
+      WHERE ImprovementType = 'IMPROVEMENT_MER_FUNERARY_TOWERS';
 INSERT INTO Improvement_YieldChanges VALUES ('IMPROVEMENT_MER_FUNERARY_TOWERS', 'YIELD_FOOD', 2);
+INSERT INTO Improvement_YieldChanges VALUES ('IMPROVEMENT_MER_FUNERARY_TOWERS', 'YIELD_CULTURE', 1);
 
--- ui adjacency CC commercial +1 prod, ui +0.5 prod
+-- ui no adjacency
 DELETE FROM Improvement_Adjacencies
       WHERE ImprovementType = 'IMPROVEMENT_MER_FUNERARY_TOWERS' AND
             YieldChangeId IN ('FuneraryCulture', 'FuneraryFaith', 'FuneraryHoly', 'FuneraryTheater');
 DELETE FROM Adjacency_YieldChanges
       WHERE ID IN ('FuneraryCulture', 'FuneraryFaith', 'FuneraryHoly', 'FuneraryTheater');
 
-INSERT INTO Improvement_Adjacencies (ImprovementType, YieldChangeId)
-    VALUES ('IMPROVEMENT_MER_FUNERARY_TOWERS', 'FuneraryProd_1'),
-            ('IMPROVEMENT_MER_FUNERARY_TOWERS', 'FuneraryProd_2'),
-            ('IMPROVEMENT_MER_FUNERARY_TOWERS', 'FuneraryProd_3');
-
-INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, TilesRequired, AdjacentImprovement, AdjacentDistrict)
-    VALUES('FuneraryProd_3', 'Placeholder', 'YIELD_PRODUCTION', 1, 2, 'IMPROVEMENT_MER_FUNERARY_TOWERS', null),
-            ('FuneraryProd_1', 'Placeholder', 'YIELD_PRODUCTION', 1, 1, null, 'DISTRICT_CITY_CENTER'),
-            ('FuneraryProd_2', 'Placeholder', 'YIELD_PRODUCTION', 1, 1, null, 'DISTRICT_COMMERCIAL_HUB');
+-- ui early to NULL
+UPDATE Improvements SET PrereqTech = NULL WHERE ImprovementType = 'IMPROVEMENT_MER_FUNERARY_TOWERS';
 
 -- Leader
 DELETE FROM TraitModifiers
