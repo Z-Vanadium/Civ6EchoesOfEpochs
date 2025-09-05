@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+		<Row Tag="LOC_VAN_ENCAMPMENT_BISMARK_CH" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_CULTURE] 文化值，来自相邻商业中心。</Text>
+		</Row>
+		<Row Tag="LOC_VAN_ENCAMPMENT_BISMARK_HANSA" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_PRODUCTION] 生产力，来自相邻商业同业公会。</Text>
+		</Row>
 	</LocalizedText>
 
 </GameData>

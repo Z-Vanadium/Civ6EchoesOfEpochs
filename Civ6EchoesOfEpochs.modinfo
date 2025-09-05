@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Mod id="7b2fd0cc-894e-11f0-848b-743af48c76bf" version="101">
+<Mod id="7b2fd0cc-894e-11f0-848b-743af48c76b0" version="101">
   <Properties>
-    <Name>CCB 适配：扩展包 纪元回响 Echoes Of Epochs 1.01</Name>
+    <Name>CCB 适配：扩展包 纪元回响 Echoes Of Epochs 1.01 beta</Name>
     <Description>强度适配以 CCB 为平衡模组的文明 6 PVP，包含新文明、新领袖</Description>
     <Authors>Vanadium (alphabetical order)</Authors>
     <SpecialThanks>EnigmaConundrum, Gedemo, HoopThrower, Leugi, Lime, Merrick, Vanadium (alphabetical order)</SpecialThanks>

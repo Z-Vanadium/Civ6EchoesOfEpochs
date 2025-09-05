@@ -438,6 +438,185 @@
 		
 
 	
+		<Row Tag="LOC_TRAIT_LEADER_GEDEMO_BISMARK_NAME" Language="zh_Hans_CN">
+			<Text>文化斗争</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_GEDEMO_BISMARK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁科技铸铜术后，立即解锁商业中心。[newline]军营区域从商业中心获得标准 [ICON_Culture] 文化值相邻加成，从商业同业公会获得大量 [Icon_Production] 生产力相邻加成。</Text>
+		</Row>
+
+
+		
+
+
+		<Row Tag="LOC_LEADER_GEDEMO_BISMARK" Language="zh_Hans_CN">
+			<Text>奥托·冯·俾斯麦</Text>
+		</Row>
+		
+		<Row Tag="LOC_LOADING_INFO_LEADER_GEDEMO_BISMARK" Language="zh_Hans_CN">
+			<Text>万岁，强大的俾斯麦，德意志帝国第一任宰相！德国是一个新兴国家，建立在神圣罗马帝国的废墟之上，最终于一个多世纪前的1871年统一。德意志人民已证明自己是富有创造力、勤劳且凶猛的战士。尽管在20世纪上半叶遭受了巨大灾难，德国仍然是全球经济、艺术和技术的领导者。伟大的俾斯麦亲王，德意志人民期待您带领他们走向更辉煌的日子。他们的决心坚定，他们转向您，他们敬爱的铁血宰相，再次指引他们。您将通过铁与血来统治和征服，还是培育日耳曼艺术与工业？您能否建立一个经得起时间考验的文明？
+			</Text>
+		</Row>
+		<!--Civilopedia-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GEDEMO_BISMARK_TITLE" Language="zh_Hans_CN">
+			<Text>奥托·冯·俾斯麦</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GEDEMO_BISMARK_SUBTITLE" Language="zh_Hans_CN">
+			<Text>德意志帝国宰相</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GEDEMO_BISMARK_QUOTE" Language="zh_Hans_CN">
+			<Text>没有武器的外交就像没有乐器的音乐。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GEDEMO_BISMARK_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>奥托·冯·俾斯麦，劳恩堡公爵兼俾斯麦亲王，1815年4月1日出生于舍恩豪森，1898年7月30日在腓特烈斯鲁逝世，是一位普鲁士及后来的德意志政治家。他于1862年至1890年间同时担任普鲁士王国首相，1867年至1871年担任北德意志邦联首相，之后于1871年成为新生的德意志帝国的首任宰相，并任职至1890年，同时保留其普鲁士首相职位。他在德国统一进程中扮演了决定性角色。在其政治生涯初期，俾斯麦通过捍卫容克（普鲁士贵族，他本人也是其中一员）的利益，在保守派席位中崭露头角。他于1862年被任命为普鲁士首相。在普鲁士宪法冲突中，他为维护君主制的首要地位而与自由派斗争。同时兼任外交大臣的他，在1864年至1866年间发动了石勒苏益格-荷尔斯泰因战争和普奥战争，从而确立了普鲁士在德意志的霸权地位。1870年的普法战争通过采纳普鲁士支持的“小德意志方案”解决了德意志问题，并导致了1871年的德意志统一。此后，在外交政策上，他试图通过一套联盟体系在欧洲列强间建立平衡。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GEDEMO_BISMARK_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>在国内政策方面，从1866年开始，俾斯麦首先与温和自由派结盟，这导致了许多改革的通过，例如设立民事婚姻，这遭到了天主教徒的抵抗，他通过推行“文化斗争”政策对他们进行了强烈反对。在1870年代末，他与自由派分道扬镳，重新与保守派合作。在此阶段，通过了保护主义和国家干预主义的法律。还创建了一套社会保障体系。1880年代主要以反社会主义法为标志。1890年，俾斯麦与新皇帝威廉二世意见相左，导致他去职。辞职后，俾斯麦继续扮演政治角色，批评其继任者的行动。他还撰写了回忆录，强烈影响了德国舆论对他的看法。直到20世纪中叶，德国历史学家大多从正面评价他的作为，在民族主义盛行的这一时期，他的作为与德国的统一联系在一起。然而，第二次世界大战后，批评之声渐起：他被指责作为德意志帝国的奠基人，应对德国民主的失败负责。不过，更现代的历史研究方法试图将俾斯麦的行动，连同其优点与缺点，置于其所处时代及当时存在的政治结构背景中来考量。</Text>
+		</Row>
+
+
+
+ 
+		
+		
+		
+		
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>以伟大的德意志人民的名义，我欢迎您！</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>您好，我是奥托·冯·俾斯麦，德国宰相！您想参观我们最近的城市吗？</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>谢谢。</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>我邀请您交换我们各自首都的信息。</Text>
+		</Row>
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>问候！</Text>
+		</Row>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>我很高兴接受您的代表团！</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>不幸的是，不行。</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>我向您派遣一个商务代表团，并带上来自我国的礼物：香肠和啤酒，很多啤酒……</Text>
+		</Row>
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>是的，我同意向您的小士兵们开放我的边界。</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>我们目前不感兴趣。</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>您同意我们穿越您的领土吗？</Text>
+		</Row>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>我同意向世界宣告我们的友谊。</Text>
+		</Row>
+		<!--AI Rejects from human -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>我拒绝向世界宣告我们的友谊。</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>仔细考虑这个提议对您最有利。</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>谢谢你。</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>那太遗憾了。</Text>
+		</Row>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>您想结盟吗？</Text>
+		</Row>
+		<!--KUDOS & WARNINGS-->
+		<!--AI Kudos-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>你很顽强！</Text>
+		</Row>
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>你是个软蛋！</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>一伙令人作呕的士兵在我们边境附近集结……您想在不幸事件发生前把他们撤走吗？</Text>
+		</Row>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_GEDEMO_BISMARK_ANY}</Text>
+		</Row>
+		<!--AI Rejects Deal-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_GEDEMO_BISMARK_ANY}</Text>
+		</Row>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>我公开谴责你！）Ich prangere dich öffentlich an!</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>你们在背后搞阴谋。请放心，我会警告其他人！ (谴责您).</Text>
+		</Row>
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>我不能等到你们变得更强大。因此，准备战争吧！</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>腐败的恶棍！我们会把你们打入地下！</Text>
+		</Row>
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>让我们讲和吧！</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>当然不。</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>我提议休战，您觉得什么时候合适？</Text>
+		</Row>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>德国已被摧毁。我为未来的世代哭泣。</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_GEDEMO_BISMARK_ANY" Language="zh_Hans_CN">
+			<Text>[LOC_DIPLO_DEFEAT_FROM_AI_LEADER_GEDEMO_BISMARK_ANY]</Text>
+		</Row>
 
 		
 
