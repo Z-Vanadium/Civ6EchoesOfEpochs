@@ -18,3 +18,10 @@ INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, Ow
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
 ('MODIFIER_VAN_LEU_ENCAMPMENT_FOREST_APPEAL', 'Amount', '1'), 
 ('MODIFIER_VAN_LEU_ENCAMPMENT_FOREST_APPEAL', 'FeatureType', 'FEATURE_FOREST');
+
+-- Civilization
+-- move combat bonus and loyalty to leader
+DELETE FROM TraitModifiers
+      WHERE ModifierId IN ('TRAIT_TOQUI_COMBAT_BONUS_ABILITY_VS_GOLDEN_AGE_CIV');
+
+INSERT INTO TraitModifiers VALUES ('TRAIT_LEADER_LAUTARO_ABILITY', 'TRAIT_TOQUI_COMBAT_BONUS_ABILITY_VS_GOLDEN_AGE_CIV');
