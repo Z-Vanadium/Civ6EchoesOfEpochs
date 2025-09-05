@@ -308,7 +308,7 @@
 			<Text>沙漠明珠</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_MER_PEARL_OF_THE_DESERT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>商业中心从沙漠、沙漠丘陵地块获得少量相邻加成（分别计算）。建立在沙漠上的城市修建商业中心时 +20% [ICON_Production] 生产力[newline][newline]对外贸易后，市中心每相邻 1 个沙漠、沙漠丘陵地块 +1 [ICON_Production]生产力。[newline][newline][ICON_BULLET]出生地关联：T1 沙漠、T1 沙漠丘陵</Text>
+			<Text>商业中心从沙漠、沙漠丘陵地块获得少量相邻加成（分别计算）。建立在沙漠上的城市修建商业中心时 +20% [ICON_Production] 生产力[newline][newline]对外贸易后，市中心每相邻 1 个沙漠丘陵地块 +1 [ICON_Production]生产力。[newline][newline][ICON_BULLET]出生地关联：T1 沙漠、T1 沙漠丘陵</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_OASIS_GOLD" Language="zh_Hans_CN">
 			<Text>来自相邻{1_Num : plural 1?绿洲单元格; other?绿洲单元格;}的+{2_num} [ICON_Gold] 金币。</Text>
