@@ -316,7 +316,7 @@
 			<Text>特蕾西亚改革</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_MER_THERESIAN_REFORM_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>任命的[ICON_Governor]总督提供+1 [ICON_Favor] 外交支持。</Text>
+			<Text>有[ICON_Governor]总督就职的城市修建区域时 +40% [ICON_PRODUCTION] 生产力</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_MER_CROWNLANDS_NAME" Language="zh_Hans_CN">
 			<Text>皇室领地</Text>
