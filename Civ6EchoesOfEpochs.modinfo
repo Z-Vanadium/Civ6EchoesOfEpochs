@@ -4,7 +4,7 @@
     <Name>CCB 适配：扩展包 纪元回响 Echoes Of Epochs 1.01</Name>
     <Description>强度适配以 CCB 为平衡模组的文明 6 PVP，包含新文明、新领袖</Description>
     <Authors>Vanadium (alphabetical order)</Authors>
-    <SpecialThanks>Gedemo, Merrick, Vanadium (alphabetical order)</SpecialThanks>
+    <SpecialThanks>EnigmaConundrum, Gedemo, HoopThrower, Leugi, Lime, Merrick, Vanadium (alphabetical order)</SpecialThanks>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>
 <Dependencies>
@@ -95,52 +95,83 @@
 <File>Europe/Sweden_XP1/Core/Karl_XII_GameText.xml</File>
 </UpdateText>
 
+<UpdateDatabase id="Config">
+<Properties>
+<LoadOrder>9450</LoadOrder>
+</Properties>
+<File>SouthAmerica/Mapuche_XP1/Database/Config_Orelie.sql</File>
+</UpdateDatabase>
+<UpdateIcons id="Icons">
+<Properties>
+<LoadOrder>9450</LoadOrder>
+</Properties>
+<File>SouthAmerica/Mapuche_XP1/Database/Icons_Orelie.sql</File>
+</UpdateIcons>
+<UpdateColors id="Colors">
+<Properties>
+<LoadOrder>9450</LoadOrder>
+</Properties>
+<File>SouthAmerica/Mapuche_XP1/Database/Colours_Orelie.sql</File>
+</UpdateColors>
+<UpdateText id="Text">
+<Properties>
+<LoadOrder>9450</LoadOrder>
+</Properties>
+<File>SouthAmerica/Mapuche_XP1/Text/LeaderText_Orelie.sql</File>
+</UpdateText>
+<UpdateArt id="Art">
+<Properties>
+<LoadOrder>9450</LoadOrder>
+</Properties>
+<File>SouthAmerica/Mapuche_XP1/LeugisOrelieI.dep</File>
+</UpdateArt>
+
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>49999</LoadOrder>
+<LoadOrder>939999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>49999</LoadOrder>
+<LoadOrder>939999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>49999</LoadOrder>
+<LoadOrder>939999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>49999</LoadOrder>
+<LoadOrder>939999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Config.sql</File>
 </UpdateDatabase>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>39999</LoadOrder>
+<LoadOrder>929999</LoadOrder>
 </Properties>
 <File>Balance/Austria/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>39999</LoadOrder>
+<LoadOrder>929999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>39999</LoadOrder>
+<LoadOrder>929999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>39999</LoadOrder>
+<LoadOrder>929999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Config.sql</File>
 </UpdateDatabase>
@@ -157,27 +188,52 @@
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>19999</LoadOrder>
+<LoadOrder>909999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>19999</LoadOrder>
+<LoadOrder>909999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>19999</LoadOrder>
+<LoadOrder>909999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>19999</LoadOrder>
+<LoadOrder>909999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/Config.sql</File>
+</UpdateDatabase>
+
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>899999</LoadOrder>
+</Properties>
+<File>Balance/Mapuche_XP1/GameData.sql</File>
+</UpdateDatabase>
+<UpdateColors id="NewAction">
+<Properties>
+<LoadOrder>899999</LoadOrder>
+</Properties>
+<File>Balance/Mapuche_XP1/Color.sql</File>
+</UpdateColors>
+<UpdateText id="NewAction">
+<Properties>
+<LoadOrder>899999</LoadOrder>
+</Properties>
+<File>Balance/Mapuche_XP1/Text.xml</File>
+</UpdateText>
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>899999</LoadOrder>
+</Properties>
+<File>Balance/Mapuche_XP1/Config.sql</File>
 </UpdateDatabase>
 </FrontEndActions>
 <InGameActions>
@@ -284,40 +340,74 @@
 <File>Europe/Sweden_XP1/lua/ChrisyKarl.lua</File>
 </AddGameplayScripts>
 
+<UpdateDatabase id="Database">
+<Properties>
+<LoadOrder>9450</LoadOrder>
+</Properties>
+<File>SouthAmerica/Mapuche_XP1/Database/Agendas_Orelie.sql</File>
+<File>SouthAmerica/Mapuche_XP1/Database/Leaders_Orelie.sql</File>
+<File>SouthAmerica/Mapuche_XP1/Database/Traits_Orelie.sql</File>
+</UpdateDatabase>
+<UpdateText id="Text">
+<Properties>
+<LoadOrder>9450</LoadOrder>
+</Properties>
+<File>SouthAmerica/Mapuche_XP1/Text/DiploText_Orelie.sql</File>
+<File>SouthAmerica/Mapuche_XP1/Text/LeaderText_Orelie.sql</File>
+</UpdateText>
+<UpdateColors id="Colours">
+<Properties>
+<LoadOrder>9450</LoadOrder>
+</Properties>
+<File>SouthAmerica/Mapuche_XP1/Database/Colours_Orelie.sql</File>
+</UpdateColors>
+<UpdateIcons id="Icons">
+<Properties>
+<LoadOrder>9450</LoadOrder>
+</Properties>
+<File>SouthAmerica/Mapuche_XP1/Database/Icons_Orelie.sql</File>
+</UpdateIcons>
+<UpdateArt id="Arts">
+<Properties>
+<LoadOrder>9450</LoadOrder>
+</Properties>
+<File>SouthAmerica/Mapuche_XP1/LeugisOrelieI.dep</File>
+</UpdateArt>
+
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>49999</LoadOrder>
+<LoadOrder>939999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>49999</LoadOrder>
+<LoadOrder>939999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>49999</LoadOrder>
+<LoadOrder>939999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Text.xml</File>
 </UpdateText>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>39999</LoadOrder>
+<LoadOrder>929999</LoadOrder>
 </Properties>
 <File>Balance/Austria/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>39999</LoadOrder>
+<LoadOrder>929999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>39999</LoadOrder>
+<LoadOrder>929999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Text.xml</File>
 </UpdateText>
@@ -334,21 +424,40 @@
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>19999</LoadOrder>
+<LoadOrder>909999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>19999</LoadOrder>
+<LoadOrder>909999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>19999</LoadOrder>
+<LoadOrder>909999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/Text.xml</File>
+</UpdateText>
+
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>899999</LoadOrder>
+</Properties>
+<File>Balance/Mapuche_XP1/GameData.sql</File>
+</UpdateDatabase>
+<UpdateColors id="NewAction">
+<Properties>
+<LoadOrder>899999</LoadOrder>
+</Properties>
+<File>Balance/Mapuche_XP1/Color.sql</File>
+</UpdateColors>
+<UpdateText id="NewAction">
+<Properties>
+<LoadOrder>899999</LoadOrder>
+</Properties>
+<File>Balance/Mapuche_XP1/Text.xml</File>
 </UpdateText>
 </InGameActions>
 <Files>
@@ -1027,6 +1136,51 @@
 <File>Europe/Sweden_XP1/Platforms/Windows/BLPs/UI/Icons.blp</File>
 <File>Europe/Sweden_XP1/Platforms/Windows/BLPs/Unit.blp</File>
 
+<File>SouthAmerica/Mapuche_XP1/ArtDefs/LeaderFallback.artdef</File>
+<File>SouthAmerica/Mapuche_XP1/ArtDefs/Leaders.artdef</File>
+<File>SouthAmerica/Mapuche_XP1/Database/Agendas_Orelie.sql</File>
+<File>SouthAmerica/Mapuche_XP1/Database/Colours_Orelie.sql</File>
+<File>SouthAmerica/Mapuche_XP1/Database/Config_Orelie.sql</File>
+<File>SouthAmerica/Mapuche_XP1/Database/Icons_Orelie.sql</File>
+<File>SouthAmerica/Mapuche_XP1/Database/Leaders_Orelie.sql</File>
+<File>SouthAmerica/Mapuche_XP1/Database/Traits_Orelie.sql</File>
+<File>SouthAmerica/Mapuche_XP1/LeugisOrelieI.dep</File>
+<File>SouthAmerica/Mapuche_XP1/Platforms/MacOS/BLPs/LeaderFallback.blp</File>
+<File>SouthAmerica/Mapuche_XP1/Platforms/Windows/BLPs/LeaderFallback.blp</File>
+<File>SouthAmerica/Mapuche_XP1/Platforms/Windows/BLPs/UITexture.blp</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/FALLBACK_NEUTRAL_LEU_ORELIE.dds</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/FALLBACK_NEUTRAL_LEU_ORELIE.tex</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/Icon_LEU_ORELIE_256.dds</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/Icon_LEU_ORELIE_256.tex</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/Icon_LEU_ORELIE_32.dds</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/Icon_LEU_ORELIE_32.tex</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/Icon_LEU_ORELIE_45.dds</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/Icon_LEU_ORELIE_45.tex</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/Icon_LEU_ORELIE_48.dds</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/Icon_LEU_ORELIE_48.tex</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/Icon_LEU_ORELIE_50.dds</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/Icon_LEU_ORELIE_50.tex</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/Icon_LEU_ORELIE_55.dds</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/Icon_LEU_ORELIE_55.tex</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/Icon_LEU_ORELIE_64.dds</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/Icon_LEU_ORELIE_64.tex</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/Icon_LEU_ORELIE_80.dds</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/Icon_LEU_ORELIE_80.tex</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/LEADER_LEU_ORELIE_BACKGROUND.dds</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/LEADER_LEU_ORELIE_BACKGROUND.tex</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/LEADER_LEU_ORELIE_NEUTRAL.dds</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/LEADER_LEU_ORELIE_NEUTRAL.tex</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/LEU_ORELIE_1.dds</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/LEU_ORELIE_1.tex</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/LEU_ORELIE_2.dds</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/LEU_ORELIE_2.tex</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/LEU_ORELIE_3.dds</File>
+<File>SouthAmerica/Mapuche_XP1/Textures/LEU_ORELIE_3.tex</File>
+<File>SouthAmerica/Mapuche_XP1/Text/DiploText_Orelie.sql</File>
+<File>SouthAmerica/Mapuche_XP1/Text/LeaderText_Orelie.sql</File>
+<File>SouthAmerica/Mapuche_XP1/XLPs/LeaderFallback.xlp</File>
+<File>SouthAmerica/Mapuche_XP1/XLPs/UITexture.xlp</File>
+
 <File>Balance/Palmyra/Color.sql</File>
 <File>Balance/Palmyra/Config.sql</File>
 <File>Balance/Palmyra/GameData.sql</File>
@@ -1044,5 +1198,10 @@
 <File>Balance/Sweden_XP1/Config.sql</File>
 <File>Balance/Sweden_XP1/GameData.sql</File>
 <File>Balance/Sweden_XP1/Text.xml</File>
+
+<File>Balance/Mapuche_XP1/Color.sql</File>
+<File>Balance/Mapuche_XP1/Config.sql</File>
+<File>Balance/Mapuche_XP1/GameData.sql</File>
+<File>Balance/Mapuche_XP1/Text.xml</File>
 </Files>
 </Mod>

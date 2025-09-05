@@ -13,6 +13,7 @@ def get_mod_folders():
         'Europe/Austria',
         'Europe/Russia_XP1',
         'Europe/Sweden_XP1',
+        'SouthAmerica/Mapuche_XP1',
 
 
 
@@ -22,6 +23,7 @@ def get_mod_folders():
         'Balance/Austria',
         'Balance/Russia_XP1',
         'Balance/Sweden_XP1',
+        'Balance/Mapuche_XP1',
     ]
 
 def combine_modinfo_files():
@@ -60,7 +62,7 @@ def combine_modinfo_files():
             load_order_tags = Bs_data.find_all("LoadOrder")
             # Append the string in each File tag with the mod folder name
             for b in load_order_tags:
-                b.string = f'{9-mod_cnt}{b.string}'
+                b.string = f'{99-mod_cnt}{b.string}'
                 
             author_tags = Bs_data.find_all("Authors")
             for tag in author_tags:
