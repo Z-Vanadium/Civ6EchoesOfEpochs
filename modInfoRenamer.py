@@ -5,6 +5,7 @@ def get_areas():
         'Africa',
         'Asia',
         'Europe',
+        'Europe_XP1',
         'Mediterranean',
         'Meso',
         'MiddleEast',

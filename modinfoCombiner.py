@@ -14,6 +14,7 @@ def get_mod_folders():
         'Europe/Russia_XP1',
         'Europe/Sweden_XP1',
         'SouthAmerica/Mapuche_XP1',
+        'Europe_XP1/Germany_XP1',
 
 
 
@@ -24,6 +25,7 @@ def get_mod_folders():
         'Balance/Russia_XP1',
         'Balance/Sweden_XP1',
         'Balance/Mapuche_XP1',
+        'Balance/Germany_XP1',
     ]
 
 def combine_modinfo_files():

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Mod id="7b2fd0cc-894e-11f0-848b-743af48c76b0" version="101">
+<Mod id="7b2fd0cc-894e-11f0-848b-743af48c76bf" version="101">
   <Properties>
-    <Name>CCB 适配：扩展包 纪元回响 Echoes Of Epochs 1.01 beta</Name>
+    <Name>CCB 适配：扩展包 纪元回响 Echoes Of Epochs 1.01</Name>
     <Description>强度适配以 CCB 为平衡模组的文明 6 PVP，包含新文明、新领袖</Description>
     <Authors>Vanadium (alphabetical order)</Authors>
     <SpecialThanks>EnigmaConundrum, Gedemo, HoopThrower, Leugi, Lime, Merrick, Vanadium (alphabetical order)</SpecialThanks>
@@ -127,51 +127,67 @@
 </UpdateArt>
 
 <UpdateDatabase id="NewAction">
+<File>Europe_XP1/Germany_XP1/Core/Config.xml</File>
+</UpdateDatabase>
+<UpdateArt id="NewAction">
+<File>Europe_XP1/Germany_XP1/Gedemo Bismarck.dep</File>
+</UpdateArt>
+<UpdateText id="NewAction">
+<File>Europe_XP1/Germany_XP1/Core/Bismark_Text.xml</File>
+</UpdateText>
+<UpdateIcons id="NewAction">
+<File>Europe_XP1/Germany_XP1/Core/Bismark_Icons.xml</File>
+</UpdateIcons>
+<UpdateColors id="NewAction">
+<File>Europe_XP1/Germany_XP1/Core/Colour.sql</File>
+</UpdateColors>
+
+<UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>939999</LoadOrder>
+<LoadOrder>929999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>939999</LoadOrder>
+<LoadOrder>929999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>939999</LoadOrder>
+<LoadOrder>929999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>939999</LoadOrder>
+<LoadOrder>929999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Config.sql</File>
 </UpdateDatabase>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>929999</LoadOrder>
+<LoadOrder>919999</LoadOrder>
 </Properties>
 <File>Balance/Austria/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>929999</LoadOrder>
+<LoadOrder>919999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>929999</LoadOrder>
+<LoadOrder>919999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>929999</LoadOrder>
+<LoadOrder>919999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Config.sql</File>
 </UpdateDatabase>
@@ -188,52 +204,77 @@
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/Config.sql</File>
 </UpdateDatabase>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>899999</LoadOrder>
+<LoadOrder>889999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>899999</LoadOrder>
+<LoadOrder>889999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>899999</LoadOrder>
+<LoadOrder>889999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>899999</LoadOrder>
+<LoadOrder>889999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/Config.sql</File>
+</UpdateDatabase>
+
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>879999</LoadOrder>
+</Properties>
+<File>Balance/Germany_XP1/GameData.sql</File>
+</UpdateDatabase>
+<UpdateColors id="NewAction">
+<Properties>
+<LoadOrder>879999</LoadOrder>
+</Properties>
+<File>Balance/Germany_XP1/Color.sql</File>
+</UpdateColors>
+<UpdateText id="NewAction">
+<Properties>
+<LoadOrder>879999</LoadOrder>
+</Properties>
+<File>Balance/Germany_XP1/Text.xml</File>
+</UpdateText>
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>879999</LoadOrder>
+</Properties>
+<File>Balance/Germany_XP1/Config.sql</File>
 </UpdateDatabase>
 </FrontEndActions>
 <InGameActions>
@@ -376,38 +417,59 @@
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>939999</LoadOrder>
+<LoadOrder>93120</LoadOrder>
+</Properties>
+<File>Europe_XP1/Germany_XP1/Core/Template_GameDefines.sql</File>
+<File>Europe_XP1/Germany_XP1/Core/MJ_ynaempSupportTable.sql</File>
+<File>Europe_XP1/Germany_XP1/Core/Oldworld.sql</File>
+</UpdateDatabase>
+<UpdateIcons id="NewAction">
+<File>Europe_XP1/Germany_XP1/Core/Bismark_Icons.xml</File>
+</UpdateIcons>
+<UpdateText id="NewAction">
+<File>Europe_XP1/Germany_XP1/Core/Bismark_Text.xml</File>
+</UpdateText>
+<UpdateArt id="NewAction">
+<File>Europe_XP1/Germany_XP1/Gedemo Bismarck.dep</File>
+</UpdateArt>
+<UpdateColors id="NewAction">
+<File>Europe_XP1/Germany_XP1/Core/Colour.sql</File>
+</UpdateColors>
+
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>929999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>939999</LoadOrder>
+<LoadOrder>929999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>939999</LoadOrder>
+<LoadOrder>929999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Text.xml</File>
 </UpdateText>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>929999</LoadOrder>
+<LoadOrder>919999</LoadOrder>
 </Properties>
 <File>Balance/Austria/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>929999</LoadOrder>
+<LoadOrder>919999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>929999</LoadOrder>
+<LoadOrder>919999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Text.xml</File>
 </UpdateText>
@@ -424,40 +486,59 @@
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/Text.xml</File>
 </UpdateText>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>899999</LoadOrder>
+<LoadOrder>889999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>899999</LoadOrder>
+<LoadOrder>889999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>899999</LoadOrder>
+<LoadOrder>889999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/Text.xml</File>
+</UpdateText>
+
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>879999</LoadOrder>
+</Properties>
+<File>Balance/Germany_XP1/GameData.sql</File>
+</UpdateDatabase>
+<UpdateColors id="NewAction">
+<Properties>
+<LoadOrder>879999</LoadOrder>
+</Properties>
+<File>Balance/Germany_XP1/Color.sql</File>
+</UpdateColors>
+<UpdateText id="NewAction">
+<Properties>
+<LoadOrder>879999</LoadOrder>
+</Properties>
+<File>Balance/Germany_XP1/Text.xml</File>
 </UpdateText>
 </InGameActions>
 <Files>
@@ -1181,6 +1262,57 @@
 <File>SouthAmerica/Mapuche_XP1/XLPs/LeaderFallback.xlp</File>
 <File>SouthAmerica/Mapuche_XP1/XLPs/UITexture.xlp</File>
 
+<File>Europe_XP1/Germany_XP1/ArtDefs/FallbackLeaders.artdef</File>
+<File>Europe_XP1/Germany_XP1/ArtDefs/Leaders.artdef</File>
+<File>Europe_XP1/Germany_XP1/Core/Bismark_Icons.xml</File>
+<File>Europe_XP1/Germany_XP1/Core/Bismark_Text.xml</File>
+<File>Europe_XP1/Germany_XP1/Core/Colour.sql</File>
+<File>Europe_XP1/Germany_XP1/Core/Config.xml</File>
+<File>Europe_XP1/Germany_XP1/Core/MJ_ynaempSupportTable.sql</File>
+<File>Europe_XP1/Germany_XP1/Core/Oldworld.sql</File>
+<File>Europe_XP1/Germany_XP1/Core/Template_GameDefines.sql</File>
+<File>Europe_XP1/Germany_XP1/Gedemo Bismarck.dep</File>
+<File>Europe_XP1/Germany_XP1/Mod.Art.xml</File>
+<File>Europe_XP1/Germany_XP1/Platforms/MacOS/BLPs/Icons.blp</File>
+<File>Europe_XP1/Germany_XP1/Platforms/MacOS/BLPs/LeaderBackgrounds.blp</File>
+<File>Europe_XP1/Germany_XP1/Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+<File>Europe_XP1/Germany_XP1/Platforms/MacOS/BLPs/LEADER_GEDEMO_BISMARK.blp</File>
+<File>Europe_XP1/Germany_XP1/Platforms/MacOS/BLPs/UILeaders.blp</File>
+<File>Europe_XP1/Germany_XP1/Platforms/Windows/BLPs/Icons.blp</File>
+<File>Europe_XP1/Germany_XP1/Platforms/Windows/BLPs/LeaderBackgrounds.blp</File>
+<File>Europe_XP1/Germany_XP1/Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+<File>Europe_XP1/Germany_XP1/Platforms/Windows/BLPs/LEADER_GEDEMO_BISMARK.blp</File>
+<File>Europe_XP1/Germany_XP1/Platforms/Windows/BLPs/UILeaders.blp</File>
+<File>Europe_XP1/Germany_XP1/Textures/ART_LEADER_BISMARK.dds</File>
+<File>Europe_XP1/Germany_XP1/Textures/ART_LEADER_BISMARK.tex</File>
+<File>Europe_XP1/Germany_XP1/Textures/FALLBACK_NEUTRAL_BISMARK.dds</File>
+<File>Europe_XP1/Germany_XP1/Textures/FALLBACK_NEUTRAL_BISMARK.tex</File>
+<File>Europe_XP1/Germany_XP1/Textures/ICON_BISMARK_256.dds</File>
+<File>Europe_XP1/Germany_XP1/Textures/ICON_BISMARK_256.tex</File>
+<File>Europe_XP1/Germany_XP1/Textures/ICON_BISMARK_32.dds</File>
+<File>Europe_XP1/Germany_XP1/Textures/ICON_BISMARK_32.tex</File>
+<File>Europe_XP1/Germany_XP1/Textures/ICON_BISMARK_45.dds</File>
+<File>Europe_XP1/Germany_XP1/Textures/ICON_BISMARK_45.tex</File>
+<File>Europe_XP1/Germany_XP1/Textures/ICON_BISMARK_48.dds</File>
+<File>Europe_XP1/Germany_XP1/Textures/ICON_BISMARK_48.tex</File>
+<File>Europe_XP1/Germany_XP1/Textures/ICON_BISMARK_50.dds</File>
+<File>Europe_XP1/Germany_XP1/Textures/ICON_BISMARK_50.tex</File>
+<File>Europe_XP1/Germany_XP1/Textures/ICON_BISMARK_55.dds</File>
+<File>Europe_XP1/Germany_XP1/Textures/ICON_BISMARK_55.tex</File>
+<File>Europe_XP1/Germany_XP1/Textures/ICON_BISMARK_64.dds</File>
+<File>Europe_XP1/Germany_XP1/Textures/ICON_BISMARK_64.tex</File>
+<File>Europe_XP1/Germany_XP1/Textures/ICON_BISMARK_80.dds</File>
+<File>Europe_XP1/Germany_XP1/Textures/ICON_BISMARK_80.tex</File>
+<File>Europe_XP1/Germany_XP1/Textures/LEADER_BISMARK_BACKGROUND.dds</File>
+<File>Europe_XP1/Germany_XP1/Textures/LEADER_BISMARK_BACKGROUND.tex</File>
+<File>Europe_XP1/Germany_XP1/Textures/LEADER_BISMARK_NEUTRAL.dds</File>
+<File>Europe_XP1/Germany_XP1/Textures/LEADER_BISMARK_NEUTRAL.tex</File>
+<File>Europe_XP1/Germany_XP1/XLPs/Icons.xlp</File>
+<File>Europe_XP1/Germany_XP1/XLPs/LeaderBackgrounds.xlp</File>
+<File>Europe_XP1/Germany_XP1/XLPs/LeaderFallbacks.xlp</File>
+<File>Europe_XP1/Germany_XP1/XLPs/Leader_BISMARK.xlp</File>
+<File>Europe_XP1/Germany_XP1/XLPs/UILeaders.xlp</File>
+
 <File>Balance/Palmyra/Color.sql</File>
 <File>Balance/Palmyra/Config.sql</File>
 <File>Balance/Palmyra/GameData.sql</File>
@@ -1203,5 +1335,10 @@
 <File>Balance/Mapuche_XP1/Config.sql</File>
 <File>Balance/Mapuche_XP1/GameData.sql</File>
 <File>Balance/Mapuche_XP1/Text.xml</File>
+
+<File>Balance/Germany_XP1/Color.sql</File>
+<File>Balance/Germany_XP1/Config.sql</File>
+<File>Balance/Germany_XP1/GameData.sql</File>
+<File>Balance/Germany_XP1/Text.xml</File>
 </Files>
 </Mod>
