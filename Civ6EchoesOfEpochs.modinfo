@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Mod id="7b2fd0cc-894e-11f0-848b-743af48c76bf" version="110">
+<Mod id="7b2fd0cc-894e-11f0-848b-743af48c76bf" version="120">
   <Properties>
-    <Name>CCB 适配：扩展包 纪元回响 Echoes Of Epochs 1.1.0</Name>
-    <Description>强度适配以 CCB 为平衡模组的文明 6 PVP，包含新文明、新领袖</Description>
+    <Name>CCB 适配：扩展包 纪元回响 Echoes Of Epochs 1.2.0</Name>
+    <Description>【CCB 适配：扩展包 纪元回响 Echoes Of Epochs】是一个强度适配 CCB 的文明 6 PVP 领袖扩展包模组，包含 7 个新领袖、3 个新文明。所有美术素材均来自创意工坊同名优秀模组，在此向原作者表达感谢！
+[NEWLINE][NEWLINE]奥登纳图斯、芝诺比娅领导的帕尔米拉
+[NEWLINE][NEWLINE]玛丽亚·特蕾莎领导的奥地利
+[NEWLINE][NEWLINE]叶卡捷琳娜领导的俄罗斯
+[NEWLINE][NEWLINE]卡尔十二世领导的瑞典
+[NEWLINE][NEWLINE]俾斯麦领导的德国
+[NEWLINE][NEWLINE]奥雷利耶·安托万一世领导的马普切
+[NEWLINE][NEWLINE][NEWLINE][NEWLINE]游玩愉快的同时不要忘记给我和原作者点个订阅！如有 BUG 和平衡建议请立即反馈</Description>
     <Authors>Vanadium (alphabetical order)</Authors>
     <SpecialThanks>EnigmaConundrum, Gedemo, HoopThrower, Leugi, Lime, Merrick, Vanadium (alphabetical order)</SpecialThanks>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
