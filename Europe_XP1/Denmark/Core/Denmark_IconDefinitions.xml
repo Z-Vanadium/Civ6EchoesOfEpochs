@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_MER_DENMARK" 		  IconSize="22" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_DENMARK_ICON_22.dds"/>
+		<Row Name="ICON_ATLAS_MER_DENMARK" 		  IconSize="30" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_DENMARK_ICON_30.dds"/>
+		<Row Name="ICON_ATLAS_MER_DENMARK" 		  IconSize="32" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_DENMARK_ICON_32.dds"/>
+		<Row Name="ICON_ATLAS_MER_DENMARK" 		  IconSize="36" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_DENMARK_ICON_36.dds"/>
+		<Row Name="ICON_ATLAS_MER_DENMARK" 		  IconSize="44" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_DENMARK_ICON_44.dds"/>
+		<Row Name="ICON_ATLAS_MER_DENMARK" 		  IconSize="45" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_DENMARK_ICON_45.dds"/>
+		<Row Name="ICON_ATLAS_MER_DENMARK" 		  IconSize="48" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_DENMARK_ICON_48.dds"/>
+		<Row Name="ICON_ATLAS_MER_DENMARK" 		  IconSize="50" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_DENMARK_ICON_50.dds"/>
+		<Row Name="ICON_ATLAS_MER_DENMARK" 		  IconSize="64" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_DENMARK_ICON_64.dds"/>
+		<Row Name="ICON_ATLAS_MER_DENMARK" 		  IconSize="80" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_DENMARK_ICON_80.dds"/>
+		<Row Name="ICON_ATLAS_MER_DENMARK" 		  IconSize="128" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_DENMARK_ICON_128.dds"/>
+		<Row Name="ICON_ATLAS_MER_DENMARK" 		  IconSize="200" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_DENMARK_ICON_200.dds"/>
+		<Row Name="ICON_ATLAS_MER_DENMARK" 		  IconSize="256" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_DENMARK_ICON_256.dds"/>
+		<Row Name="ICON_ATLAS_MER_CHRISTIAN_IV" 		  IconSize="32" 	IconsPerRow="1" IconsPerColumn="1" Filename="Christian_Icon_32.dds"/>
+		<Row Name="ICON_ATLAS_MER_CHRISTIAN_IV" 		  IconSize="45" 	IconsPerRow="1" IconsPerColumn="1" Filename="Christian_Icon_45.dds"/>
+		<Row Name="ICON_ATLAS_MER_CHRISTIAN_IV" 		  IconSize="48" 	IconsPerRow="1" IconsPerColumn="1" Filename="Christian_Icon_48.dds"/>
+		<Row Name="ICON_ATLAS_MER_CHRISTIAN_IV" 		  IconSize="50" 	IconsPerRow="1" IconsPerColumn="1" Filename="Christian_Icon_50.dds"/>
+		<Row Name="ICON_ATLAS_MER_CHRISTIAN_IV" 		  IconSize="55" 	IconsPerRow="1" IconsPerColumn="1" Filename="Christian_Icon_55.dds"/>
+		<Row Name="ICON_ATLAS_MER_CHRISTIAN_IV" 		  IconSize="64" 	IconsPerRow="1" IconsPerColumn="1" Filename="Christian_Icon_64.dds"/>
+		<Row Name="ICON_ATLAS_MER_CHRISTIAN_IV" 		  IconSize="80" 	IconsPerRow="1" IconsPerColumn="1" Filename="Christian_Icon_80.dds"/>
+		<Row Name="ICON_ATLAS_MER_CHRISTIAN_IV" 		  IconSize="256" 	IconsPerRow="1" IconsPerColumn="1" Filename="Christian_Icon_256.dds"/>
+		<Row Name="ICON_ATLAS_MER_FODFOLK" 	  IconSize="22" 	IconsPerRow="1" IconsPerColumn="1" Filename="Fodfolk_Icon_22.dds"/>
+		<Row Name="ICON_ATLAS_MER_FODFOLK" 	  IconSize="32" 	IconsPerRow="1" IconsPerColumn="1" Filename="Fodfolk_Icon_32.dds"/>
+		<Row Name="ICON_ATLAS_MER_FODFOLK" 	  IconSize="38" 	IconsPerRow="1" IconsPerColumn="1" Filename="Fodfolk_Icon_38.dds"/>
+		<Row Name="ICON_ATLAS_MER_FODFOLK" 	  IconSize="50" 	IconsPerRow="1" IconsPerColumn="1" Filename="Fodfolk_Icon_50.dds"/>
+		<Row Name="ICON_ATLAS_MER_FODFOLK" 	  IconSize="80" 	IconsPerRow="1" IconsPerColumn="1" Filename="Fodfolk_Icon_80.dds"/>
+		<Row Name="ICON_ATLAS_MER_FODFOLK" 	  IconSize="256" 	IconsPerRow="1" IconsPerColumn="1" Filename="Fodfolk_Icon_256.dds"/>
+		<Row Name="ICON_ATLAS_MER_TOJHUS" 	  IconSize="32" 	IconsPerRow="1" IconsPerColumn="1" Filename="Tojhus_Icon_32.dds"/>
+		<Row Name="ICON_ATLAS_MER_TOJHUS" 	  IconSize="38" 	IconsPerRow="1" IconsPerColumn="1" Filename="Tojhus_Icon_38.dds"/>
+		<Row Name="ICON_ATLAS_MER_TOJHUS" 	  IconSize="45" 	IconsPerRow="1" IconsPerColumn="1" Filename="Tojhus_Icon_45.dds"/>
+		<Row Name="ICON_ATLAS_MER_TOJHUS" 	  IconSize="50" 	IconsPerRow="1" IconsPerColumn="1" Filename="Tojhus_Icon_50.dds"/>
+		<Row Name="ICON_ATLAS_MER_TOJHUS" 	  IconSize="80" 	IconsPerRow="1" IconsPerColumn="1" Filename="Tojhus_Icon_80.dds"/>
+		<Row Name="ICON_ATLAS_MER_TOJHUS" 	  IconSize="128" 	IconsPerRow="1" IconsPerColumn="1" Filename="Tojhus_Icon_128.dds"/>
+		<Row Name="ICON_ATLAS_MER_TOJHUS" 	  IconSize="256" 	IconsPerRow="1" IconsPerColumn="1" Filename="Tojhus_Icon_256.dds"/>
+		<Row Name="PORTRAIT_ATLAS_MER_FODFOLK" 	  IconSize="256" 	IconsPerRow="1" IconsPerColumn="1" Filename="Fodfolk_Portrait.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_MER_DENMARK" 		 Atlas="ICON_ATLAS_MER_DENMARK" 		Index="0"/>
+		<Row Name="ICON_UNIT_MER_FODFOLK" 				 Atlas="ICON_ATLAS_MER_FODFOLK" 		Index="0"/>
+		<Row Name="ICON_UNIT_MER_FODFOLK_PORTRAIT" 		 Atlas="PORTRAIT_ATLAS_MER_FODFOLK" 		Index="0"/>
+		<Row Name="ICON_BUILDING_MER_TOJHUS" 		 Atlas="ICON_ATLAS_MER_TOJHUS" 		Index="0"/>
+		<Row Name="ICON_LEADER_MER_CHRISTIAN_IV" 			 Atlas="ICON_ATLAS_MER_CHRISTIAN_IV" 		Index="0"/>
+	</IconDefinitions>
+</GameInfo>

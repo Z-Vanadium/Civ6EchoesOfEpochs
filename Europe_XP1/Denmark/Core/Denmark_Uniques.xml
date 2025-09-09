@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DENMARK_Uniques -->
+<!-- Author: Merrick -->
+<!-- DateCreated: 3/9/2017 10:58:04 PM -->
+<GameData>
+	<Types>
+		<Row Type="UNIT_MER_FODFOLK" Kind="KIND_UNIT"/>
+	</Types>
+	<Units>
+		<Row UnitType="UNIT_MER_FODFOLK"
+			 Cost="300" 
+			 Maintenance="5"
+			 BaseMoves="2" 
+			 BaseSightRange="2" 
+			 ZoneOfControl="true" 
+			 Domain="DOMAIN_LAND" 
+			 Combat="70" 
+			 BuildCharges="2"
+			 StrategicResource="RESOURCE_NITER"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT"
+			 PromotionClass="PROMOTION_CLASS_MELEE" 
+			 AdvisorType="ADVISOR_CONQUEST" 
+			 Name="LOC_UNIT_MER_FODFOLK_NAME" 
+			 Description="LOC_UNIT_MER_FODFOLK_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" 
+			 MandatoryObsoleteTech="TECH_SATELLITES" 
+			 PrereqTech="TECH_MILITARY_SCIENCE"
+			 TraitType="TRAIT_CIVILIZATION_UNIT_MER_FODFOLK"/>
+	</Units>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_MER_FODFOLK" ReplacesUnitType="UNIT_LINE_INFANTRY"/>
+	</UnitReplaces>
+	<UnitUpgrades>
+		<Row Unit="UNIT_MER_FODFOLK" UpgradeUnit="UNIT_INFANTRY"/>
+	</UnitUpgrades>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_MER_FODFOLK" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_MER_FODFOLK" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_MER_FODFOLK" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_MER_FODFOLK" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<TypeTags>
+		<Row Type="UNIT_MER_FODFOLK" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_MER_FODFOLK" Tag="CLASS_MER_FODFOLK"/>
+		<Row Type="ABILITY_MER_FODFOLK" Tag="CLASS_MER_FODFOLK"/>
+	</TypeTags>
+	<Tags>
+		<Row Tag="CLASS_MER_FODFOLK" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<Types>
+		<Row Type="ABILITY_MER_FODFOLK" Kind="KIND_ABILITY"/>
+	</Types>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_MER_FODFOLK" Name="LOC_ABILITY_MER_FODFOLK_NAME" Description="LOC_ABILITY_MER_FODFOLK_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_MER_FODFOLK" ModifierId="GARRISON_BONUS_DISTRICTS" />
+	</UnitAbilityModifiers>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_FORT" UnitType="UNIT_MER_FODFOLK"/>
+	</Improvement_ValidBuildUnits>
+	<Route_ValidBuildUnits>
+		<Row RouteType="ROUTE_ANCIENT_ROAD" UnitType="UNIT_MER_FODFOLK"/>
+		<Row RouteType="ROUTE_MEDIEVAL_ROAD" UnitType="UNIT_MER_FODFOLK"/>
+		<Row RouteType="ROUTE_INDUSTRIAL_ROAD" UnitType="UNIT_MER_FODFOLK"/>
+		<Row RouteType="ROUTE_MODERN_ROAD" UnitType="UNIT_MER_FODFOLK"/>
+	</Route_ValidBuildUnits>
+	
+	<Types>
+		<Row Type="BUILDING_MER_TOJHUS" Kind="KIND_BUILDING"/>
+	</Types>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_MER_TOJHUS" ReplacesBuildingType="BUILDING_SHIPYARD"/>
+	</BuildingReplaces>
+	<Buildings>
+		<Row BuildingType="BUILDING_MER_TOJHUS" 
+			 Name="LOC_BUILDING_MER_TOJHUS_NAME" 
+			 Description="LOC_BUILDING_MER_TOJHUS_DESCRIPTION" 
+			 PrereqTech="TECH_MASS_PRODUCTION" 
+			 PrereqDistrict="DISTRICT_HARBOR" 
+			 PurchaseYield="YIELD_GOLD" 
+			 Cost="290" 
+			 AdvisorType="ADVISOR_GENERIC" 
+			 Maintenance="2" 
+			 CitizenSlots="1"
+			 OuterDefenseHitPoints="50" 
+			 OuterDefenseStrength="2"
+			 RegionalRange="6"
+			 TraitType="TRAIT_CIVILIZATION_BUILDING_MER_TOJHUS"/>
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_MER_TOJHUS" PrereqBuilding="BUILDING_LIGHTHOUSE"/>
+	</BuildingPrereqs>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_MER_TOJHUS" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+	</Building_YieldChanges>
+	<Building_YieldDistrictCopies>
+		<Row BuildingType="BUILDING_MER_TOJHUS" OldYieldType="YIELD_GOLD" NewYieldType="YIELD_PRODUCTION"/>
+	</Building_YieldDistrictCopies>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_MER_TOJHUS" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+	<Building_TourismBombs_XP2>
+		<Row BuildingType="BUILDING_MER_TOJHUS" TourismBombValue="500"/>
+	</Building_TourismBombs_XP2>
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_MILITARY_ENGINEER" PrereqBuilding="BUILDING_MER_TOJHUS"/>
+	</Unit_BuildingPrereqs>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_MER_TOJHUS</BuildingType>
+			<ModifierId>SHIPYARD_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MER_TOJHUS</BuildingType>
+			<ModifierId>SHIPYARD_UNIMPROVED_COAST_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MER_TOJHUS</BuildingType>
+			<ModifierId>TOJHUS_BUILDING_DISCOUNT</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MER_TOJHUS</BuildingType>
+			<ModifierId>TOJHUS_BUILDING_STOCKPILE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MER_TOJHUS</BuildingType>
+			<ModifierId>TOJHUS_BUILDING_CHARGES</ModifierId>
+		</Row>
+	</BuildingModifiers>
+</GameData>

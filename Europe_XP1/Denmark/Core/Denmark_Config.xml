@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_MER_DENMARK</CivilizationType>
+			<LeaderType>LEADER_MER_CHRISTIAN_IV</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_MER_DENMARK_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_MER_DENMARK</CivilizationIcon>
+			<LeaderName>LOC_LEADER_MER_CHRISTIAN_IV_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_MER_CHRISTIAN_IV</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_MER_BALTIC_SEA_DOMINION_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_MER_BALTIC_SEA_DOMINION_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_MER_DENMARK</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_MER_STELLABURGIS_HAFNIENS_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_MER_STELLABURGIS_HAFNIENS_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_MER_CHRISTIAN_IV</LeaderAbilityIcon>
+			<Portrait>LEADER_MER_CHRISTIAN_IV_NEUTRAL.dds</Portrait>
+			<PortraitBackground>LEADER_DEFAULT_BACKGROUND</PortraitBackground>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_MER_DENMARK</CivilizationType>
+			<LeaderType>LEADER_MER_CHRISTIAN_IV</LeaderType>
+			<Type>BUILDING_MER_TOJHUS</Type>
+			<Name>LOC_BUILDING_MER_TOJHUS_NAME</Name>
+			<Description>LOC_BUILDING_MER_TOJHUS_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_MER_TOJHUS</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_MER_DENMARK</CivilizationType>
+			<LeaderType>LEADER_MER_CHRISTIAN_IV</LeaderType>
+			<Type>UNIT_MER_FODFOLK</Type>
+			<Name>LOC_UNIT_MER_FODFOLK_NAME</Name>
+			<Description>LOC_UNIT_MER_FODFOLK_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_MER_FODFOLK</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>
+
+

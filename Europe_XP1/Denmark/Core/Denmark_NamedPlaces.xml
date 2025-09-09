@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Austria_NamedPlaces -->
+<!-- Author: Merrick -->
+<!-- DateCreated: 2/15/2019 11:35:53 PM -->
+<GameData>
+	<NamedRivers>
+		<Row NamedRiverType="NAMED_RIVER_MER_GUDENA"	 Name="LOC_NAMED_RIVER_MER_GUDENA_NAME"/>
+		<Row NamedRiverType="NAMED_RIVER_MER_STORA"	 Name="LOC_NAMED_RIVER_MER_STORA_NAME"/>
+	</NamedRivers>
+	<NamedRiverCivilizations>
+		<Row NamedRiverType="NAMED_RIVER_MER_GUDENA" CivilizationType="CIVILIZATION_MER_DENMARK"/>
+	</NamedRiverCivilizations>
+	<NamedSeaCivilizations>
+		<Row NamedSeaType="NAMED_SEA_NORTH_SEA" CivilizationType="CIVILIZATION_MER_DENMARK"/>
+		<Row NamedSeaType="NAMED_SEA_BALTIC_SEA" CivilizationType="CIVILIZATION_MER_DENMARK"/>
+	</NamedSeaCivilizations>
+</GameData>

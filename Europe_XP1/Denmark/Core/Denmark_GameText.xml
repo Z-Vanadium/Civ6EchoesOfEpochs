@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_MER_CHRISTIAN_IV_NAME" Language="en_US">
+			<Text>Christian IV</Text>
+		</Row>
+		<!--Traits-->
+		<Row Tag="LOC_TRAIT_LEADER_MER_STELLABURGIS_HAFNIENS_NAME" Language="en_US">
+			<Text>Stellaburgis Hafniens</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_MER_STELLABURGIS_HAFNIENS_DESCRIPTION" Language="en_US">
+			<Text>Gain [ICON_Science] Science equal to 10% of the construction cost when finishing Buildings and Wonders. Campus receives an additional (+1) standard adjacency bonus from districts.</Text>
+		</Row>
+		<Row Tag="LOC_STELLABURGIS_ADJACENCY" Language="en_US">
+			<Text>+{1_Amount} [ICON_Science] Science from Stellaburgis Hafniens</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MER_BALTIC_SEA_DOMINION_NAME" Language="en_US">
+			<Text>Baltic Sea Dominion</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MER_BALTIC_SEA_DOMINION_DESCRIPTION" Language="en_US">
+			<Text>For each Commercial Hub, Harbor, and Canal in a city gain [ICON_Gold] +2 Gold and [ICON_Production] +1 Production for each foreign [ICON_TradeRoute] Trade Route that passes through or ends at that city (canals do not stack). +1 [ICON_Gold] Gold and +1 [ICON_Production] Production from Fishing Boats and Offshore Oil Rigs.</Text>
+		</Row>
+		<Row Tag="LOC_MER_BALTIC_SEA_DOMINION_COMMERCIAL_GOLD" Language="en_US">
+			<Text>+2 [ICON_GOLD] Gold from foreign [ICON_TradeRoute] trade routes passing through.</Text>
+		</Row>
+		<Row Tag="LOC_MER_BALTIC_SEA_DOMINION_HARBOR_GOLD" Language="en_US">
+			<Text>+2 [ICON_GOLD] Gold from foreign [ICON_TradeRoute] trade routes passing through.</Text>
+		</Row>
+		<Row Tag="LOC_MER_BALTIC_SEA_DOMINION_CANAL_GOLD" Language="en_US">
+			<Text>+2 [ICON_GOLD] Gold from foreign [ICON_TradeRoute] trade routes passing through.</Text>
+		</Row>
+		<Row Tag="LOC_MER_BALTIC_SEA_DOMINION_COMMERCIAL_PRODUCTION" Language="en_US">
+			<Text>+2 [ICON_PRODUCTION] Production from foreign [ICON_TradeRoute] trade routes passing through.</Text>
+		</Row>
+		<Row Tag="LOC_MER_BALTIC_SEA_DOMINION_HARBOR_PRODUCTION" Language="en_US">
+			<Text>+2 [ICON_PRODUCTION] Production from foreign [ICON_TradeRoute] trade routes passing through.</Text>
+		</Row>
+		<Row Tag="LOC_MER_BALTIC_SEA_DOMINION_CANAL_PRODUCTION" Language="en_US">
+			<Text>+2 [ICON_PRODUCTION] Production from foreign [ICON_TradeRoute] trade routes passing through.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_FODFOLK_NAME" Language="en_US">
+			<Text>Fodfolk</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_FODFOLK_DESCRIPTION" Language="en_US">
+			<Text>A unique land unit</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_FODFOLK_NAME" Language="en_US">
+			<Text>Fodfolk</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_FODFOLK_DESCRIPTION" Language="en_US">
+			<Text>Danish Melee unit replacing the Line Infantry. Can construct Fort or Road (2 charges).[NEWLINE]+10 [ICON_Strength] Combat Strength when occupying a district or fort.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MER_FODFOLK_NAME" Language="en_US">
+			<Text>Foot Guard</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MER_FODFOLK_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength on Districts and Forts.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_MER_TOJHUS_NAME" Language="en_US">
+			<Text>Tøjhus</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_MER_TOJHUS_DESCRIPTION" Language="en_US">
+			<Text>A unique building</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MER_TOJHUS_NAME" Language="en_US">
+			<Text>Tøjhus</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MER_TOJHUS_DESCRIPTION" Language="en_US">
+			<Text>Danish unique shipyard. +25% combat experience for all naval units trained in this city.[NEWLINE] +2 [ICON_Production] Production towards all cities within 6 tiles of the Tøjhus's harbor.[NEWLINE]Bonus [ICON_Production] Production equal to the adjacency bonus of this district [NEWLINE] +50 Outer Defense Strength. +2 [ICON_Strength] Combat Strength.[NEWLINE] The strategic resource cost of units in this city is discounted by 10%.[NEWLINE] Strategic resource stockpile is increased by 10.</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_DENMARK_NAME" Language="en_US">
+			<Text>Denmark</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_DENMARK_DESCRIPTION" Language="en_US">
+			<Text>Danish Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_DENMARK_DESCRIPTION_JFD_CIVILIZATION" Language="en_US">
+			<Text>Danish Civilization</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_DENMARK_ADJECTIVE"	  Language="en_US">
+			<Text>Danish</Text>
+		</Row>
+		<!--Citizens-->
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MALE_1" Language="en_US">
+			<Text>Arne</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MALE_2" Language="en_US">
+			<Text>Birger</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MALE_3" Language="en_US">
+			<Text>Bjørn</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MALE_4" Language="en_US">
+			<Text>Bo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MALE_5" Language="en_US">
+			<Text>Erik</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MALE_6" Language="en_US">
+			<Text>Frode</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MALE_7" Language="en_US">
+			<Text>Gorm</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MALE_8" Language="en_US">
+			<Text>Halfdan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MALE_9" Language="en_US">
+			<Text>Harald</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MALE_10" Language="en_US">
+			<Text>Knud</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_FEMALE_1" Language="en_US">
+			<Text>Astrid</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_FEMALE_2" Language="en_US">
+			<Text>Bodil</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_FEMALE_3" Language="en_US">
+			<Text>Frida</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_FEMALE_4" Language="en_US">
+			<Text>Gertrud</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_FEMALE_5" Language="en_US">
+			<Text>Gro</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_FEMALE_6" Language="en_US">
+			<Text>Estrid</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_FEMALE_7" Language="en_US">
+			<Text>Hilda</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_FEMALE_8" Language="en_US">
+			<Text>Gudrun</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_FEMALE_9" Language="en_US">
+			<Text>Gunhild</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_FEMALE_10" Language="en_US">
+			<Text>Helga</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_MALE_1" Language="en_US">
+			<Text>William</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_MALE_2" Language="en_US">
+			<Text>Johan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_MALE_3" Language="en_US">
+			<Text>Magnus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_MALE_4" Language="en_US">
+			<Text>Emil</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_MALE_5" Language="en_US">
+			<Text>Oliver</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_MALE_6" Language="en_US">
+			<Text>Oscar</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_MALE_7" Language="en_US">
+			<Text>Victor</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_MALE_8" Language="en_US">
+			<Text>Alfred</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_MALE_9" Language="en_US">
+			<Text>Carl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_MALE_10" Language="en_US">
+			<Text>Frederik</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_FEMALE_1" Language="en_US">
+			<Text>Sofia</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_FEMALE_2" Language="en_US">
+			<Text>Freja</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_FEMALE_3" Language="en_US">
+			<Text>Ella</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_FEMALE_4" Language="en_US">
+			<Text>Alma</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_FEMALE_5" Language="en_US">
+			<Text>Anna</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_FEMALE_6" Language="en_US">
+			<Text>Emma</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_FEMALE_7" Language="en_US">
+			<Text>Laura</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_FEMALE_8" Language="en_US">
+			<Text>Clara</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_FEMALE_9" Language="en_US">
+			<Text>Ida</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_FEMALE_10" Language="en_US">
+			<Text>Isabelle</Text>
+		</Row>
+		<Row Tag="NAMED_RIVER_MER_GUDENA" Language="en_US">
+			<Text>Gudenå</Text>
+		</Row>
+		<Row Tag="NAMED_RIVER_MER_STORA" Language="en_US">
+			<Text>Storå</Text>
+		</Row>
+			<!--Pedia-->
+			<Row Tag="LOC_CIVINFO_MER_DENMARK_LOCATION" Language="en_US">
+				<Text>Denmark</Text>
+			</Row>
+			<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_DENMARK_CHAPTER_HISTORY_PARA_1" Language="en_US">
+				<Text>The Danish Realm, officially the Kingdom of Denmark, is a sovereign state located in Northern Europe and Northern North America. It consists of metropolitan Denmark—the kingdom's territory in continental Europe and sometimes called "Denmark proper" (Danish: egentlige Danmark)—and the realm's two autonomous regions: the Faroe Islands and Greenland. The relationship between the three parts of the Kingdom is also known as The unity of the Realm.</Text>
+			</Row>
+			<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_DENMARK_CHAPTER_HISTORY_PARA_2" Language="en_US">
+				<Text>The history of Denmark as a unified kingdom began in the 8th century, but historic documents describe the geographic area and the people living there—the Danes—as early as 500 AD. These early documents include the writings of Jordanes and Procopius. With the Christianization of the Danes c. 960 AD, it is clear that there existed a kingship. Queen Margrethe II can trace her lineage back to the Viking kings Gorm the Old and Harald Bluetooth from this time, thus making the Monarchy of Denmark the oldest in Europe. The area now known as Denmark has a rich prehistory, having been populated by several prehistoric cultures and people for about 12,000 years, since the end of the last ice age.</Text>
+			</Row>
+			<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_DENMARK_CHAPTER_HISTORY_PARA_3" Language="en_US">
+				<Text>Denmark's history has particularly been influenced by its geographical location between the North and Baltic seas, a strategically and economically important placement between Sweden and Germany, at the center of mutual struggles for control of the Baltic Sea (dominium maris baltici). Denmark was long in disputes with Sweden over control of Skånelandene and with Germany over control of Schleswig (a Danish fief) and Holstein (a German fief). </Text>
+			</Row>
+			<!--DOM-->
+			<Row Tag="LOC_LOADING_INFO_LEADER_MER_CHRISTIAN_IV" Language="en_US">
+				<Text>May the stars guide you, Christian IV, King of Denmark and Norway, Duke of Holstein and Schleswig. Your demeanor was that of a merry man, revelling in the arts, drink, and science. But one should not judge a book by it's cover, your reign brought your kingdom to a level of stability and wealth that was unmatched in europe. Leading Denmark into notable wars, you would display bravery to your troops with inspiring speeches on the frontline. Just as you once built the foundations for many of Denmark's cities, once again you are called to rule.</Text>
+			</Row>
+	</LocalizedText>
+
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_MER_CHRISTIAN_IV_NAME" Language="zh_Hans_CN">
+			<Text>克里斯蒂安四世</Text>
+		</Row>
+		<!--特质-->
+		<Row Tag="LOC_TRAIT_LEADER_MER_STELLABURGIS_HAFNIENS_NAME" Language="zh_Hans_CN">
+			<Text>星堡海港</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_MER_STELLABURGIS_HAFNIENS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建成建筑和奇观时获得等同于其建造费用 10% 的[ICON_Science] 科技值。学院区域从相邻区域获得额外标准相邻加成。</Text>
+		</Row>
+		<Row Tag="LOC_STELLABURGIS_ADJACENCY" Language="zh_Hans_CN">
+			<Text>+{1_Amount} [ICON_Science] 科技值，来自星堡海港</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MER_BALTIC_SEA_DOMINION_NAME" Language="zh_Hans_CN">
+			<Text>波罗的海霸主</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MER_BALTIC_SEA_DOMINION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市中每拥有一个商业中心或港口，便为每个途经或终止于该城的外国 [ICON_TradeRoute] 贸易路线提供  +2 [ICON_Gold] 金币和 +1 [ICON_Production] 生产力。探索市政后，已改良的海洋资源产出 +1 [ICON_Gold] 金币和 +1 [ICON_Production] 生产力。</Text>
+		</Row>
+		<Row Tag="LOC_MER_BALTIC_SEA_DOMINION_COMMERCIAL_GOLD" Language="zh_Hans_CN">
+			<Text>来自途经的外国 [ICON_TradeRoute] 贸易路线的+2 [ICON_GOLD] 金币</Text>
+		</Row>
+		<Row Tag="LOC_MER_BALTIC_SEA_DOMINION_HARBOR_GOLD" Language="zh_Hans_CN">
+			<Text>来自途经的外国 [ICON_TradeRoute] 贸易路线的+2 [ICON_GOLD] 金币</Text>
+		</Row>
+		<Row Tag="LOC_MER_BALTIC_SEA_DOMINION_CANAL_GOLD" Language="zh_Hans_CN">
+			<Text>来自途经的外国 [ICON_TradeRoute] 贸易路线的+2 [ICON_GOLD] 金币</Text>
+		</Row>
+		<Row Tag="LOC_MER_BALTIC_SEA_DOMINION_COMMERCIAL_PRODUCTION" Language="zh_Hans_CN">
+			<Text>来自途经的外国 [ICON_TradeRoute] 贸易路线的+2 [ICON_PRODUCTION] 生产力</Text>
+		</Row>
+		<Row Tag="LOC_MER_BALTIC_SEA_DOMINION_HARBOR_PRODUCTION" Language="zh_Hans_CN">
+			<Text>来自途经的外国 [ICON_TradeRoute] 贸易路线的+2 [ICON_PRODUCTION] 生产力</Text>
+		</Row>
+		<Row Tag="LOC_MER_BALTIC_SEA_DOMINION_CANAL_PRODUCTION" Language="zh_Hans_CN">
+			<Text>来自途经的外国 [ICON_TradeRoute] 贸易路线的+2 [ICON_PRODUCTION] 生产力</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_FODFOLK_NAME" Language="zh_Hans_CN">
+			<Text>国民步兵</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_FODFOLK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>独特的陆地单位</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_FODFOLK_NAME" Language="zh_Hans_CN">
+			<Text>国民步兵</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_FODFOLK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>丹麦特色工业时代近战单位，替代线列步兵的近战单位。解锁于科学理论，拥有 2 次劳动力，可建造堡垒。[NEWLINE]占据区域或堡垒时+3 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MER_FODFOLK_NAME" Language="zh_Hans_CN">
+			<Text>近卫军</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MER_FODFOLK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在区域和堡垒上 +3 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_MER_TOJHUS_NAME" Language="zh_Hans_CN">
+			<Text>军械库船坞</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_MER_TOJHUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>独特建筑</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MER_TOJHUS_NAME" Language="zh_Hans_CN">
+			<Text>军械库船坞</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MER_TOJHUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>丹麦特色建筑。此城中生产的所有海军单位+25%战斗经验值。[ICON_Production] 生产力加成等于港口区域的相邻加成。此城所有未改良的海岸和湖泊单元格提供的 [ICON_Production] 生产力+1。为城市中渔场+1 [ICON_Production] 生产力。若已解锁 [ICON_RESOURCE_COAL] 煤，每回合+1 [ICON_RESOURCE_COAL] 煤。[NEWLINE][NEWLINE]若该城市拥有商业中心，则 +1 [ICON_TradeRoute] 贸易路线容量。</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_DENMARK_NAME" Language="zh_Hans_CN">
+			<Text>丹麦</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_DENMARK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>丹麦帝国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_DENMARK_DESCRIPTION_JFD_CIVILIZATION" Language="zh_Hans_CN">
+			<Text>丹麦文明</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_DENMARK_ADJECTIVE"	  Language="zh_Hans_CN">
+			<Text>丹麦</Text>
+		</Row>
+		<!--公民-->
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MALE_1" Language="zh_Hans_CN">
+			<Text>阿恩</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MALE_2" Language="zh_Hans_CN">
+			<Text>比尔格</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MALE_3" Language="zh_Hans_CN">
+			<Text>比约恩</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MALE_4" Language="zh_Hans_CN">
+			<Text>波</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MALE_5" Language="zh_Hans_CN">
+			<Text>埃里克</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MALE_6" Language="zh_Hans_CN">
+			<Text>弗罗泽</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MALE_7" Language="zh_Hans_CN">
+			<Text>戈姆</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MALE_8" Language="zh_Hans_CN">
+			<Text>哈夫丹</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MALE_9" Language="zh_Hans_CN">
+			<Text>哈拉尔德</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MALE_10" Language="zh_Hans_CN">
+			<Text>克努德</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_FEMALE_1" Language="zh_Hans_CN">
+			<Text>阿斯特丽德</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_FEMALE_2" Language="zh_Hans_CN">
+			<Text>博迪尔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_FEMALE_3" Language="zh_Hans_CN">
+			<Text>弗丽达</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_FEMALE_4" Language="zh_Hans_CN">
+			<Text>格特鲁德</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_FEMALE_5" Language="zh_Hans_CN">
+			<Text>格罗</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_FEMALE_6" Language="zh_Hans_CN">
+			<Text>埃斯特丽德</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_FEMALE_7" Language="zh_Hans_CN">
+			<Text>希尔达</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_FEMALE_8" Language="zh_Hans_CN">
+			<Text>古德伦</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_FEMALE_9" Language="zh_Hans_CN">
+			<Text>古恩希尔德</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_FEMALE_10" Language="zh_Hans_CN">
+			<Text>赫尔加</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_MALE_1" Language="zh_Hans_CN">
+			<Text>威廉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_MALE_2" Language="zh_Hans_CN">
+			<Text>约翰</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_MALE_3" Language="zh_Hans_CN">
+			<Text>马格努斯</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_MALE_4" Language="zh_Hans_CN">
+			<Text>埃米尔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_MALE_5" Language="zh_Hans_CN">
+			<Text>奥利弗</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_MALE_6" Language="zh_Hans_CN">
+			<Text>奥斯卡</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_MALE_7" Language="zh_Hans_CN">
+			<Text>维克多</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_MALE_8" Language="zh_Hans_CN">
+			<Text>阿尔弗雷德</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_MALE_9" Language="zh_Hans_CN">
+			<Text>卡尔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_MALE_10" Language="zh_Hans_CN">
+			<Text>弗雷德里克</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_FEMALE_1" Language="zh_Hans_CN">
+			<Text>索菲亚</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_FEMALE_2" Language="zh_Hans_CN">
+			<Text>弗雷娅</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_FEMALE_3" Language="zh_Hans_CN">
+			<Text>埃拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_FEMALE_4" Language="zh_Hans_CN">
+			<Text>阿尔玛</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_FEMALE_5" Language="zh_Hans_CN">
+			<Text>安娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_FEMALE_6" Language="zh_Hans_CN">
+			<Text>埃玛</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_FEMALE_7" Language="zh_Hans_CN">
+			<Text>劳拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_FEMALE_8" Language="zh_Hans_CN">
+			<Text>克拉拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_FEMALE_9" Language="zh_Hans_CN">
+			<Text>伊达</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_DENMARK_MODERN_FEMALE_10" Language="zh_Hans_CN">
+			<Text>伊莎贝尔</Text>
+		</Row>
+		<Row Tag="NAMED_RIVER_MER_GUDENA" Language="zh_Hans_CN">
+			<Text>古德奥河</Text>
+		</Row>
+		<Row Tag="NAMED_RIVER_MER_STORA" Language="zh_Hans_CN">
+			<Text>斯托奥河</Text>
+		</Row>
+			<!--百科-->
+			<Row Tag="LOC_CIVINFO_MER_DENMARK_LOCATION" Language="zh_Hans_CN">
+				<Text>丹麦</Text>
+			</Row>
+			<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_DENMARK_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+				<Text>丹麦王国，通称丹麦，是位于北欧和北美北部的主权国家。它由丹麦本土——王国位于欧洲大陆的领土，有时被称为“丹麦本土”（丹麦语：egentlige Danmark）——以及王国的两个自治地区：法罗群岛和格陵兰组成。王国三个部分之间的关系也被称为“王国联合体”。</Text>
+			</Row>
+			<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_DENMARK_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+				<Text>丹麦作为一个统一王国的历史始于8世纪，但历史文献早在公元500年就描述了该地理区域和居住在那里的人民——丹人。这些早期文献包括约达尼斯和普罗科皮乌斯的著作。随着丹人在约公元960年基督教化，显然已存在一个王权。女王玛格丽特二世可以将其血统追溯至此时的维京国王老戈姆和蓝牙哈拉尔德，因此使丹麦君主制成为欧洲最古老的君主制。现在被称为丹麦的地区有着丰富的史前历史，自上一个冰河时代结束以来，大约有12,000年曾被 several 史前文化和人民居住。</Text>
+			</Row>
+			<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_DENMARK_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+				<Text>丹麦的历史尤其受其位于北海和波罗的海之间的地理位置影响，处于瑞典和德国之间争夺波罗的海控制权（dominium maris baltici）的战略和经济要地。丹麦长期与瑞典就斯科讷地区的控制权存在争议，与德国就石勒苏益格（丹麦封地）和荷尔斯泰因（德国封地）的控制权存在争议。</Text>
+			</Row>
+			<!--DOM-->
+			<Row Tag="LOC_LOADING_INFO_LEADER_MER_CHRISTIAN_IV" Language="zh_Hans_CN">
+				<Text>愿星辰指引您，克里斯蒂安四世，丹麦和挪威国王，荷尔斯泰因和石勒苏益格公爵。您的外表是一位欢愉之人，沉醉于艺术、美酒与科学。但人不可貌相，您的统治为王国带来了欧洲无与伦比的稳定与财富。领导丹麦参与多场著名战争，您会在前线用激励人心的演讲向军队展现勇气。正如您曾为丹麦许多城市奠定基础，如今您再次被召唤来统治这个国家。</Text>
+			</Row>
+	</LocalizedText>
+</GameData>
