@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Mod id="7b2fd0cc-894e-11f0-848b-743af48c76bf" version="130">
+<Mod id="7b2fd0cc-894e-11f0-848b-743af48c76b0" version="130">
   <Properties>
-    <Name>CCB 适配：扩展包 纪元回响 Echoes Of Epochs 1.3.0</Name>
-    <Description>【CCB 适配：扩展包 纪元回响 Echoes Of Epochs】是一个强度适配 CCB 的文明 6 PVP 领袖扩展包模组，包含 8 个新领袖、4 个新文明。所有美术素材均来自创意工坊同名优秀模组，在此向原作者表达感谢！
+    <Name>CCB 适配：扩展包 纪元回响 Echoes Of Epochs 1.4.0 WIP</Name>
+    <Description>【CCB 适配：扩展包 纪元回响 Echoes Of Epochs】是一个强度适配 CCB 的文明 6 PVP 领袖扩展包模组，包含 8 个新领袖、5 个新文明。所有美术素材均来自创意工坊同名优秀模组，在此向原作者表达感谢！
 [NEWLINE][NEWLINE]奥登纳图斯、芝诺比娅领导的帕尔米拉
 [NEWLINE][NEWLINE]玛丽亚·特蕾莎领导的奥地利
 [NEWLINE][NEWLINE]叶卡捷琳娜领导的俄罗斯
@@ -10,9 +10,10 @@
 [NEWLINE][NEWLINE]俾斯麦领导的德国
 [NEWLINE][NEWLINE]奥雷利耶·安托万一世领导的马普切
 [NEWLINE][NEWLINE]克里斯蒂安四世领导的丹麦
+[NEWLINE][NEWLINE]路德维希二世领导的巴伐利亚
 [NEWLINE][NEWLINE][NEWLINE][NEWLINE]游玩愉快的同时不要忘记给我和原作者点个订阅！如有 BUG 和平衡建议请立即反馈</Description>
     <Authors>Vanadium (alphabetical order)</Authors>
-    <SpecialThanks>EnigmaConundrum, Gedemo, HoopThrower, Leugi, Lime, Merrick, Vanadium (alphabetical order)</SpecialThanks>
+    <SpecialThanks>(3D, (Texture, EnigmaConundrum, Extractor), Gedemo, HoopThrower, JNR, Leugi, Lime, Merrick, Mikecro, Models), Sukritact, Vanadium (alphabetical order)</SpecialThanks>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>
 <Dependencies>
@@ -166,52 +167,90 @@
 <File>Europe_XP1/Denmark/Merrick's Denmark.dep</File>
 </UpdateArt>
 
+<UpdateDatabase id="Config">
+<Properties>
+<LoadOrder>9113</LoadOrder>
+</Properties>
+<File>Europe_XP1/Bavaria/Config/RECIV_Bavaria_Config.sql</File>
+</UpdateDatabase>
+<UpdateText id="Config_Text">
+<Properties>
+<LoadOrder>9113</LoadOrder>
+</Properties>
+<File>Europe_XP1/Bavaria/Text/RECIV_Bavaria_Text.sql</File>
+<File>Europe_XP1/Bavaria/Text/RECIV_Bavaria_Text_STUU.sql</File>
+</UpdateText>
+<UpdateIcons id="Config_Icons">
+<Properties>
+<LoadOrder>9113</LoadOrder>
+</Properties>
+<File>Europe_XP1/Bavaria/Icons/RECIV_Bavaria_Icons.sql</File>
+</UpdateIcons>
+<UpdateArt id="Config_Art">
+<Properties>
+<LoadOrder>9113</LoadOrder>
+</Properties>
+<File>Europe_XP1/Bavaria/Germany_Bavaria.dep</File>
+</UpdateArt>
+<UpdateColors id="Config_Colors">
+<Properties>
+<LoadOrder>9113</LoadOrder>
+</Properties>
+<File>Europe_XP1/Bavaria/Config/RECIV_Bavaria_Colors.sql</File>
+</UpdateColors>
+<UpdateColors id="Colors_Prismatic">
+<Properties>
+<LoadOrder>911300</LoadOrder>
+</Properties>
+<File>Europe_XP1/Bavaria/Config/RECIV_Bavaria_Colors_Prismatic.sql</File>
+</UpdateColors>
+
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>919999</LoadOrder>
+<LoadOrder>909999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>919999</LoadOrder>
+<LoadOrder>909999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>919999</LoadOrder>
+<LoadOrder>909999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>919999</LoadOrder>
+<LoadOrder>909999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Config.sql</File>
 </UpdateDatabase>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Austria/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Config.sql</File>
 </UpdateDatabase>
@@ -228,102 +267,127 @@
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>889999</LoadOrder>
+<LoadOrder>879999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>889999</LoadOrder>
+<LoadOrder>879999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>889999</LoadOrder>
+<LoadOrder>879999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>889999</LoadOrder>
+<LoadOrder>879999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/Config.sql</File>
 </UpdateDatabase>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>879999</LoadOrder>
+<LoadOrder>869999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>879999</LoadOrder>
+<LoadOrder>869999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>879999</LoadOrder>
+<LoadOrder>869999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>879999</LoadOrder>
+<LoadOrder>869999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/Config.sql</File>
 </UpdateDatabase>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>869999</LoadOrder>
+<LoadOrder>859999</LoadOrder>
 </Properties>
 <File>Balance/Germany_XP1/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>869999</LoadOrder>
+<LoadOrder>859999</LoadOrder>
 </Properties>
 <File>Balance/Germany_XP1/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>869999</LoadOrder>
+<LoadOrder>859999</LoadOrder>
 </Properties>
 <File>Balance/Germany_XP1/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>869999</LoadOrder>
+<LoadOrder>859999</LoadOrder>
 </Properties>
 <File>Balance/Germany_XP1/Config.sql</File>
 </UpdateDatabase>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>859999</LoadOrder>
+<LoadOrder>849999</LoadOrder>
 </Properties>
 <File>Balance/Denmark/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>859999</LoadOrder>
+<LoadOrder>849999</LoadOrder>
 </Properties>
 <File>Balance/Denmark/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>859999</LoadOrder>
+<LoadOrder>849999</LoadOrder>
 </Properties>
 <File>Balance/Denmark/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>859999</LoadOrder>
+<LoadOrder>849999</LoadOrder>
 </Properties>
 <File>Balance/Denmark/Config.sql</File>
+</UpdateDatabase>
+
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>839999</LoadOrder>
+</Properties>
+<File>Balance/Bavaria/GameData.sql</File>
+</UpdateDatabase>
+<UpdateColors id="NewAction">
+<Properties>
+<LoadOrder>839999</LoadOrder>
+</Properties>
+<File>Balance/Bavaria/Color.sql</File>
+</UpdateColors>
+<UpdateText id="NewAction">
+<Properties>
+<LoadOrder>839999</LoadOrder>
+</Properties>
+<File>Balance/Bavaria/Text.xml</File>
+</UpdateText>
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>839999</LoadOrder>
+</Properties>
+<File>Balance/Bavaria/Config.sql</File>
 </UpdateDatabase>
 </FrontEndActions>
 <InGameActions>
@@ -507,40 +571,113 @@
 <File>Europe_XP1/Denmark/Core/CityNames.sql</File>
 </UpdateText>
 
+<UpdateDatabase id="Gameplay">
+<Properties>
+<LoadOrder>9113</LoadOrder>
+</Properties>
+<File>Europe_XP1/Bavaria/Gameplay/RECIV_Bavaria_Civilizations.sql</File>
+<File>Europe_XP1/Bavaria/Gameplay/RECIV_Bavaria_Leaders.sql</File>
+<File>Europe_XP1/Bavaria/Gameplay/RECIV_Bavaria_Names.sql</File>
+<File>Europe_XP1/Bavaria/Gameplay/RECIV_Bavaria_Districts.sql</File>
+<File>Europe_XP1/Bavaria/Gameplay/RECIV_Bavaria_Units.sql</File>
+<File>Europe_XP1/Bavaria/Gameplay/RECIV_Bavaria_UnitAbilities.sql</File>
+</UpdateDatabase>
+<UpdateDatabase criteria="MOD_STUU" id="STUU">
+<Properties>
+<LoadOrder>9113</LoadOrder>
+</Properties>
+<File>Europe_XP1/Bavaria/Gameplay/RECIV_Bavaria_Units_STUU.sql</File>
+</UpdateDatabase>
+<UpdateDatabase criteria="Expansion1" id="Gameplay_XP1">
+<Properties>
+<LoadOrder>9114</LoadOrder>
+</Properties>
+<File>Europe_XP1/Bavaria/Gameplay/RECIV_Bavaria_XP1.sql</File>
+</UpdateDatabase>
+<UpdateDatabase criteria="Expansion2" id="Gameplay_XP2">
+<Properties>
+<LoadOrder>9114</LoadOrder>
+</Properties>
+<File>Europe_XP1/Bavaria/Gameplay/RECIV_Bavaria_XP2.sql</File>
+</UpdateDatabase>
+<UpdateDatabase criteria="MOD_Rosetta" id="Rosetta">
+<Properties>
+<LoadOrder>9110013</LoadOrder>
+</Properties>
+<File>Europe_XP1/Bavaria/Gameplay/RECIV_Bavaria_Rosetta.sql</File>
+</UpdateDatabase>
+<UpdateText id="Text">
+<Properties>
+<LoadOrder>9113</LoadOrder>
+</Properties>
+<File>Europe_XP1/Bavaria/Text/RECIV_Bavaria_Text.sql</File>
+<File>Europe_XP1/Bavaria/Text/RECIV_Bavaria_Text_Names.sql</File>
+<File>Europe_XP1/Bavaria/Text/RECIV_Bavaria_Text_Diplo.sql</File>
+<File>Europe_XP1/Bavaria/Text/RECIV_Bavaria_Text_Pedia.sql</File>
+<File>Europe_XP1/Bavaria/Text/RECIV_Bavaria_Text_STUU.sql</File>
+</UpdateText>
+<UpdateText criteria="MOD_Nomina" id="Text_Nomina">
+<Properties>
+<LoadOrder>911013</LoadOrder>
+</Properties>
+<File>Europe_XP1/Bavaria/Text/RECIV_Bavaria_Text_Nomina.sql</File>
+</UpdateText>
+<UpdateIcons id="Icons">
+<Properties>
+<LoadOrder>9113</LoadOrder>
+</Properties>
+<File>Europe_XP1/Bavaria/Icons/RECIV_Bavaria_Icons.sql</File>
+</UpdateIcons>
+<UpdateArt id="Art">
+<Properties>
+<LoadOrder>9113</LoadOrder>
+</Properties>
+<File>Europe_XP1/Bavaria/Germany_Bavaria.dep</File>
+</UpdateArt>
+<UpdateColors id="Colors">
+<Properties>
+<LoadOrder>9113</LoadOrder>
+</Properties>
+<File>Europe_XP1/Bavaria/Config/RECIV_Bavaria_Colors.sql</File>
+</UpdateColors>
+<UpdateLogitechARX id="LogitechARX">
+<File>Europe_XP1/Bavaria/Icons/Civ_LEADER_LUDWIG.png</File>
+</UpdateLogitechARX>
+
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>919999</LoadOrder>
+<LoadOrder>909999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>919999</LoadOrder>
+<LoadOrder>909999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>919999</LoadOrder>
+<LoadOrder>909999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Text.xml</File>
 </UpdateText>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Austria/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Text.xml</File>
 </UpdateText>
@@ -557,78 +694,97 @@
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>889999</LoadOrder>
+<LoadOrder>879999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>889999</LoadOrder>
+<LoadOrder>879999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>889999</LoadOrder>
+<LoadOrder>879999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/Text.xml</File>
 </UpdateText>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>879999</LoadOrder>
+<LoadOrder>869999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>879999</LoadOrder>
+<LoadOrder>869999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>879999</LoadOrder>
+<LoadOrder>869999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/Text.xml</File>
 </UpdateText>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>869999</LoadOrder>
+<LoadOrder>859999</LoadOrder>
 </Properties>
 <File>Balance/Germany_XP1/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>869999</LoadOrder>
+<LoadOrder>859999</LoadOrder>
 </Properties>
 <File>Balance/Germany_XP1/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>869999</LoadOrder>
+<LoadOrder>859999</LoadOrder>
 </Properties>
 <File>Balance/Germany_XP1/Text.xml</File>
 </UpdateText>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>859999</LoadOrder>
+<LoadOrder>849999</LoadOrder>
 </Properties>
 <File>Balance/Denmark/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>859999</LoadOrder>
+<LoadOrder>849999</LoadOrder>
 </Properties>
 <File>Balance/Denmark/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>859999</LoadOrder>
+<LoadOrder>849999</LoadOrder>
 </Properties>
 <File>Balance/Denmark/Text.xml</File>
+</UpdateText>
+
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>839999</LoadOrder>
+</Properties>
+<File>Balance/Bavaria/GameData.sql</File>
+</UpdateDatabase>
+<UpdateColors id="NewAction">
+<Properties>
+<LoadOrder>839999</LoadOrder>
+</Properties>
+<File>Balance/Bavaria/Color.sql</File>
+</UpdateColors>
+<UpdateText id="NewAction">
+<Properties>
+<LoadOrder>839999</LoadOrder>
+</Properties>
+<File>Balance/Bavaria/Text.xml</File>
 </UpdateText>
 </InGameActions>
 <Files>
@@ -1626,6 +1782,30 @@
 <File>Europe_XP1/Denmark/Platforms/Windows/BLPs/UITexture.blp</File>
 <File>Europe_XP1/Denmark/Platforms/Windows/BLPs/Unit.blp</File>
 
+<File>Europe_XP1/Bavaria/Config/RECIV_Bavaria_Colors.sql</File>
+<File>Europe_XP1/Bavaria/Config/RECIV_Bavaria_Colors_Prismatic.sql</File>
+<File>Europe_XP1/Bavaria/Config/RECIV_Bavaria_Config.sql</File>
+<File>Europe_XP1/Bavaria/Gameplay/RECIV_Bavaria_Civilizations.sql</File>
+<File>Europe_XP1/Bavaria/Gameplay/RECIV_Bavaria_Districts.sql</File>
+<File>Europe_XP1/Bavaria/Gameplay/RECIV_Bavaria_Leaders.sql</File>
+<File>Europe_XP1/Bavaria/Gameplay/RECIV_Bavaria_Names.sql</File>
+<File>Europe_XP1/Bavaria/Gameplay/RECIV_Bavaria_Rosetta.sql</File>
+<File>Europe_XP1/Bavaria/Gameplay/RECIV_Bavaria_UnitAbilities.sql</File>
+<File>Europe_XP1/Bavaria/Gameplay/RECIV_Bavaria_Units.sql</File>
+<File>Europe_XP1/Bavaria/Gameplay/RECIV_Bavaria_Units_STUU.sql</File>
+<File>Europe_XP1/Bavaria/Gameplay/RECIV_Bavaria_XP1.sql</File>
+<File>Europe_XP1/Bavaria/Gameplay/RECIV_Bavaria_XP2.sql</File>
+<File>Europe_XP1/Bavaria/Germany_Bavaria.dep</File>
+<File>Europe_XP1/Bavaria/Icons/Civ_LEADER_LUDWIG.png</File>
+<File>Europe_XP1/Bavaria/Icons/RECIV_Bavaria_Icons.sql</File>
+<File>Europe_XP1/Bavaria/Text/RECIV_Bavaria_Text.sql</File>
+<File>Europe_XP1/Bavaria/Text/RECIV_Bavaria_Text_Diplo.sql</File>
+<File>Europe_XP1/Bavaria/Text/RECIV_Bavaria_Text_Names.sql</File>
+<File>Europe_XP1/Bavaria/Text/RECIV_Bavaria_Text_Nomina.sql</File>
+<File>Europe_XP1/Bavaria/Text/RECIV_Bavaria_Text_Pedia.sql</File>
+<File>Europe_XP1/Bavaria/Text/RECIV_Bavaria_Text_Rosetta.sql</File>
+<File>Europe_XP1/Bavaria/Text/RECIV_Bavaria_Text_STUU.sql</File>
+
 <File>Balance/Palmyra/Color.sql</File>
 <File>Balance/Palmyra/Config.sql</File>
 <File>Balance/Palmyra/GameData.sql</File>
@@ -1658,5 +1838,28 @@
 <File>Balance/Denmark/Config.sql</File>
 <File>Balance/Denmark/GameData.sql</File>
 <File>Balance/Denmark/Text.xml</File>
+
+<File>Balance/Bavaria/Color.sql</File>
+<File>Balance/Bavaria/Config.sql</File>
+<File>Balance/Bavaria/GameData.sql</File>
+<File>Balance/Bavaria/Text.xml</File>
 </Files>
+<ActionCriteria>
+<Criteria any="1" id="Expansion1">
+<RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+</Criteria>
+<Criteria any="1" id="Expansion2">
+<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+</Criteria>
+<Criteria id="MOD_Nomina">
+<ModInUse>8e1c410a-31e6-44c4-a7c3-1d8f9ef30235</ModInUse> <!-- Nomina - Dynamic Civ and Leader Names -->
+</Criteria>
+<Criteria id="MOD_Rosetta">
+<ModInUse>f30353f2-8760-4f8d-a28e-08fb6445f627</ModInUse> <!-- Rosetta - Dynamic City Names -->
+</Criteria>
+<Criteria id="MOD_STUU">
+<ModInUse>a1fe0ce2-ca98-4998-a0c9-2aa1639eb6d0</ModInUse> <!-- Steel and Thunder: Unique Units -->
+</Criteria>
+</ActionCriteria>
 </Mod>

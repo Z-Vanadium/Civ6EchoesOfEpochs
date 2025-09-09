@@ -16,6 +16,7 @@ def get_mod_folders():
         'SouthAmerica/Mapuche_XP1',
         'Europe_XP1/Germany_XP1',
         'Europe_XP1/Denmark',
+        'Europe_XP1/Bavaria',
 
 
 
@@ -28,6 +29,7 @@ def get_mod_folders():
         'Balance/Mapuche_XP1',
         'Balance/Germany_XP1',
         'Balance/Denmark',
+        'Balance/Bavaria',
     ]
 
 def combine_modinfo_files():
@@ -100,10 +102,10 @@ def combine_modinfo_files():
     for key, value in extraDependencies.items():
         dependenciesStr += f'    <Mod id="{key}" title="{value}"/>\n'
     newFileStr = f'''<?xml version="1.0" encoding="UTF-8"?>
-<Mod id="7b2fd0cc-894e-11f0-848b-743af48c76bf" version="130">
+<Mod id="7b2fd0cc-894e-11f0-848b-743af48c76b0" version="130">
   <Properties>
-    <Name>CCB 适配：扩展包 纪元回响 Echoes Of Epochs 1.3.0</Name>
-    <Description>【CCB 适配：扩展包 纪元回响 Echoes Of Epochs】是一个强度适配 CCB 的文明 6 PVP 领袖扩展包模组，包含 8 个新领袖、4 个新文明。所有美术素材均来自创意工坊同名优秀模组，在此向原作者表达感谢！
+    <Name>CCB 适配：扩展包 纪元回响 Echoes Of Epochs 1.4.0 WIP</Name>
+    <Description>【CCB 适配：扩展包 纪元回响 Echoes Of Epochs】是一个强度适配 CCB 的文明 6 PVP 领袖扩展包模组，包含 8 个新领袖、5 个新文明。所有美术素材均来自创意工坊同名优秀模组，在此向原作者表达感谢！
 [NEWLINE][NEWLINE]奥登纳图斯、芝诺比娅领导的帕尔米拉
 [NEWLINE][NEWLINE]玛丽亚·特蕾莎领导的奥地利
 [NEWLINE][NEWLINE]叶卡捷琳娜领导的俄罗斯
@@ -111,6 +113,7 @@ def combine_modinfo_files():
 [NEWLINE][NEWLINE]俾斯麦领导的德国
 [NEWLINE][NEWLINE]奥雷利耶·安托万一世领导的马普切
 [NEWLINE][NEWLINE]克里斯蒂安四世领导的丹麦
+[NEWLINE][NEWLINE]路德维希二世领导的巴伐利亚
 [NEWLINE][NEWLINE][NEWLINE][NEWLINE]游玩愉快的同时不要忘记给我和原作者点个订阅！如有 BUG 和平衡建议请立即反馈</Description>
     <Authors>{', '.join(sorted_authors)} (alphabetical order)</Authors>
     <SpecialThanks>{', '.join(sorted_special_thanks)} (alphabetical order)</SpecialThanks>
