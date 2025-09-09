@@ -245,7 +245,7 @@
 			<Text>波罗的海霸主</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_MER_BALTIC_SEA_DOMINION_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城市中每拥有一个商业中心或港口，便为每个途经或终止于该城的外国 [ICON_TradeRoute] 贸易路线提供  +2 [ICON_Gold] 金币和 +1 [ICON_Production] 生产力。探索市政后，已改良的海洋资源产出 +1 [ICON_Gold] 金币和 +1 [ICON_Production] 生产力。</Text>
+			<Text>城市中每拥有一个商业中心或港口，便为每个途经或终止于该城的外国 [ICON_TradeRoute] 贸易路线提供  +2 [ICON_Gold] 金币和 +1 [ICON_Production] 生产力。探索市政后，已改良的海洋资源产出 +1 [ICON_Gold] 金币和 +1 [ICON_Production] 生产力。[newline][newline][ICON_BULLET]出生地关联：T1海岸、T3河流。</Text>
 		</Row>
 		<Row Tag="LOC_MER_BALTIC_SEA_DOMINION_COMMERCIAL_GOLD" Language="zh_Hans_CN">
 			<Text>来自途经的外国 [ICON_TradeRoute] 贸易路线的+2 [ICON_GOLD] 金币</Text>
