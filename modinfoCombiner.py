@@ -100,9 +100,9 @@ def combine_modinfo_files():
     for key, value in extraDependencies.items():
         dependenciesStr += f'    <Mod id="{key}" title="{value}"/>\n'
     newFileStr = f'''<?xml version="1.0" encoding="UTF-8"?>
-<Mod id="7b2fd0cc-894e-11f0-848b-743af48c76b0" version="120">
+<Mod id="7b2fd0cc-894e-11f0-848b-743af48c76bf" version="130">
   <Properties>
-    <Name>CCB 适配：扩展包 纪元回响 Echoes Of Epochs 1.3.0 WIP</Name>
+    <Name>CCB 适配：扩展包 纪元回响 Echoes Of Epochs 1.3.0</Name>
     <Description>【CCB 适配：扩展包 纪元回响 Echoes Of Epochs】是一个强度适配 CCB 的文明 6 PVP 领袖扩展包模组，包含 8 个新领袖、4 个新文明。所有美术素材均来自创意工坊同名优秀模组，在此向原作者表达感谢！
 [NEWLINE][NEWLINE]奥登纳图斯、芝诺比娅领导的帕尔米拉
 [NEWLINE][NEWLINE]玛丽亚·特蕾莎领导的奥地利
