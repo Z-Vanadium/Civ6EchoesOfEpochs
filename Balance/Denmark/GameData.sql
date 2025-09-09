@@ -1,7 +1,7 @@
 -- Civilization
 -- T1 coast, T3 river
 UPDATE StartBiasTerrains SET Tier = '1'  WHERE TerrainType = 'TERRAIN_COAST' AND CivilizationType = 'CIVILIZATION_MER_DENMARK';
-INSERT INTO StartBiasRivers (Tier, CivilizationType) VALUES (3, 'CIVILIZATION_KHMER');
+INSERT INTO StartBiasRivers (Tier, CivilizationType) VALUES (3, 'CIVILIZATION_MER_DENMARK');
 
 -- canel no bonus
 DELETE FROM TraitModifiers
