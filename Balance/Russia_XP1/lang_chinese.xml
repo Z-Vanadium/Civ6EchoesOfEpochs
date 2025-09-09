@@ -9,7 +9,7 @@
 			<Text>自然财富</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_GEDEMO_CATHERINE2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>市中心+1 [ICON_FOOD] 粮食。改良后的资源+1 [ICON_GOLD] 金币。</Text>
+			<Text>修道院 +1 [ICON_FOOD] 粮食。改良后的资源+1 [ICON_GOLD] 金币。</Text>
 		</Row>
 
 		<Row Tag="LOC_LEADER_GEDEMO_CATHERINE2" Language="zh_Hans_CN">

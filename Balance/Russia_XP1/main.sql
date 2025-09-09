@@ -49,6 +49,17 @@ INSERT INTO Requirements (RequirementId, RequirementType) VALUES
 ---
 
 INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
-('TRAIT_LEADER_GEDEMO_CATHERINE2', 'BBGV_Catherina_city_center_food'),
+-- ('TRAIT_LEADER_GEDEMO_CATHERINE2', 'BBGV_Catherina_city_center_food'),
 ('TRAIT_LEADER_GEDEMO_CATHERINE2', 'BBGV_Catherina_tundra_resource_gold');
 
+
+-- lavra +1 food
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+('TRAIT_LEADER_GEDEMO_CATHERINE2', 'VAN_CATHERINE2_LAVRA_FOOD');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('VAN_CATHERINE2_LAVRA_FOOD', 'MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE', 0, 0, 0, NULL, 'BBG_DISTRICT_IS_DISTRICT_LAVRA_REQSET');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('VAN_CATHERINE2_LAVRA_FOOD', 'Amount', '1'), 
+('VAN_CATHERINE2_LAVRA_FOOD', 'YieldType', 'YIELD_FOOD');
