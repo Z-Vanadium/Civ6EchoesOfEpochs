@@ -40,13 +40,21 @@ VALUES ('BBG_SHIPYARD_FISHERY_PRODUCTION', 'BUILDING_MER_TOJHUS'),
     ('COAL_FROM_SHIPYARD_BBG','BUILDING_MER_TOJHUS');
 
 -- ub +1 trade capa with CH
-INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES 
-('BUILDING_MER_TOJHUS', 'VAN_TOJHUS_TRADE_CAPA');
+-- INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES 
+-- ('BUILDING_MER_TOJHUS', 'VAN_TOJHUS_TRADE_CAPA');
 
-INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
-('VAN_TOJHUS_TRADE_CAPA', 'MODIFIER_PLAYER_DISTRICTS_ADJUST_TRADE_ROUTE_CAPACITY', 0, 0, 0, NULL, 'DISTRICT_IS_COMMERCIAL_HUB');
+-- INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+-- ('VAN_TOJHUS_TRADE_CAPA', 'MODIFIER_PLAYER_DISTRICTS_ADJUST_TRADE_ROUTE_CAPACITY', 0, 0, 0, NULL, 'DISTRICT_IS_COMMERCIAL_HUB');
 
-INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
-('VAN_TOJHUS_TRADE_CAPA', 'Amount', '1');
+-- INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+-- ('VAN_TOJHUS_TRADE_CAPA', 'Amount', '1');
+
+-- ub discount (290 -> 250)
+UPDATE Buildings SET Cost=250 WHERE BuildingType = 'BUILDING_MER_TOJHUS';
+
+-- ub +4 culture
+INSERT INTO Building_YieldChanges (YieldChange, YieldType, BuildingType)
+      VALUES (4, 'YIELD_CULTURE', 'BUILDING_MER_TOJHUS');
+
 
 

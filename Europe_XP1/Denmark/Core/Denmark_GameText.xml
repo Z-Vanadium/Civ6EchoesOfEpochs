@@ -293,7 +293,7 @@
 			<Text>军械库船坞</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_MER_TOJHUS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>丹麦特色建筑。此城中生产的所有海军单位+25%战斗经验值。[ICON_Production] 生产力加成等于港口区域的相邻加成。此城所有未改良的海岸和湖泊单元格提供的 [ICON_Production] 生产力+1。为城市中渔场+1 [ICON_Production] 生产力。若已解锁 [ICON_RESOURCE_COAL] 煤，每回合+1 [ICON_RESOURCE_COAL] 煤。[NEWLINE][NEWLINE]若该城市拥有商业中心，则 +1 [ICON_TradeRoute] 贸易路线容量。</Text>
+			<Text>丹麦特色港口建筑，替代造船厂，造价较其更低。此城中生产的所有海军单位+25%战斗经验值。[ICON_Production] 生产力加成等于港口区域的相邻加成。此城所有未改良的海岸和湖泊单元格提供的 [ICON_Production] 生产力+1。为城市中渔场+1 [ICON_Production] 生产力。若已解锁 [ICON_RESOURCE_COAL] 煤，每回合+1 [ICON_RESOURCE_COAL] 煤。</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_MER_DENMARK_NAME" Language="zh_Hans_CN">
 			<Text>丹麦</Text>
