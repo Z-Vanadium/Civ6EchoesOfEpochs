@@ -94,3 +94,41 @@ WHERE	Tag='LOC_LEADER_LUDWIG_NAME';
 
 UPDATE LocalizedText SET Text=Text || ' ({LOC_CIVILIZATION_GERMANY_NAME})'	WHERE Tag='LOC_LEADER_LUDWIG_NAME';
 --------------------------------------------------------------
+
+-- Chinese (Simplified)
+
+--------------------------------------------------------------
+INSERT OR IGNORE INTO LocalizedText
+        (Language,    Tag,                                                                                                    Text)
+VALUES  ('zh_Hans_CN',    'LOC_CIVILIZATION_JNR_BAVARIA_NAME',                                                                    '巴伐利亚'),
+        ('zh_Hans_CN',    'LOC_CIVILIZATION_JNR_BAVARIA_DESCRIPTION',                                                             '巴伐利亚帝国'),
+        ('zh_Hans_CN',    'LOC_CIVILIZATION_JNR_BAVARIA_ADJECTIVE',                                                               '巴伐利亚的'),
+        
+        ('zh_Hans_CN',    'LOC_CIVINFO_JNR_BAVARIA_LOCATION',                                                                     '欧洲'),
+        ('zh_Hans_CN',    'LOC_CIVINFO_JNR_BAVARIA_SIZE',                                                                         '1840年时（含普法尔茨）约2.9万平方英里（7.6万平方公里）'),
+        ('zh_Hans_CN',    'LOC_CIVINFO_JNR_BAVARIA_POPULATION',                                                                   '1840年时（含普法尔茨）约440万人口'),
+        ('zh_Hans_CN',    'LOC_CIVINFO_JNR_BAVARIA_CAPITAL',                                                                      '1255年前为雷根斯堡，后为慕尼黑'),
+        
+        ('zh_Hans_CN',    'LOC_TRAIT_CIVILIZATION_JNR_WEISS_BLAU_NAME',                                                           '蓝与白的故乡'),
+        ('zh_Hans_CN',    'LOC_TRAIT_CIVILIZATION_JNR_WEISS_BLAU_DESCRIPTION',                                                    '修建所有时代的奇观 +10% [icon_production] 生产力。[newline][newline]若单元格魅力为“迷人的”，已改良的加成资源提供 +1 [ICON_Faith] 信仰值，已改良的奢侈品资源提供 +1 [ICON_Culture] 文化值，已改良的战略资源提供 +1 [ICON_Science] 科技值。若单元格魅力为“惊艳的”，这些加成翻倍。[newline][newline][ICON_BULLET]出生地关联：T3河流、T3草原山脉、T3平原山脉、-T2泛滥平原、-T4雨林'),
+        
+        ('zh_Hans_CN',    'LOC_DISTRICT_JNR_DULT_NAME',                                                                           '啤酒节广场'),
+        ('zh_Hans_CN',    'LOC_DISTRICT_JNR_DULT_DESCRIPTION',                                                                    '巴伐利亚特色娱乐区域，造价更低，提供 +3 [ICON_Amenities] 宜居度。[newline]此城市中每有一座世界奇观，额外提供 +1 [ICON_Amenities] 宜居度。[NEWLINE]为剧院广场、商业中心和圣地提供大量相邻加成。'),
+        ('zh_Hans_CN',    'LOC_DISTRICT_JNR_DULT_DESCRIPTION_UC',                                                                 '巴伐利亚特色区域，取代娱乐中心区域，提供+2 [ICON_Amenities] 宜居度，且建造费用更低。此城市中每有一座世界奇观，则额外+1 [ICON_Amenities] 宜居度。[NEWLINE]为圣地提供额外标准相邻加成。[NEWLINE]从圣地和农场获得额外标准相邻加成。'),
+        ('zh_Hans_CN',    'LOC_DISTRICT_JNR_DULT_GOLD',                                                                           '与啤酒节广场相邻 +{1_num} [ICON_Gold] 金币'),
+        ('zh_Hans_CN',    'LOC_DISTRICT_JNR_DULT_FAITH',                                                                          '与啤酒节广场相邻 +{1_num} [ICON_Faith] 信仰值'),
+        ('zh_Hans_CN',    'LOC_DISTRICT_JNR_DULT_CULTURE',                                                                        '与啤酒节广场相邻 +{1_num} [ICON_Culture] 文化值'),
+
+        ('zh_Hans_CN',    'LOC_UNIT_JNR_BAVARIAN_GEBIRGSSCHUETZE_NAME',                                                           '山地猎兵'),
+        ('zh_Hans_CN',    'LOC_ABILITY_JNR_GEBIRGSSCHUETZE_DEFENSION_NAME',                                                       '国土防卫'),
+        ('zh_Hans_CN',    'LOC_ABILITY_JNR_GEBIRGSSCHUETZE_DEFENSION_DESCRIPTION',                                                '在魅力为“迷人的”的单元格上战斗获得 +3 [ICON_Strength] 战斗力加成，在魅力为“惊艳的”的单元格上提升至 +6 [ICON_Strength] 战斗力。'),
+        ('zh_Hans_CN',    'LOC_ABILITY_JNR_GEBIRGSSCHUETZE_DEFENSION_DESCRIPTION_CHARMING',                                       '迷人吸引力：+{1_Amount}'),
+        ('zh_Hans_CN',    'LOC_ABILITY_JNR_GEBIRGSSCHUETZE_DEFENSION_DESCRIPTION_BREATHTAKING',                                   '惊艳吸引力：+{1_Amount}'),
+        ('zh_Hans_CN',    'LOC_ABILITY_JNR_GEBIRGSSCHUETZE_TRADITION_NAME',                                                       '荣誉卫队'),
+        ('zh_Hans_CN',    'LOC_ABILITY_JNR_GEBIRGSSCHUETZE_TRADITION_DESCRIPTION',                                                '每获得一次晋升，驻扎在啤酒节广场区域时提供+1 [ICON_CULTURE] 文化值。'),
+        ('zh_Hans_CN',    'LOC_ABILITY_JNR_GEBIRGSSCHUETZE_TRADITION_DESCRIPTION_GOV',                                            '每获得一次晋升，驻扎在啤酒节广场区域时提供+1 [ICON_CULTURE] 文化值，驻扎在政府广场时提供+1 [ICON_FAVOR] 外交支持。'),
+        ('zh_Hans_CN',    'LOC_ABILITY_JNR_GEBIRGSSCHUETZE_TRADITION_DESCRIPTION_DIPLO',                                          '每获得一次晋升，驻扎在啤酒节广场区域时提供+1 [ICON_CULTURE] 文化值，驻扎在政府广场或外交区时提供+1 [ICON_FAVOR] 外交支持。'),
+        ('zh_Hans_CN',    'LOC_UNIT_JNR_BAVARIAN_GEBIRGSSCHUETZE_DESCRIPTION',                                                    '巴伐利亚特色工业时代侦查单位，替代游骑兵，解锁于民族主义。[NEWLINE]{LOC_ABILITY_JNR_GEBIRGSSCHUETZE_DEFENSION_DESCRIPTION}'),
+        ('zh_Hans_CN',    'LOC_UNIT_JNR_BAVARIAN_GEBIRGSSCHUETZE_DESCRIPTION_GOV',                                                '巴伐利亚特色工业时代侦查单位，替代游骑兵，解锁于民族主义。[NEWLINE]{LOC_ABILITY_JNR_GEBIRGSSCHUETZE_DEFENSION_DESCRIPTION}'),
+        ('zh_Hans_CN',    'LOC_UNIT_JNR_BAVARIAN_GEBIRGSSCHUETZE_DESCRIPTION_DIPLO',                                              '巴伐利亚特色工业时代侦查单位，替代游骑兵，解锁于民族主义。[NEWLINE]{LOC_ABILITY_JNR_GEBIRGSSCHUETZE_DEFENSION_DESCRIPTION}');
+--------------------------------------------------------------
