@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_MER_KYIVAN_RUS</CivilizationType>
+			<LeaderType>LEADER_MER_KYIV_YAROSLAV</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_MER_KYIVAN_RUS_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_MER_KYIVAN_RUS</CivilizationIcon>
+			<LeaderName>LOC_LEADER_MER_KYIV_YAROSLAV_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_MER_KYIV_YAROSLAV</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_MER_KYIV_VARANGIANS_TO_GREEKS_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_MER_KYIV_VARANGIANS_TO_GREEKS_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_MER_KYIVAN_RUS</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_MER_KYIV_RUSSKAYA_PRAVDA_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_MER_KYIV_RUSSKAYA_PRAVDA_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_MER_KYIV_YAROSLAV</LeaderAbilityIcon>
+			<Portrait>LEADER_MER_KYIV_YAROSLAV_NEUTRAL.dds</Portrait>
+			<PortraitBackground>LEADER_GORGO_BACKGROUND</PortraitBackground>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_MER_KYIVAN_RUS</CivilizationType>
+			<LeaderType>LEADER_MER_KYIV_YAROSLAV</LeaderType>
+			<Type>DISTRICT_MER_KYIV_VECHE</Type>
+			<Name>LOC_DISTRICT_MER_KYIV_VECHE_NAME</Name>
+			<Description>LOC_DISTRICT_MER_KYIV_VECHE_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_MER_KYIV_VECHE</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_MER_KYIVAN_RUS</CivilizationType>
+			<LeaderType>LEADER_MER_KYIV_YAROSLAV</LeaderType>
+			<Type>UNIT_MER_KYIV_DRUZHINA</Type>
+			<Name>LOC_UNIT_MER_KYIV_DRUZHINA_NAME</Name>
+			<Description>LOC_UNIT_MER_KYIV_DRUZHINA_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_MER_KYIV_DRUZHINA</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>
+
+

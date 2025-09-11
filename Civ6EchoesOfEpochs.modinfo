@@ -206,51 +206,67 @@
 </UpdateColors>
 
 <UpdateDatabase id="NewAction">
+<File>Europe_XP1/KievanRus/Core/Kyivan_Config.xml</File>
+</UpdateDatabase>
+<UpdateColors id="NewAction">
+<File>Europe_XP1/KievanRus/Core/Kyivan_Colours.sql</File>
+</UpdateColors>
+<UpdateArt id="NewAction">
+<File>Europe_XP1/KievanRus/Merrick's Kyivan Rus.dep</File>
+</UpdateArt>
+<UpdateIcons id="NewAction">
+<File>Europe_XP1/KievanRus/Core/Kyivan_IconDefinitions.xml</File>
+</UpdateIcons>
+<UpdateText id="NewAction">
+<File>Europe_XP1/KievanRus/Core/Kyivan_GameText.xml</File>
+</UpdateText>
+
+<UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Config.sql</File>
 </UpdateDatabase>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>899999</LoadOrder>
+<LoadOrder>889999</LoadOrder>
 </Properties>
 <File>Balance/Austria/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>899999</LoadOrder>
+<LoadOrder>889999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>899999</LoadOrder>
+<LoadOrder>889999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>899999</LoadOrder>
+<LoadOrder>889999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Config.sql</File>
 </UpdateDatabase>
@@ -267,127 +283,152 @@
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>879999</LoadOrder>
+<LoadOrder>869999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>879999</LoadOrder>
+<LoadOrder>869999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>879999</LoadOrder>
+<LoadOrder>869999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>879999</LoadOrder>
+<LoadOrder>869999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/Config.sql</File>
 </UpdateDatabase>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>869999</LoadOrder>
+<LoadOrder>859999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>869999</LoadOrder>
+<LoadOrder>859999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>869999</LoadOrder>
+<LoadOrder>859999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>869999</LoadOrder>
+<LoadOrder>859999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/Config.sql</File>
 </UpdateDatabase>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>859999</LoadOrder>
+<LoadOrder>849999</LoadOrder>
 </Properties>
 <File>Balance/Germany_XP1/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>859999</LoadOrder>
+<LoadOrder>849999</LoadOrder>
 </Properties>
 <File>Balance/Germany_XP1/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>859999</LoadOrder>
+<LoadOrder>849999</LoadOrder>
 </Properties>
 <File>Balance/Germany_XP1/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>859999</LoadOrder>
+<LoadOrder>849999</LoadOrder>
 </Properties>
 <File>Balance/Germany_XP1/Config.sql</File>
 </UpdateDatabase>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>849999</LoadOrder>
+<LoadOrder>839999</LoadOrder>
 </Properties>
 <File>Balance/Denmark/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>849999</LoadOrder>
+<LoadOrder>839999</LoadOrder>
 </Properties>
 <File>Balance/Denmark/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>849999</LoadOrder>
+<LoadOrder>839999</LoadOrder>
 </Properties>
 <File>Balance/Denmark/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>849999</LoadOrder>
+<LoadOrder>839999</LoadOrder>
 </Properties>
 <File>Balance/Denmark/Config.sql</File>
 </UpdateDatabase>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>839999</LoadOrder>
+<LoadOrder>829999</LoadOrder>
 </Properties>
 <File>Balance/Bavaria/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>839999</LoadOrder>
+<LoadOrder>829999</LoadOrder>
 </Properties>
 <File>Balance/Bavaria/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>839999</LoadOrder>
+<LoadOrder>829999</LoadOrder>
 </Properties>
 <File>Balance/Bavaria/Text.xml</File>
 </UpdateText>
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>839999</LoadOrder>
+<LoadOrder>829999</LoadOrder>
 </Properties>
 <File>Balance/Bavaria/Config.sql</File>
+</UpdateDatabase>
+
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>819999</LoadOrder>
+</Properties>
+<File>Balance/KievanRus/GameData.sql</File>
+</UpdateDatabase>
+<UpdateColors id="NewAction">
+<Properties>
+<LoadOrder>819999</LoadOrder>
+</Properties>
+<File>Balance/KievanRus/Color.sql</File>
+</UpdateColors>
+<UpdateText id="NewAction">
+<Properties>
+<LoadOrder>819999</LoadOrder>
+</Properties>
+<File>Balance/KievanRus/Text.xml</File>
+</UpdateText>
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>819999</LoadOrder>
+</Properties>
+<File>Balance/KievanRus/Config.sql</File>
 </UpdateDatabase>
 </FrontEndActions>
 <InGameActions>
@@ -645,39 +686,63 @@
 </UpdateLogitechARX>
 
 <UpdateDatabase id="NewAction">
+<File>Europe_XP1/KievanRus/Core/Kyivan_GameDefines.sql</File>
+<File>Europe_XP1/KievanRus/Core/Kyivan_UniqueDistrict.sql</File>
+<File>Europe_XP1/KievanRus/Core/Kyivan_UniqueUnit.sql</File>
+<File>Europe_XP1/KievanRus/Core/Kyivan_NamedPlaces.sql</File>
+<File>Europe_XP1/KievanRus/Core/Yaroslav_UA.sql</File>
+<File>Europe_XP1/KievanRus/Core/Kyivan_Moments.sql</File>
+<File>Europe_XP1/KievanRus/Core/Support.sql</File>
+</UpdateDatabase>
+<UpdateText id="NewAction">
+<File>Europe_XP1/KievanRus/Core/Kyivan_CityNames.sql</File>
+<File>Europe_XP1/KievanRus/Core/Kyivan_GameText.xml</File>
+<File>Europe_XP1/KievanRus/Core/Diplotext_Yaroslav.xml</File>
+</UpdateText>
+<UpdateArt id="NewAction">
+<File>Europe_XP1/KievanRus/Merrick's Kyivan Rus.dep</File>
+</UpdateArt>
+<UpdateColors id="NewAction">
+<File>Europe_XP1/KievanRus/Core/Kyivan_Colours.sql</File>
+</UpdateColors>
+<UpdateIcons id="NewAction">
+<File>Europe_XP1/KievanRus/Core/Kyivan_IconDefinitions.xml</File>
+</UpdateIcons>
+
+<UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>909999</LoadOrder>
+<LoadOrder>899999</LoadOrder>
 </Properties>
 <File>Balance/Palmyra/Text.xml</File>
 </UpdateText>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>899999</LoadOrder>
+<LoadOrder>889999</LoadOrder>
 </Properties>
 <File>Balance/Austria/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>899999</LoadOrder>
+<LoadOrder>889999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>899999</LoadOrder>
+<LoadOrder>889999</LoadOrder>
 </Properties>
 <File>Balance/Austria/Text.xml</File>
 </UpdateText>
@@ -694,97 +759,116 @@
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>879999</LoadOrder>
+<LoadOrder>869999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>879999</LoadOrder>
+<LoadOrder>869999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>879999</LoadOrder>
+<LoadOrder>869999</LoadOrder>
 </Properties>
 <File>Balance/Sweden_XP1/Text.xml</File>
 </UpdateText>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>869999</LoadOrder>
+<LoadOrder>859999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>869999</LoadOrder>
+<LoadOrder>859999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>869999</LoadOrder>
+<LoadOrder>859999</LoadOrder>
 </Properties>
 <File>Balance/Mapuche_XP1/Text.xml</File>
 </UpdateText>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>859999</LoadOrder>
+<LoadOrder>849999</LoadOrder>
 </Properties>
 <File>Balance/Germany_XP1/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>859999</LoadOrder>
+<LoadOrder>849999</LoadOrder>
 </Properties>
 <File>Balance/Germany_XP1/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>859999</LoadOrder>
+<LoadOrder>849999</LoadOrder>
 </Properties>
 <File>Balance/Germany_XP1/Text.xml</File>
 </UpdateText>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>849999</LoadOrder>
+<LoadOrder>839999</LoadOrder>
 </Properties>
 <File>Balance/Denmark/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>849999</LoadOrder>
+<LoadOrder>839999</LoadOrder>
 </Properties>
 <File>Balance/Denmark/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>849999</LoadOrder>
+<LoadOrder>839999</LoadOrder>
 </Properties>
 <File>Balance/Denmark/Text.xml</File>
 </UpdateText>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>839999</LoadOrder>
+<LoadOrder>829999</LoadOrder>
 </Properties>
 <File>Balance/Bavaria/GameData.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>839999</LoadOrder>
+<LoadOrder>829999</LoadOrder>
 </Properties>
 <File>Balance/Bavaria/Color.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>839999</LoadOrder>
+<LoadOrder>829999</LoadOrder>
 </Properties>
 <File>Balance/Bavaria/Text.xml</File>
+</UpdateText>
+
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>819999</LoadOrder>
+</Properties>
+<File>Balance/KievanRus/GameData.sql</File>
+</UpdateDatabase>
+<UpdateColors id="NewAction">
+<Properties>
+<LoadOrder>819999</LoadOrder>
+</Properties>
+<File>Balance/KievanRus/Color.sql</File>
+</UpdateColors>
+<UpdateText id="NewAction">
+<Properties>
+<LoadOrder>819999</LoadOrder>
+</Properties>
+<File>Balance/KievanRus/Text.xml</File>
 </UpdateText>
 </InGameActions>
 <Files>
@@ -1806,6 +1890,242 @@
 <File>Europe_XP1/Bavaria/Text/RECIV_Bavaria_Text_Rosetta.sql</File>
 <File>Europe_XP1/Bavaria/Text/RECIV_Bavaria_Text_STUU.sql</File>
 
+<File>Europe_XP1/KievanRus/ArtDefs/Civilizations.artdef</File>
+<File>Europe_XP1/KievanRus/ArtDefs/Cultures.artdef</File>
+<File>Europe_XP1/KievanRus/ArtDefs/Districts.artdef</File>
+<File>Europe_XP1/KievanRus/ArtDefs/FallbackLeaders.artdef</File>
+<File>Europe_XP1/KievanRus/ArtDefs/Landmarks.artdef</File>
+<File>Europe_XP1/KievanRus/ArtDefs/Leaders.artdef</File>
+<File>Europe_XP1/KievanRus/ArtDefs/Overlay.artdef</File>
+<File>Europe_XP1/KievanRus/ArtDefs/Units.artdef</File>
+<File>Europe_XP1/KievanRus/Core/Diplotext_Yaroslav.xml</File>
+<File>Europe_XP1/KievanRus/Core/Kyivan_CityNames.sql</File>
+<File>Europe_XP1/KievanRus/Core/Kyivan_Colours.sql</File>
+<File>Europe_XP1/KievanRus/Core/Kyivan_Config.xml</File>
+<File>Europe_XP1/KievanRus/Core/Kyivan_GameDefines.sql</File>
+<File>Europe_XP1/KievanRus/Core/Kyivan_GameText.xml</File>
+<File>Europe_XP1/KievanRus/Core/Kyivan_IconDefinitions.xml</File>
+<File>Europe_XP1/KievanRus/Core/Kyivan_Moments.sql</File>
+<File>Europe_XP1/KievanRus/Core/Kyivan_NamedPlaces.sql</File>
+<File>Europe_XP1/KievanRus/Core/Kyivan_UniqueDistrict.sql</File>
+<File>Europe_XP1/KievanRus/Core/Kyivan_UniqueUnit.sql</File>
+<File>Europe_XP1/KievanRus/Core/Support.sql</File>
+<File>Europe_XP1/KievanRus/Merrick's Kyivan Rus.dep</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/Landmark.blp</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/LeaderFallback.blp</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathFromHeroAttackA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horseman_BipedalDeathMeleeA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Impr_HeroDeath</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_DeathB</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathB</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_DeathA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_HeroicA_Death</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Scout_DeathA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Scout_DeathB</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_DeathA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Spearman_DeathFlyBackA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Spearman_DeathFromJumpStabFlipUnitInAir</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_MainGunDeathA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_Attack_2HandAxeA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_Death_HitToHeadA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_Run_2HandedAxeA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_StrafeBack_2HAxe</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_StrafeFwd_2HAxe</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_BreathingA_NoArmsUncompressed</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_CorkscrewDeathFromSwordsmanHeroA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_LegionHeroAttackA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_SamuraiHeroAttackA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_ProjectileDeathFlyBackA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_WarriorMonk_Death</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_WarriorMonk_HeroDeath</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_AttackMeleeB</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_BlockA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_BraceA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_BraceB</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_BraceC</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_BraceD</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_DeathMeleeA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_DeathMeleeB</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_DodgeAndReturn</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_IdleA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_IdleB</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_IdleC</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_IdleD</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_RunStopA</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_RunStopB</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_RunStopC</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_RunStopD</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Berzerker_ArmorA_ao</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Berzerker_ArmorA_g</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Berzerker_ArmorA_m</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Berzerker_ArmorA_n0</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Berzerker_ArmorA_n1</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_B</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_H</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_B</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_H</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_B</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_FOW</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_H</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_PIL_B_null</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Industrial_01_B_null</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_01_B_null</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_VECHE_Building_null</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Druzhina_Armor_A_Druzhina_Armor_T</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Knight_Armor_a_Knight_Armor_t</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Knight_Var_a_Knight_Var_t</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_swordsman_A_Swordsman_t</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Base_E</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Base_G</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Base_M</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Base_N0</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Base_N1</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Bld_A</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_Armor_ao</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_Armor_g</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_Armor_m</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_Armor_n0</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_Armor_n1</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_Var_ao</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_Var_g</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_Var_m</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_Var_n0</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_Var_n1</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_Kyivan_Rus</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_Kyivan_Rus</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_swordsman_AO</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_swordsman_G</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_swordsman_M</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_swordsman_N0</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_swordsman_N1</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/Tilebase.blp</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/UILensAsset.blp</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/UITexture.blp</File>
+<File>Europe_XP1/KievanRus/Platforms/MacOS/BLPs/Unit.blp</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/Landmark.blp</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/LeaderFallback.blp</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathFromHeroAttackA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horseman_BipedalDeathMeleeA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Impr_HeroDeath</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Infantry_DeathB</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathB</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Redcoat_DeathA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Redcoat_HeroicA_Death</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Scout_DeathA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Scout_DeathB</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Slinger_DeathA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Spearman_DeathFlyBackA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Spearman_DeathFromJumpStabFlipUnitInAir</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_MainGunDeathA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_Attack_2HandAxeA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_Death_HitToHeadA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_Run_2HandedAxeA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_StrafeBack_2HAxe</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_StrafeFwd_2HAxe</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_BreathingA_NoArmsUncompressed</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_CorkscrewDeathFromSwordsmanHeroA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_LegionHeroAttackA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_SamuraiHeroAttackA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_ProjectileDeathFlyBackA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_WarriorMonk_Death</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_WarriorMonk_HeroDeath</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_AttackMeleeB</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_BlockA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_BraceA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_BraceB</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_BraceC</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_BraceD</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_DeathMeleeA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_DeathMeleeB</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_DodgeAndReturn</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_IdleA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_IdleB</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_IdleC</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_IdleD</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_RunStopA</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_RunStopB</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_RunStopC</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_RunStopD</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Berzerker_ArmorA_ao</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Berzerker_ArmorA_g</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Berzerker_ArmorA_m</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Berzerker_ArmorA_n0</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Berzerker_ArmorA_n1</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_B</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_H</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_B</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_H</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_B</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_FOW</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_H</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_PIL_B_null</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Industrial_01_B_null</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_01_B_null</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_VECHE_Building_null</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Druzhina_Armor_A_Druzhina_Armor_T</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Knight_Armor_a_Knight_Armor_t</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Knight_Var_a_Knight_Var_t</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_swordsman_A_Swordsman_t</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Base_E</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Base_G</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Base_M</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Base_N0</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Base_N1</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Bld_A</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_Armor_ao</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_Armor_g</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_Armor_m</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_Armor_n0</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_Armor_n1</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_Var_ao</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_Var_g</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_Var_m</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_Var_n0</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_Var_n1</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_Kyivan_Rus</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_Kyivan_Rus</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_swordsman_AO</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_swordsman_G</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_swordsman_M</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_swordsman_N0</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_swordsman_N1</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/Tilebase.blp</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/UILensAsset.blp</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/UITexture.blp</File>
+<File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/Unit.blp</File>
+
 <File>Balance/Palmyra/Color.sql</File>
 <File>Balance/Palmyra/Config.sql</File>
 <File>Balance/Palmyra/GameData.sql</File>
@@ -1843,6 +2163,11 @@
 <File>Balance/Bavaria/Config.sql</File>
 <File>Balance/Bavaria/GameData.sql</File>
 <File>Balance/Bavaria/Text.xml</File>
+
+<File>Balance/KievanRus/Color.sql</File>
+<File>Balance/KievanRus/Config.sql</File>
+<File>Balance/KievanRus/GameData.sql</File>
+<File>Balance/KievanRus/Text.xml</File>
 </Files>
 <ActionCriteria>
 <Criteria any="1" id="Expansion1">

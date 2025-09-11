@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_MER_KYIV_YAROSLAV_NAME" Language="en_US">
+			<Text>Yaroslav</Text>
+		</Row>
+		<!--Traits-->
+		<Row Tag="LOC_TRAIT_LEADER_MER_KYIV_RUSSKAYA_PRAVDA_NAME" Language="en_US">
+			<Text>Pravda Ruskaia</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_MER_KYIV_RUSSKAYA_PRAVDA_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Strength] Combat Strength for all units for each Active Alliance.[NEWLINE]+1 [ICON_Favor] Diplomatic Favor for each Economic Policy slot in your government. Building a Viche triggers a Culture Bomb, claiming surrounding tiles.</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_LEADER_MER_RUSSKAYA_PRAVDA_STRENGTH_DESC" Language="en_US">
+			<Text>+{1_Amount} [ICON_Strength] Combat Strength per Alliance (Max +10)</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MER_KYIV_VARANGIANS_TO_GREEKS_NAME" Language="en_US">
+			<Text>From the Varangians to the Greeks</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MER_KYIV_VARANGIANS_TO_GREEKS_DESCRIPTION" Language="en_US">
+			<Text>Cities settled on rivers start with a [ICON_TradingPost] Trading Post and their borders expand twice as fast. Your [ICON_TradeRoute] Trade Routes receive +2 [ICON_Gold] Gold and +1 [ICON_Culture] Culture from every 5 tiles travelled.[NEWLINE]Improved Resources adjacent to rivers yield +1 [ICON_Gold] Gold and Camps and Lumbermills adjacent to rivers yield +1 [ICON_Production] Production.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_KYIV_DRUZHINA_NAME" Language="en_US">
+			<Text>Druzhyna</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_KYIV_DRUZHINA_DESCRIPTION" Language="en_US">
+			<Text>A unique land unit</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_KYIV_DRUZHINA_NAME" Language="en_US">
+			<Text>Druzhyna</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_KYIV_DRUZHINA_DESCRIPTION" Language="en_US">
+			<Text>Kyivan Rus' unique Melee unit replacing the Man-at-Arms.[NEWLINE]Higher [ICON_Strength] Combat Strength (48 vs. 45)[NEWLINE]Receives +5 [ICON_Strength] Strength when attacking when adjacent to at least one other Druzhyna. Receives +1 [ICON_Movement] Movement when starting the turn adjacent to at least one other Druzhyna.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_KYIV_DRUZHINA_ABILITY" Language="en_US">
+			<Text>Receives +5 [ICON_Strength] Strength when attacking when adjacent to at least one other Druzhyna. Receives +1 [ICON_Movement] Movement when adjacent to at least one other Druzhyna.</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_MER_KYIV_DRUZHINA_ADJACENT_DESC" Language="en_US">
+			<Text>+5 [ICON_Strength] Strength from adjacent Druzhyna.</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_MER_KYIV_DRUZHINA_MOVEMENT_DESC" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement from starting turn adjacent to Druzhyna.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_MER_KYIV_VECHE_NAME" Language="en_US">
+			<Text>Viche</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_MER_KYIV_VECHE_DESCRIPTION" Language="en_US">
+			<Text>A unique district</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_MER_KYIV_VECHE_NAME" Language="en_US">
+			<Text>Viche</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_MER_KYIV_VECHE_DESCRIPTION" Language="en_US">
+			<Text>Kyivan Rus' unique district, replacing the Commercial Hub.[NEWLINE]Standard bonus (+1) to [ICON_Gold] Gold yield from adjacent Government Plaza and Diplomatic Quarters. Minor bonus (+0.5) [ICON_Gold] to Gold yield from each adjacent Resource. Provides bonus [ICON_Culture] Culture equal to the adjacency bonus.</Text>
+		</Row>
+		<Row Tag="LOC_VECHE_RESOURCE_ADJACENCY" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from adjacent {1_Num : plural 1?resource; other?resources;}.</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_KYIVAN_RUS_NAME" Language="en_US">
+			<Text>Kyivan Rus'</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_KYIVAN_RUS_DESCRIPTION" Language="en_US">
+			<Text>Kyivan Rus' Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_KYIVAN_RUS_DESCRIPTION_JFD_CIVILIZATION" Language="en_US">
+			<Text>Kyivan Rus' Civilization</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_KYIVAN_RUS_IN_CITYECTIVE"	  Language="en_US">
+			<Text>Kyivan Rus'</Text>
+		</Row>
+		<!--Citizens-->
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MALE_1" Language="en_US">
+			<Text>János</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MALE_2" Language="en_US">
+			<Text>László</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MALE_3" Language="en_US">
+			<Text>Miklós</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MALE_4" Language="en_US">
+			<Text>Péter</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MALE_5" Language="en_US">
+			<Text>István</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MALE_6" Language="en_US">
+			<Text>György</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MALE_7" Language="en_US">
+			<Text>Jakab</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MALE_8" Language="en_US">
+			<Text>András</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MALE_9" Language="en_US">
+			<Text>Mihály</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MALE_10" Language="en_US">
+			<Text>Pál</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_MALE_1" Language="en_US">
+			<Text>András</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_MALE_2" Language="en_US">
+			<Text>Géza</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_MALE_3" Language="en_US">
+			<Text>Imre</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_MALE_4" Language="en_US">
+			<Text>János</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_MALE_5" Language="en_US">
+			<Text>József</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_MALE_6" Language="en_US">
+			<Text>Károly</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_MALE_7" Language="en_US">
+			<Text>Márk</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_MALE_8" Language="en_US">
+			<Text>Márton</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_MALE_9" Language="en_US">
+			<Text>Sándor</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_MALE_10" Language="en_US">
+			<Text>Zsigmond</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_FEMALE_1" Language="en_US">
+			<Text>Anna</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_FEMALE_2" Language="en_US">
+			<Text>Katalin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_FEMALE_3" Language="en_US">
+			<Text>Borbála</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_FEMALE_4" Language="en_US">
+			<Text>Erzsébet</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_FEMALE_5" Language="en_US">
+			<Text>Margaréta</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_FEMALE_6" Language="en_US">
+			<Text>Zsófia</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_FEMALE_7" Language="en_US">
+			<Text>Józsa</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_FEMALE_8" Language="en_US">
+			<Text>Ilona</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_FEMALE_9" Language="en_US">
+			<Text>Dorottya</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_FEMALE_10" Language="en_US">
+			<Text>Orsolya</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_FEMALE_1" Language="en_US">
+			<Text>Klára</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_FEMALE_2" Language="en_US">
+			<Text>Sára</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_FEMALE_3" Language="en_US">
+			<Text>Heléna</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_FEMALE_4" Language="en_US">
+			<Text>Agáta</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_FEMALE_5" Language="en_US">
+			<Text>Krisztina</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_FEMALE_6" Language="en_US">
+			<Text>Zsuzsanna</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_FEMALE_7" Language="en_US">
+			<Text>Márta</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_FEMALE_8" Language="en_US">
+			<Text>Katherina</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_FEMALE_9" Language="en_US">
+			<Text>Barbara</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_FEMALE_10" Language="en_US">
+			<Text>Ade</Text>
+		</Row>
+			<!--Pedia-->
+			<Row Tag="LOC_CIVINFO_MER_KYIVAN_RUS_LOCATION" Language="en_US">
+				<Text>Kyivan Rus'</Text>
+			</Row>
+			<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_KYIVAN_RUS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+				<Text>Kyivan Rus' was the first East Slavic state and later an amalgam of principalities in Eastern Europe from the late 9th to the mid-13th century. Encompassing a variety of polities and peoples, including East Slavic, Norse, and Finnic, it was ruled by the Rurik dynasty, founded by the Varangian prince Rurik. The name was coined by Russian historians in the 19th century to describe the period when Kyiv was at the center.</Text>
+			</Row>
+			<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_KYIVAN_RUS_CHAPTER_HISTORY_PARA_2" Language="en_US">
+				<Text>According to the Primary Chronicle, the first ruler to unite East Slavic lands into what would become Kyivan Rus' was Oleg the Wise. He extended his control from Novgorod south along the Dnieper river valley to protect trade from Khazar incursions from the east,[10] and took control of the city. Sviatoslav I achieved the first major territorial expansion of the state, fighting a war of conquest against the Khazars. Vladimir the Great spread Christianity with his own baptism and, by decree, extended it to all inhabitants of Kyiv and beyond. Kyivan Rus' reached its greatest extent under Yaroslav the Wise; his sons assembled and issued its first written legal code, the Pravda Ruskaia, shortly after his death.</Text>
+			</Row>
+			<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_KYIVAN_RUS_CHAPTER_HISTORY_PARA_3" Language="en_US">
+				<Text>The state began to decline in the late 11th century, gradually disintegrating into various rival regional powers throughout the 12th century. It was further weakened by external factors, such as the decline of the Byzantine Empire, its major economic partner, and the accompanying diminution of trade routes through its territory. It finally fell to the Mongol invasion in the mid-13th century, though the Rurik dynasty would continue to rule until the death of Feodor I of Russia in 1598. The modern nations of Belarus, Russia, and Ukraine all claim Kyivan Rus' as their cultural ancestor, with Belarus and Russia deriving their names from it, and the name Kyivan Rus' derived from what is now the capital of Ukraine.</Text>
+			</Row>
+	</LocalizedText>
+</GameData>

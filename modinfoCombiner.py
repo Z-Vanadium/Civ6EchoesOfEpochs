@@ -17,6 +17,7 @@ def get_mod_folders():
         'Europe_XP1/Germany_XP1',
         'Europe_XP1/Denmark',
         'Europe_XP1/Bavaria',
+        'Europe_XP1/KievanRus',
 
 
 
@@ -30,6 +31,7 @@ def get_mod_folders():
         'Balance/Germany_XP1',
         'Balance/Denmark',
         'Balance/Bavaria',
+        'Balance/KievanRus',
     ]
 
 def combine_modinfo_files():
