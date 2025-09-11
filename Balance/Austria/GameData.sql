@@ -60,3 +60,13 @@ INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, Ow
 
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
 ('MODIFIER_VAN_GOVERNOR_PROD_DISTRICT', 'Amount', '40');
+
+-- +1 housing for special districts
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+('TRAIT_LEADER_MER_THERESIAN_REFORM', 'VAN_THERESA_DISTRICT_HOUSING');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('VAN_THERESA_DISTRICT_HOUSING', 'MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING', 0, 0, 0, NULL, 'BBG_IS_SPECIALTY_DISTRICT');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('VAN_THERESA_DISTRICT_HOUSING', 'Amount', 1);
