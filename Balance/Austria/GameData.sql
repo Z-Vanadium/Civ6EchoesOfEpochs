@@ -29,8 +29,8 @@ DELETE FROM StartBiasTerrains
 DELETE FROM StartBiasRivers
       WHERE CivilizationType = 'CIVILIZATION_MER_AUSTRIA';
 
--- uu CS to 63/67, sight to 4
-UPDATE Units SET Combat = 63, RangedCombat = 67, BaseSightRange = 4 WHERE UnitType = 'UNIT_MER_GRENZER';
+-- uu CS to 65/70, sight to 4
+UPDATE Units SET Combat = 65, RangedCombat = 70, BaseSightRange = 4 WHERE UnitType = 'UNIT_MER_GRENZER';
 
 -- uu CS bonus range to 2
 UPDATE RequirementArguments SET Value = 2 WHERE RequirementId = 'GRENZER_TERRITORY_NEARBY_REQUIREMENT' AND Name = 'MaxRange';
