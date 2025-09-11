@@ -22,6 +22,12 @@
 		<Row Tag="LOC_VAN_MER_ZENOBIA_HC_CS_ABILITY_DESC" Language="zh_Hans_CN">
 			<Text>+2 [ICON_STRENGTH] 战斗力，来自帝国雄心</Text>
 		</Row>
+		<Row Tag="LOC_MODIFIER_VAN_ZENOBIA_HC_CS_GIVER_DESC" Language="zh_Hans_CN">
+			<Text>+2 [ICON_STRENGTH] 战斗力，来自帝国雄心</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_VAN_ZENOBIA_HC_CS_GIVER_HILLS_DESC" Language="zh_Hans_CN">
+			<Text>+2 [ICON_STRENGTH] 战斗力，来自帝国雄心</Text>
+		</Row>
 	</LocalizedText>
 
 </GameData>

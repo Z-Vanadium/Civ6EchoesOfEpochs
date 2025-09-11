@@ -133,6 +133,9 @@ DELETE FROM UnitAbilities
 -- uu full strength to +3
 UPDATE ModifierArguments SET Value = '3' WHERE ModifierId = 'MODIFIER_MER_CLIBANARII_FULL_STRENGTH';
 
+-- uu need 10 iron
+UPDATE Units SET StrategicResource='RESOURCE_IRON' WHERE UnitType='UNIT_MER_CLIBANARII';
+
 -- ui base to +2 food +1 culture
 DELETE FROM Improvement_YieldChanges
       WHERE ImprovementType = 'IMPROVEMENT_MER_FUNERARY_TOWERS' AND
@@ -289,7 +292,12 @@ INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
     ('VAN_MER_ZENOBIA_ADJUST_HC_CS', 'Amount', '2');
 
 INSERT INTO ModifierStrings (ModifierId, Context, Text) VALUES
-    ('VAN_MER_ZENOBIA_ADJUST_HC_CS', 'Preview', 'LOC_VAN_MER_ZENOBIA_HC_CS_ABILITY_DESC'),
+    ('VAN_MER_ZENOBIA_ADJUST_HC_CS', 'Preview', 'LOC_VAN_MER_ZENOBIA_HC_CS_ABILITY_DESC');
+
+INSERT INTO ModifierStrings (ModifierId, Context, Text) VALUES
+    ('MODIFIER_VAN_ZENOBIA_HC_CS_GIVER', 'Preview', 'LOC_MODIFIER_VAN_ZENOBIA_HC_CS_GIVER_DESC'),
+    ('MODIFIER_VAN_ZENOBIA_HC_CS_GIVER_HILLS', 'Preview', 'LOC_MODIFIER_VAN_ZENOBIA_HC_CS_GIVER_HILLS_DESC');
+
 
 
 
