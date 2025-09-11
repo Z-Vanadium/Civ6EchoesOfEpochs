@@ -204,4 +204,208 @@
 				<Text>The state began to decline in the late 11th century, gradually disintegrating into various rival regional powers throughout the 12th century. It was further weakened by external factors, such as the decline of the Byzantine Empire, its major economic partner, and the accompanying diminution of trade routes through its territory. It finally fell to the Mongol invasion in the mid-13th century, though the Rurik dynasty would continue to rule until the death of Feodor I of Russia in 1598. The modern nations of Belarus, Russia, and Ukraine all claim Kyivan Rus' as their cultural ancestor, with Belarus and Russia deriving their names from it, and the name Kyivan Rus' derived from what is now the capital of Ukraine.</Text>
 			</Row>
 	</LocalizedText>
+
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_MER_KYIV_YAROSLAV_NAME" Language="zh_Hans_CN">
+			<Text>雅罗斯拉夫</Text>
+		</Row>
+		<!--Traits-->
+		<Row Tag="LOC_TRAIT_LEADER_MER_KYIV_RUSSKAYA_PRAVDA_NAME" Language="zh_Hans_CN">
+			<Text>罗斯真理</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_MER_KYIV_RUSSKAYA_PRAVDA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>政治哲学后，拥有维彻广场的城市 +2 [icon_culture]文化；中世纪集市后这个加成将翻倍。</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_LEADER_MER_RUSSKAYA_PRAVDA_STRENGTH_DESC" Language="zh_Hans_CN">
+			<Text>每个同盟提供+{1_Amount} [ICON_Strength] 战斗力（最多+10）</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MER_KYIV_VARANGIANS_TO_GREEKS_NAME" Language="zh_Hans_CN">
+			<Text>自瓦良格至希腊</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MER_KYIV_VARANGIANS_TO_GREEKS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您的 [ICON_TradeRoute] 贸易路线每行进5格单元格，即可额外获得 +1 [ICON_Gold] 金币。[NEWLINE]河流沿岸的已开发资源提供 +1 [ICON_Gold] 金币，营地与伐木场提供 +1 [ICON_Production] 生产力。[newline][newline][ICON_BULLET]出生地关联：T2河流、T4鹿、T4树林。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_KYIV_DRUZHINA_NAME" Language="zh_Hans_CN">
+			<Text>亲兵队</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_KYIV_DRUZHINA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>独特的陆地单位</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_KYIV_DRUZHINA_NAME" Language="zh_Hans_CN">
+			<Text>亲兵队</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_KYIV_DRUZHINA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>基辅罗斯中世纪特色近战单位，替代披甲战士。[NEWLINE]若至少与另一支亲兵队相邻，攻击时获得 +3 [ICON_Strength] 战斗力。若在回合开始时至少与另一支亲兵队相邻，获得 +1 [ICON_Movement] 移动力。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_KYIV_DRUZHINA_ABILITY" Language="zh_Hans_CN">
+			<Text>若至少与另一支亲兵队相邻，攻击时获得 +3 [ICON_Strength] 战斗力。若至少与另一支亲兵队相邻，获得 +1 [ICON_Movement] 移动力。</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_MER_KYIV_DRUZHINA_ADJACENT_DESC" Language="zh_Hans_CN">
+			<Text>与亲兵队相邻获得 +3 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_MER_KYIV_DRUZHINA_MOVEMENT_DESC" Language="zh_Hans_CN">
+			<Text>回合开始时与亲兵队相邻获得+1 [ICON_Movement] 移动力。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_MER_KYIV_VECHE_NAME" Language="zh_Hans_CN">
+			<Text>维彻广场</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_MER_KYIV_VECHE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>独特的区域</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_MER_KYIV_VECHE_NAME" Language="zh_Hans_CN">
+			<Text>维彻广场</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_MER_KYIV_VECHE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>基辅罗斯特色商业中心。[NEWLINE]从相邻市政广场与外交区获得额外标准 [ICON_Gold] 金币加成。每处相邻资源提供少量 [ICON_Gold] 金币加成。</Text>
+		</Row>
+		<Row Tag="LOC_VECHE_RESOURCE_ADJACENCY" Language="zh_Hans_CN">
+			<Text>来自相邻 {1_Num : plural 1?资源; other?资源;} 的+{1_num} [ICON_Gold] 金币。</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_KYIVAN_RUS_NAME" Language="zh_Hans_CN">
+			<Text>基辅罗斯</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_KYIVAN_RUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>基辅罗斯帝国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_KYIVAN_RUS_DESCRIPTION_JFD_CIVILIZATION" Language="zh_Hans_CN">
+			<Text>基辅罗斯文明</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_KYIVAN_RUS_IN_CITYECTIVE"	  Language="zh_Hans_CN">
+			<Text>基辅罗斯</Text>
+		</Row>
+		<!--Citizens-->
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MALE_1" Language="zh_Hans_CN">
+			<Text>亚诺什</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MALE_2" Language="zh_Hans_CN">
+			<Text>拉斯洛</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MALE_3" Language="zh_Hans_CN">
+			<Text>米克洛什</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MALE_4" Language="zh_Hans_CN">
+			<Text>彼得</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MALE_5" Language="zh_Hans_CN">
+			<Text>伊什特万</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MALE_6" Language="zh_Hans_CN">
+			<Text>捷尔吉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MALE_7" Language="zh_Hans_CN">
+			<Text>雅卡布</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MALE_8" Language="zh_Hans_CN">
+			<Text>安德拉什</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MALE_9" Language="zh_Hans_CN">
+			<Text>米哈伊</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MALE_10" Language="zh_Hans_CN">
+			<Text>帕尔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_MALE_1" Language="zh_Hans_CN">
+			<Text>安德拉什</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_MALE_2" Language="zh_Hans_CN">
+			<Text>盖佐</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_MALE_3" Language="zh_Hans_CN">
+			<Text>伊姆雷</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_MALE_4" Language="zh_Hans_CN">
+			<Text>亚诺什</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_MALE_5" Language="zh_Hans_CN">
+			<Text>约瑟夫</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_MALE_6" Language="zh_Hans_CN">
+			<Text>卡罗伊</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_MALE_7" Language="zh_Hans_CN">
+			<Text>马克</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_MALE_8" Language="zh_Hans_CN">
+			<Text>马尔顿</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_MALE_9" Language="zh_Hans_CN">
+			<Text>山多尔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_MALE_10" Language="zh_Hans_CN">
+			<Text>日格蒙德</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_FEMALE_1" Language="zh_Hans_CN">
+			<Text>安娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_FEMALE_2" Language="zh_Hans_CN">
+			<Text>卡塔林</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_FEMALE_3" Language="zh_Hans_CN">
+			<Text>博尔巴洛</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_FEMALE_4" Language="zh_Hans_CN">
+			<Text>埃尔热贝特</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_FEMALE_5" Language="zh_Hans_CN">
+			<Text>玛尔格蕾特</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_FEMALE_6" Language="zh_Hans_CN">
+			<Text>卓菲亚</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_FEMALE_7" Language="zh_Hans_CN">
+			<Text>尤若</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_FEMALE_8" Language="zh_Hans_CN">
+			<Text>伊洛娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_FEMALE_9" Language="zh_Hans_CN">
+			<Text>多罗蒂亚</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_FEMALE_10" Language="zh_Hans_CN">
+			<Text>奥尔索利亚</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_FEMALE_1" Language="zh_Hans_CN">
+			<Text>克拉拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_FEMALE_2" Language="zh_Hans_CN">
+			<Text>莎拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_FEMALE_3" Language="zh_Hans_CN">
+			<Text>海伦娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_FEMALE_4" Language="zh_Hans_CN">
+			<Text>阿加塔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_FEMALE_5" Language="zh_Hans_CN">
+			<Text>克里斯蒂娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_FEMALE_6" Language="zh_Hans_CN">
+			<Text>茹饶娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_FEMALE_7" Language="zh_Hans_CN">
+			<Text>玛尔塔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_FEMALE_8" Language="zh_Hans_CN">
+			<Text>卡塔林娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_FEMALE_9" Language="zh_Hans_CN">
+			<Text>芭芭拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_KYIVAN_RUS_MODERN_FEMALE_10" Language="zh_Hans_CN">
+			<Text>阿德</Text>
+		</Row>
+			<!--Pedia-->
+			<Row Tag="LOC_CIVINFO_MER_KYIVAN_RUS_LOCATION" Language="zh_Hans_CN">
+				<Text>基辅罗斯</Text>
+			</Row>
+			<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_KYIVAN_RUS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+				<Text>基辅罗斯是第一个东斯拉夫国家，后成为从9世纪末到13世纪中叶东欧各公国的联合体。它囊括了多种政体和民族，包括东斯拉夫、诺斯和芬兰人，由瓦良格王子留里克建立的留里克王朝统治。“基辅罗斯”这一名称由19世纪的俄罗斯历史学家创造，用以描述基辅处于中心地位的时期。</Text>
+			</Row>
+			<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_KYIVAN_RUS_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+				<Text>根据《往年纪事》，第一位将东斯拉夫土地统一为基辅罗斯的统治者是“智者”奥列格。他从诺夫哥罗德向南沿第聂伯河流域扩展控制范围，以保护贸易免受东方可萨人的侵袭，并控制了基辅城。斯维亚托斯拉夫一世实现了国家的首次重大领土扩张，发动了对可萨人的征服战争。“伟人”弗拉基米尔通过自己受洗并颁布法令，将基督教传播给基辅及以外的所有居民。基辅罗斯在“智者”雅罗斯拉夫统治下达到鼎盛；他的儿子们在他去世后不久汇编并颁布了第一部成文法典《罗斯真理》。</Text>
+			</Row>
+			<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_KYIVAN_RUS_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+				<Text>国家在11世纪后期开始衰落，在整个12世纪逐渐瓦解为多个敌对的地区势力。外部因素进一步削弱了它，例如其主要经济伙伴拜占庭帝国的衰落，以及穿越其领土的贸易路线随之减少。它最终在13世纪中叶被蒙古入侵征服，尽管留里克王朝的统治一直持续到1598年俄罗斯的费奥多尔一世去世。现代国家白俄罗斯、俄罗斯和乌克兰都宣称基辅罗斯是他们的文化祖先，白俄罗斯和俄罗斯的国名由此而来，而“基辅罗斯”的名称则源自现今乌克兰的首都。</Text>
+			</Row>
+	</LocalizedText>
 </GameData>

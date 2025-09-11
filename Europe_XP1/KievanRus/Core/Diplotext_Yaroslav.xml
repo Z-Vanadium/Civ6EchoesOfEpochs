@@ -219,4 +219,222 @@
 			<Text>It is a shame really.</Text>
 		</Row>
 	</LocalizedText>
+
+
+	<LocalizedText>
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_MER_KYIV_YAROSLAV" Language="zh_Hans_CN">
+			<Text>您是智者雅罗斯拉夫一世·弗拉基米罗维奇，基辅大公，诺夫哥罗德与罗斯托夫王公。您专注于外交政策并强化同盟纽带，这将助您在未来的时代中取得成功。当众多邻国觊觎您的领土时，请寻求与您拥有共同敌人的势力，借助他们的力量与您并肩作战。凭借这些同盟纽带，您将巩固基辅罗斯的边疆，确保您的统治永世长存。</Text>
+		</Row>
+		<!--Agenda-->
+		<Row Tag="LOC_AGENDA_MER_OLD_LAW_NAME" Language="zh_Hans_CN">
+			<Text>传统律法</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_MER_OLD_LAW_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>崇尚惩戒战争、解放战争与保护国战争，敬重宣战此类战争者。青睐建立同盟的文明。厌恶不缔结同盟且发动突袭战争的文明。</Text>
+		</Row>
+		<!--KUDOS-->
+		<Row Tag="LOC_DIPLO_KUDOS_LEADER_MER_KYIV_YAROSLAV_REASON_ALLIANCES" Language="zh_Hans_CN">
+			<Text>（您拥有众多同盟）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_MER_KYIV_YAROSLAV_OLD_LAW_ALLIANCES" Language="zh_Hans_CN">
+			<Text>雅罗斯拉夫对您众多的同盟关系印象深刻。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDOS_LEADER_MER_KYIV_YAROSLAV_REASON_RETRIBUTION" Language="zh_Hans_CN">
+			<Text>（您已宣布发动惩戒战争）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_MER_KYIV_YAROSLAV_OLD_LAW_RETRIBUTION" Language="zh_Hans_CN">
+			<Text>雅罗斯拉夫敬重您宣布发动惩戒战争。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDOS_LEADER_MER_KYIV_YAROSLAV_REASON_LIBERATION" Language="zh_Hans_CN">
+			<Text>（您已宣布发动解放战争）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_MER_KYIV_YAROSLAV_OLD_LAW_LIBERATION" Language="zh_Hans_CN">
+			<Text>雅罗斯拉夫敬重您宣布发动解放战争。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDOS_LEADER_MER_KYIV_YAROSLAV_REASON_PROTECTORATE" Language="zh_Hans_CN">
+			<Text>（您已宣布发动保护国战争）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_MER_KYIV_YAROSLAV_OLD_LAW_PROTECTORATE" Language="zh_Hans_CN">
+			<Text>雅罗斯拉夫敬重您宣布发动保护国战争。</Text>
+		</Row>
+		<!--WARNING-->
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_MER_KYIV_YAROSLAV_REASON_LOW_ALLIANCES" Language="zh_Hans_CN">
+			<Text>（您的同盟寥寥无几）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_MER_KYIV_YAROSLAV_OLD_LAW_LOW_ALLIANCES" Language="zh_Hans_CN">
+			<Text>雅罗斯拉夫对您稀少的同盟关系感到失望。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_MER_KYIV_YAROSLAV_REASON_SURPRISE" Language="zh_Hans_CN">
+			<Text>（您发动了突袭战争）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_MER_KYIV_YAROSLAV_OLD_LAW_SURPRISE" Language="zh_Hans_CN">
+			<Text>雅罗斯拉夫对您发动的突袭战争感到愤怒。</Text>
+		</Row>
+		<!--Civilopedia-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_KYIV_YAROSLAV_TITLE" Language="zh_Hans_CN">
+			<Text>雅罗斯拉夫</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_KYIV_YAROSLAV_SUBTITLE" Language="zh_Hans_CN">
+			<Text>基辅与诺夫哥罗德大公</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_KYIV_YAROSLAV_QUOTE" Language="zh_Hans_CN">
+			<Text>你们要彼此相爱，因为你们是同父同母的兄弟。倘若你们彼此相爱，上帝必与你们同在。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_KYIV_YAROSLAV_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>智者雅罗斯拉夫曾三度担任大诺夫哥罗德与基辅的大公，一度将两个公国统一于其统治之下。作为首位基督教诺夫哥罗德王公“伟人”弗拉基米尔之子，雅罗斯拉夫在其父于1015年逝世时担任诺夫哥罗德的副摄政。随后，他的长兄、基辅的斯维亚托波尔克一世杀害了另外三位兄弟并夺取了基辅的权力。雅罗斯拉夫在诺夫哥罗德民众的积极支持下，借助瓦良格雇佣军的帮助，击败了斯维亚托波尔克，并于1019年成为基辅大公。在雅罗斯拉夫统治下，开始了对法律习俗与王公法令的编纂工作，这项成果为后来称为《罗斯真理》的法典奠定了基础。在他漫长的统治期间，基辅罗斯达到了其文化繁荣与军事力量的顶峰。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_KYIV_YAROSLAV_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>雅罗斯拉夫年轻时被父亲派去统治罗斯托夫附近的北方领土，但于1010年，作为王位的资深继承人，被调往大诺夫哥罗德。居住在那里期间，他在伏尔加河畔建立了雅罗斯拉夫尔城（字面意为“雅罗斯拉夫的”）。他与父亲的关系显然紧张，并在得知弗拉基米尔将基辅王位传给其幼子鲍里斯后更加恶化。1014年，雅罗斯拉夫拒绝向基辅进贡，若非弗拉基米尔于1015年7月去世，一场战争将不可避免。且不论雅罗斯拉夫对基辅王位主张的合法性及其被推定谋杀兄弟的罪责，编年史家内斯特及后来的俄罗斯历史学家常将他誉为美德的典范，尊称其为“智者”。他性格中不那么吸引人的一面体现在他将最小的弟弟苏季斯拉夫终身监禁。然而，另一位兄弟、切尔尼戈夫的姆斯季斯拉夫，其遥远疆域与北高加索和黑海接壤，急忙赶到基辅，尽管有雅罗斯拉夫的妹夫瑞典国王阿努德·雅各布率领的援军，仍在1024年使雅罗斯拉夫遭受重创。雅罗斯拉夫与姆斯季斯拉夫随后瓜分了基辅罗斯：第聂伯河左岸地区，以切尔尼希夫为首都，割让给姆斯季斯拉夫，直至他1036年去世。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_KYIV_YAROSLAV_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>在外交政策上，雅罗斯拉夫依赖斯堪的纳维亚联盟，并试图削弱拜占庭对基辅的影响。1030年，他从波兰人手中夺回红鲁塞尼亚，并与重建者卡齐米日一世国王缔结同盟，后者与雅罗斯拉夫的妹妹玛丽亚的婚姻巩固了这一联盟。同年在另一次成功的军事行动中，他占领了爱沙尼亚的塔尔图，将其更名为尤里耶夫（以雅罗斯拉夫的守护圣徒尤里命名），并迫使周边的乌甘迪县每年进贡。1043年，雅罗斯拉夫由其子诺夫哥罗德的弗拉基米尔和将军维沙塔率领，对君士坦丁堡发动了一次海上袭击。尽管他的海军在罗斯-拜占庭战争（1043年）中战败，雅罗斯拉夫仍成功以有利的条约结束了战争，并使其子基辅的弗谢沃洛德一世与皇帝之女联姻，赢得了威望。有观点认为，和约之所以如此有利，是因为基辅人成功夺取了拜占庭在克里米亚的关键据点切尔松尼斯。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_KYIV_YAROSLAV_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>雅罗斯拉夫依靠同盟与贸易来增强基辅罗斯的实力。</Text>
+		</Row>
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>欢迎，我是雅罗斯拉夫。倘若您是一位贤明公正的统治者，我们将很快成为朋友，您也无需畏惧我的审判。</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>来吧，参观我附近的城邦！我相信您会喜欢这段经历，我们也很乐意接待您！</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>好的，好的，我的朋友！我很乐意。</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>我相信您的首都一定有许多像我一样的人。能见到他们真是太好了！当然，您的首都在哪里？您愿意告诉我吗？</Text>
+		</Row>
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>嗯？您有何事？</Text>
+		</Row>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>是的，我的朋友！我期待着会见他们并接受他们的礼物！</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>我很抱歉，或许改日再说？</Text>
+		</Row>
+		<!--AI Requests-->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>我的朋友，一个代表团正在前往您首都的路上。我想您会很高兴见到他们！</Text>
+		</Row>
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>是的，当然！</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>我很想接受这个提议，但我不能……我深感抱歉，真的。</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>您目前的边界是关闭的。您愿意开放它们吗？哈哈——您明白我的意思吗？不明白？</Text>
+		</Row>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>是的，当然！现在我可以称您为朋友了，而且这在法律上也是成立的！我比您所能理解的还要高兴，请相信我。</Text>
+		</Row>
+		<!--AI Rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>抱歉，但有时最好只是生活中的朋友，而非形式上的朋友。这样更自由，您明白吗？再次为我无法接受表示歉意。</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>您一直是我伟大的朋友。或许我们可以让我们的友谊正式化？</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>是的，谢谢！正如我所期望的。我本想伸手与您握手，但我有点感冒，不想传染给您——即使我戴着手套。总之，非常感谢！</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>嗯，这不太友善，不是吗？</Text>
+		</Row>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>我的朋友，您能想象结盟将有多么伟大吗？世界将嫉妒我们王国将拥有的伟大与繁荣。我们可以互相保护，也可以攻击任何阻挡我们道路的人。而且，我怎能忘记——我们几乎会被金币淹没！哦，多么欢乐！您愿意成为我的盟友吗，我的朋友？</Text>
+		</Row>
+		<!--KUDOS & WARNINGS-->
+		<!--AI Kudos-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>我的朋友，您是一位伟人，也是一位伟大的商人。干得好！</Text>
+		</Row>
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>我不想惹麻烦，但您不是一个好盟友，也没有明智地使用您的金钱。这真是太令人失望了。</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>您知道吗，您让我非常紧张。</Text>
+		</Row>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>是的，是的，当然，我的朋友！</Text>
+		</Row>
+		<!-- AI Rejects Deal -->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>嗯，这不太友善，不是吗？</Text>
+		</Row>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>我无需承受这样的侮辱。</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>我讨厌对您这样做，但是……您已经太多次背叛了我的信任。我是有底线的。特此谴责您。（谴责您）</Text>
+		</Row>
+		<!--Rationale-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_MER_KYIV_YAROSLAV_THE_WISE_NO_ALLIANCES" Language="zh_Hans_CN">
+			<Text>（您几乎没有或根本没有同盟）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_MER_KYIV_YAROSLAV_THE_WISE_LOW_INCOME" Language="zh_Hans_CN">
+			<Text>（您的收入很低）</Text>
+		</Row>
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>您这样做可不太友善。我会让您知道——当您被击溃时，我会善待您的人民。</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>我讨厌树敌或做任何类似的事情，但您就像一只试图蜇我的烦人蜜蜂。您使我烦恼、激怒我，有时还造成伤害。摆脱蜜蜂的唯一方法就是杀死它，因此我特此向您宣战。</Text>
+		</Row>
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>是的，我的朋友！我很高兴接受这个。</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>不。抱歉。我不能……</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>我的朋友，让我们放下武器，拿起犁和笔。是时候回归正常生活了。</Text>
+		</Row>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>正义终将降临到您身上，只是可惜挥动斧头的将不是我的手臂。</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_MER_KYIV_YAROSLAV_ANY" Language="zh_Hans_CN">
+			<Text>这真是可惜。</Text>
+		</Row>
+	</LocalizedText>
 </GameData>
