@@ -254,7 +254,7 @@
 			<Text>贸易保护主义</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_JFD_AMERICAN_CONTRACT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>国内[ICON_TRADEROUTE] 贸易路线为起始城市每回合提供+1忠诚度。[NEWLINE]格位收获和资源移除收益 +20%。与 [icon_capital] 首都同大陆的所有城市 +5% [ICON_PRODUCTION] [ICON_FOOD] [ICON_SCIENCE] [ICON_CULTURE] [ICON_GOLD] [ICON_FAITH] 所有产出，不同大陆的所有城市 -8% [ICON_PRODUCTION] [ICON_FOOD] [ICON_SCIENCE] [ICON_CULTURE] [ICON_GOLD] [ICON_FAITH] 所有产出。[NEWLINE]研究联合作战科技后获得超级航母特色单位。</Text>
+			<Text>国内[ICON_TRADEROUTE] 贸易路线为起始城市每回合提供+1忠诚度。[NEWLINE]格位收获和资源移除收益 +10%。与 [icon_capital] 首都同大陆的所有城市 +5% [ICON_PRODUCTION] [ICON_FOOD] [ICON_SCIENCE] [ICON_CULTURE] [ICON_GOLD] [ICON_FAITH] 所有产出，不同大陆的所有城市 -8% [ICON_PRODUCTION] [ICON_FOOD] [ICON_SCIENCE] [ICON_CULTURE] [ICON_GOLD] [ICON_FAITH] 所有产出。[NEWLINE]研究联合作战科技后获得超级航母特色单位。</Text>
 		</Row>
 		<!--Civilopedia-->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_TRUMP_TITLE" Language="zh_Hans_CN">
