@@ -217,4 +217,220 @@
 			<Text>Even without Open Borders, this unit can enter foreign territory. Generates 1 Influence toward an [ICON_ENVOY] Envoy whilst stationed outside American borders so long as America is at peace.</Text>
 		</Row>
 	</LocalizedText>
+	<LocalizedText>
+		<!--MOD-->
+		<Row Tag="LOC_MOD_JFD_AMERICA_TRUMP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>------------------------------------[NEWLINE]领袖 -- 唐纳德·特朗普[NEWLINE][NEWLINE]特色能力 - 美国契约[NEWLINE]国内[ICON_TRADEROUTE] 贸易路线为起始城市每回合提供+1忠诚度。拥有满忠诚度的城市可花费少20%的[ICON_GOLD] 金币购买平民单位。研究“合成军事学”科技后获得超级航母特色单位。[NEWLINE][NEWLINE]单位 - 超级航母[NEWLINE]美国原子能时代特色海军单位，在唐纳德·特朗普担任领袖时取代航空母舰。无需开放边界协议即可进入外国领土，只要美国处于和平状态，驻扎在境外时即可产生获得1位[ICON_ENVOY] 使者的影响力。维护费用更高。[NEWLINE][NEWLINE]议程 - 美国优先[NEWLINE]强烈反对开放边界协议，并倾向于关注本国人民的忠诚度和幸福感。尊重那些同样保持人民忠诚和满足的文明。不喜欢那些向美国派遣[ICON_TRADEROUTE] 贸易路线的文明。</Text>
+		</Row>
+		<!--LEADER-->
+		<Row Tag="LOC_LEADER_JFD_TRUMP_NAME" Language="zh_Hans_CN">
+			<Text>唐纳德·特朗普</Text>
+		</Row>
+		<!--Agenda-->
+		<Row Tag="LOC_AGENDA_JFD_AMERICA_FIRST_NAME" Language="zh_Hans_CN">
+			<Text>美国优先</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_JFD_AMERICA_FIRST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>强烈反对开放边界协议，并倾向于关注本国人民的忠诚度和幸福感。尊重那些同样保持人民忠诚和满足的文明。不喜欢那些向美国派遣[ICON_TRADEROUTE] 贸易路线的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_JFD_TRUMP_REASON_GAINING_CITIES_AND_LEADS_HAPPINESS" Language="zh_Hans_CN">
+			<Text>（您的城市忠诚且安定。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_JFD_AMERICA_FIRST_GAINING_CITIES_GAINING_CITIES_AND_LEADS_HAPPINESS" Language="zh_Hans_CN">
+			<Text>唐纳德·特朗普赞扬您人民的民族自豪感</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_JFD_TRUMP_REASON_TRADE_PENALTY" Language="zh_Hans_CN">
+			<Text>（您正在与他们进行贸易。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_JFD_AMERICA_FIRST_TRADE_PENALTY" Language="zh_Hans_CN">
+			<Text>唐纳德·特朗普认为您的贸易对美国不利</Text>
+		</Row>
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_JFD_TRUMP" Language="zh_Hans_CN">
+			<Text>美国及其人民渴望他们的天定命运，唐纳德·特朗普总统。您向他们承诺了一件事：将美国放在首位；将她的产业和工人的利益放在心中，并恢复她的民族自豪感。我们效忠于一面旗帜，那就是美国国旗！</Text>
+		</Row>
+		<!--Traits-->
+		<Row Tag="LOC_TRAIT_LEADER_JFD_AMERICAN_CONTRACT_NAME" Language="zh_Hans_CN">
+			<Text>贸易保护主义</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_JFD_AMERICAN_CONTRACT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>国内[ICON_TRADEROUTE] 贸易路线为起始城市每回合提供+1忠诚度。[NEWLINE]格位收获和资源移除收益 +20%。与 [icon_capital] 首都同大陆的所有城市 +5% [ICON_PRODUCTION] [ICON_FOOD] [ICON_SCIENCE] [ICON_CULTURE] [ICON_GOLD] [ICON_FAITH] 所有产出，不同大陆的所有城市 -8% [ICON_PRODUCTION] [ICON_FOOD] [ICON_SCIENCE] [ICON_CULTURE] [ICON_GOLD] [ICON_FAITH] 所有产出。[NEWLINE]研究联合作战科技后获得超级航母特色单位。</Text>
+		</Row>
+		<!--Civilopedia-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_TRUMP_TITLE" Language="zh_Hans_CN">
+			<Text>唐纳德·特朗普</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_TRUMP_SUBTITLE" Language="zh_Hans_CN">
+			<Text>美利坚合众国总统</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_TRUMP_QUOTE" Language="zh_Hans_CN">
+			<Text>我们将不再让这个国家或其人民屈服于全球主义的虚假颂歌。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_TRUMP_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>唐纳德·约翰·特朗普（生于1946年6月14日）是美国第45任现任总统。在进入政界之前，他是一名商人和电视名人。[NEWLINE][NEWLINE]特朗普在纽约市皇后区出生并长大。他获得了宾夕法尼亚大学沃顿商学院的经济学学位，并于1971年被任命为其家族房地产业务的总裁，将其更名为特朗普集团，并将其从皇后区和布鲁克林扩展到曼哈顿。该公司建造或翻新了摩天大楼、酒店、赌场和高尔夫球场。特朗普后来开始了各种副业，包括授权其名字用于房地产和消费品。他一直管理公司直到2017年就职。他合著了几本书，包括《交易的艺术》。从1996年到2015年，他拥有环球小姐和美国小姐选美大赛的主办权，并从2003年到2015年制作并主持了真人秀电视节目《学徒》。福布斯估计他的净资产为31亿美元。[NEWLINE][NEWLINE]特朗普以共和党人身份参加了2016年总统竞选，并在初选中击败了十六位对手。评论员将他的政治立场描述为民粹主义、保护主义和民族主义。他的竞选活动获得了广泛的免费媒体报道；他的许多公开言论具有争议性或虚假性。特朗普在意外击败民主党候选人希拉里·克林顿后当选总统。他成为有史以来上任时年龄最大、最富有的人，第一位没有军队或政府服务经验的人，也是第五位在输掉普选的情况下赢得选举的人。他的当选和政策引发了众多抗议活动。他的许多言论和行为被视为带有种族主义色彩或种族主义。[NEWLINE][NEWLINE]在总统任期内，特朗普以安全担忧为由，下令对来自几个穆斯林占多数的国家的公民实施旅行禁令；经过法律挑战后，最高法院维持了该政策的第三个修订版。他签署了减税立法，降低了个人的税率和企业税，并废除了《平价医疗法案》的个人保险强制条款，并开放北极保护区进行石油钻探。他部分废除了在2008年金融危机后对银行实施更严格约束的《多德-弗兰克法案》。他在外交政策上推行其“美国优先”议程，退出《跨太平洋伙伴关系协定》贸易谈判、《巴黎气候协定》和伊朗核协议。他承认耶路撒冷为以色列首都，对各种商品加征进口关税，引发与中国的贸易战，并与朝鲜进行旨在实现无核化的谈判。他提名了两位最高法院大法官，尼尔·戈萨奇和布雷特·卡瓦诺。[NEWLINE][NEWLINE]在特朗普解雇联邦调查局局长詹姆斯·科米后，司法部任命罗伯特·穆勒为特别检察官，调查特朗普竞选团队与俄罗斯政府在其选举干预中的“任何联系和/或协调”。特朗普一再否认共谋和妨碍司法的指控，称这项调查是出于政治动机的“政治迫害”。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_TRUMP_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>特朗普以美国及其人民为荣。只要他们的工作是自由且美国的，他的人民就会努力工作。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_TRUMP_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>在游戏早期，美国的优势在于在忠诚城市中更便宜地购买平民单位。如果他们想保持这一优势，就需要通过国内贸易路线连接他们的城市。随着外交政策槽变为通配符槽，他们的政府选择很重要，尽管古典共和和商人共和政体对美国偏好的文化胜利最有帮助。他们还应该考虑在政府广场建设国家历史博物馆。凭借其电影制片厂、国家公园加成和两个工业时代后的特色单位，他们从20世纪 onwards 大放异彩。</Text>
+		</Row>
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>欢迎！我是特朗普总统。欢迎来到美国。我们不想要任何坏人在这里。我们想要好人，我们很高兴拥有他们。希望你是其中之一！</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>我猜你是想和我见面吧？我附近有座城市。我总是很忙，但从不忙到没时间见面打招呼！</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>期待会面！</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>美国的首都，美国之都，是个好首都。你的可能也不错。我们来谈谈这个吧。</Text>
+		</Row>
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>嗯？</Text>
+		</Row>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>那就去见见你的代表团吧。希望一切顺利！</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>说实话，这会很痛苦！</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>如果可以的话，我计划与你见面！愿意来我的海湖庄园度假胜地吗？不过我可不想在高尔夫球场上看到你的腿！</Text>
+		</Row>
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>可以办到！</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>我爱你的国家。伟大的国家。但这办不到！如果我们没有边界，我们就不是一个国家。</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>我希望来自世界各地的好人来到这里，但我希望他们合法地这样做。让我们就此展开对话。</Text>
+		</Row>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>没错！听起来不错。</Text>
+		</Row>
+		<!--AI Rejects from human -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>那会相当可悲！</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>尽管关于你的负面消息（covfefe）不断，但我认为你是个好朋友。同意吗？</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>太棒了！</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>可悲！(SAD!)</Text>
+		</Row>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>我向你请求结盟这一事实，用仇恨者和失败者的话说，是美国的重大损失。记住，他们才是失败者。</Text>
+		</Row>
+		<!--KUDOS & WARNINGS-->
+		<!--AI Kudos-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>你我都明白，没有全球国歌，没有全球货币，没有全球公民证书，我们只效忠于我们自己的旗帜！</Text>
+		</Row>
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>我反对为任何非法进入这个国家的人提供任何获得公民身份的途径。我认为你是问题的一部分。</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>美国拥有强大的力量和耐心。但如果你不从其边境撤军，美国将别无选择，只能彻底摧毁你。</Text>
+		</Row>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_JFD_TRUMP_ANY}</Text>
+		</Row>
+		<!--AI Rejects Deal-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_JFD_TRUMP_ANY}</Text>
+		</Row>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>这太荒谬了。完全是尴尬。太可悲了！(SO SAD!)</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>曾经伟大，现在完全是个笑话。可悲！(Sad!) （谴责你）</Text>
+		</Row>
+		<!--Rationale-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_JFD_AMERICA_FIRST_REASON_TRADE_PENALTY" Language="zh_Hans_CN">
+			<Text>（您正在与他们进行贸易。）</Text>
+		</Row>
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>请让你们那个凋敝且食物匮乏的政权中的某人告知你，我也有一支军队，但它比你们的军队更庞大、更强大，而且我的军队是能打仗的！</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>我之前一直克制着没有进行军事演习，因为那非常昂贵。但谈判已经破裂，美国准备采取行动了。</Text>
+		</Row>
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>一笔好交易！</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>你是一个软弱无效的统治者。太可悲了！(So sad!) 没有和平！</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>这么多年轻、美丽、无辜的人，正在生活和享受他们的人生，却被像你这样的邪恶失败者谋杀了。我认为是时候和平了。</Text>
+		</Row>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>我以为会更容易些。</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_JFD_TRUMP_ANY" Language="zh_Hans_CN">
+			<Text>[LOC_DIPLO_DEFEAT_FROM_AI_LEADER_JFD_TRUMP_ANY]</Text>
+		</Row>
+		<!--SUPERCARRIER-->
+		<Row Tag="LOC_UNIT_JFD_SUPERCARRIER_NAME" Language="zh_Hans_CN">
+			<Text>超级航母</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_JFD_SUPERCARRIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>美国原子能时代特色海军单位，在唐纳德·特朗普担任领袖时取代航空母舰。无需开放边界协议即可进入外国领土，只要美国处于和平状态，驻扎在境外时即可产生获得1位[ICON_ENVOY] 使者的影响力。维护费用更高。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JFD_SUPERCARRIER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>“超级航母”这个称谓并非任何国家海军的官方名称，而是一个主要由媒体使用的术语，通常在报道新型和即将问世的航空母舰类型时使用。在比较各种规模和能力的现役及过往航母时也会使用该词。它于1938年由《纽约时报》首次使用，用于报道英国皇家海军的皇家方舟号（HMS Ark Royal），该舰长209米（686英尺），排水量22,000吨，设计搭载72架飞机。此后，航空母舰的尺寸（包括长度和排水量）持续增长，能力也不断提升；包括防御、传感器、电子战、推进、航程、起飞和回收系统、搭载飞机的数量和类型以及每日出动架次。</Text>
+		</Row>
+		<!--Gunboat Diplomacy-->
+		<Row Tag="LOC_ABILITY_JFD_SUPERCARRIER_NAME" Language="zh_Hans_CN">
+			<Text>炮舰外交</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_JFD_SUPERCARRIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>即使没有开放边界，此单位也可进入外国领土。只要美国处于和平状态，驻扎在境外时即可产生1点获得1位[ICON_ENVOY] 使者的影响力。</Text>
+		</Row>
+	</LocalizedText>
 </GameData>
