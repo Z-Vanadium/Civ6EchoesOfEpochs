@@ -1,0 +1,4721 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..AssetInstance>
+	<m_BehaviorData>
+		<m_behaviorDataSets>
+			<m_animationBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="ATTACK_A"/>
+						<m_AnimationName text="AircraftCarrier_AttackAirRight"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ATTACK_P"/>
+						<m_AnimationName text="AircraftCarrier_AttackLeft"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ATTACK_S"/>
+						<m_AnimationName text="AircraftCarrier_AttackRight"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_A"/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_A"/>
+						<m_AnimationName text="AircraftCarrier_IdleA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_COMBAT_A"/>
+						<m_AnimationName text="AircraftCarrier_IdleA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_A"/>
+						<m_AnimationName text="AircraftCarrier_RunA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT"/>
+						<m_AnimationName text="AircraftCarrier_RunA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT_STOP"/>
+						<m_AnimationName text="AircraftCarrier_RunStopA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP"/>
+						<m_AnimationName text="AircraftCarrier_RunStopA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_1"/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_2"/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_3"/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_4"/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_5"/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_6"/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_7"/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_8"/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_10"/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_11"/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_12"/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_13"/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_14"/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_9"/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED"/>
+						<m_AnimationName text="AircraftCarrier_IdleA"/>
+					</Element>
+				</m_Bindings>
+			</m_animationBindings>
+			<m_timelineBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="RUN_A"/>
+						<m_TimelineName text="RUN_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="PERSISTENT"/>
+						<m_TimelineName text="PERSISTENT"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_A"/>
+						<m_TimelineName text="IDLE_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ATTACK_A"/>
+						<m_TimelineName text="ATTACK_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_A"/>
+						<m_TimelineName text="DEATH_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_COMBAT_A"/>
+						<m_TimelineName text="IDLE_COMBAT_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ATTACK_P"/>
+						<m_TimelineName text="ATTACK_P"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT"/>
+						<m_TimelineName text="RUN_COMBAT"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ATTACK_S"/>
+						<m_TimelineName text="ATTACK_S"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT_STOP"/>
+						<m_TimelineName text="RUN_COMBAT_STOP"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP"/>
+						<m_TimelineName text="RUN_STOP"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_1"/>
+						<m_TimelineName text="DEATH_1"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_2"/>
+						<m_TimelineName text="DEATH_2"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_3"/>
+						<m_TimelineName text="DEATH_3"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_4"/>
+						<m_TimelineName text="DEATH_4"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_5"/>
+						<m_TimelineName text="DEATH_5"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_6"/>
+						<m_TimelineName text="DEATH_6"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_7"/>
+						<m_TimelineName text="DEATH_7"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_8"/>
+						<m_TimelineName text="DEATH_8"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_10"/>
+						<m_TimelineName text="DEATH_10"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_11"/>
+						<m_TimelineName text="DEATH_11"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_12"/>
+						<m_TimelineName text="DEATH_12"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_13"/>
+						<m_TimelineName text="DEATH_13"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_14"/>
+						<m_TimelineName text="DEATH_14"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_9"/>
+						<m_TimelineName text="DEATH_9"/>
+					</Element>
+				</m_Bindings>
+			</m_timelineBindings>
+			<m_timelines>
+				<m_Timelines>
+					<Element>
+						<m_Name text="RUN_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_RunA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="2"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_Bow_Wake"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_BowFroth"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="10"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_Wake"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Wake"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="87"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarSweep_Fast"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.060475</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="88"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarBeep"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.012346</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="89"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarSweep_Fast"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>2.011092</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="90"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarBeep"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>3.024688</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="73"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRun"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.007407</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="PERSISTENT"/>
+						<m_Description text=""/>
+						<m_AnimationName text=""/>
+						<m_fDuration>3.666667</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="11"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Frigate_Idle_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Persistent_Idle"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="IDLE_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_IdleA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="79"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarSweep_Slow"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>4.023442</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="80"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarSweep_Slow"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.048129</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="81"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarBeep"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>5.987654</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="82"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarBeep"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>2.024691</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="ATTACK_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_AttackAirRight"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="20"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_AntiAir_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_5R"/>
+								<m_fStartTime>1.632194</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="21"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_AntiAir_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_5R"/>
+								<m_fStartTime>2.132193</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="22"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_AntiAir_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_5R"/>
+								<m_fStartTime>2.786038</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="23"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_AntiAir_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_5R"/>
+								<m_fStartTime>1.837321</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="28"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_AntiAir_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_5R"/>
+								<m_fStartTime>2.508683</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="29"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_AntiAir_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_6R"/>
+								<m_fStartTime>1.655668</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="34"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_AntiAir_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_6R"/>
+								<m_fStartTime>1.956137</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="35"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_AntiAir_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_6R"/>
+								<m_fStartTime>2.167405</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="36"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_AntiAir_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_6R"/>
+								<m_fStartTime>2.364588</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="37"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_AntiAir_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_6R"/>
+								<m_fStartTime>2.679143</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="38"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_AntiAir_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_7R"/>
+								<m_fStartTime>1.627052</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>2</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="39"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_AntiAir_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_8R"/>
+								<m_fStartTime>1.627052</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>3</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="40"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_AntiAir_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_7R"/>
+								<m_fStartTime>1.885267</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>2</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="41"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_AntiAir_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_7R"/>
+								<m_fStartTime>2.120011</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>2</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="42"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_AntiAir_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_7R"/>
+								<m_fStartTime>2.462733</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>2</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="43"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_AntiAir_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_7R"/>
+								<m_fStartTime>2.739728</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>2</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="44"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_AntiAir_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_8R"/>
+								<m_fStartTime>1.889963</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>3</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="45"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_AntiAir_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_8R"/>
+								<m_fStartTime>2.166959</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>3</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="46"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_AntiAir_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_8R"/>
+								<m_fStartTime>2.504987</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>3</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="47"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_AntiAir_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_8R"/>
+								<m_fStartTime>2.763202</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>3</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="49"/>
+								<m_Description text=""/>
+								<m_FXName text="SAM_Hit"/>
+								<m_CollectionName text="MaterialVFX"/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>1.692208</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="50"/>
+								<m_Description text=""/>
+								<m_FXName text="SAM_Hit"/>
+								<m_CollectionName text="MaterialVFX"/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>1.735219</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="51"/>
+								<m_Description text=""/>
+								<m_FXName text="SAM_Hit"/>
+								<m_CollectionName text="MaterialVFX"/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>2.249197</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="52"/>
+								<m_Description text=""/>
+								<m_FXName text="SAM_Hit"/>
+								<m_CollectionName text="MaterialVFX"/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>1.973928</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="53"/>
+								<m_Description text=""/>
+								<m_FXName text="SAM_Hit"/>
+								<m_CollectionName text="MaterialVFX"/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>1.907262</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="54"/>
+								<m_Description text=""/>
+								<m_FXName text="SAM_Hit"/>
+								<m_CollectionName text="MaterialVFX"/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>2.165326</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="55"/>
+								<m_Description text=""/>
+								<m_FXName text="SAM_Hit"/>
+								<m_CollectionName text="MaterialVFX"/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>2.475099</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="56"/>
+								<m_Description text=""/>
+								<m_FXName text="SAM_Hit"/>
+								<m_CollectionName text="MaterialVFX"/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>2.535219</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="57"/>
+								<m_Description text=""/>
+								<m_FXName text="SAM_Hit"/>
+								<m_CollectionName text="MaterialVFX"/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>2.756724</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="58"/>
+								<m_Description text=""/>
+								<m_FXName text="SAM_Hit"/>
+								<m_CollectionName text="MaterialVFX"/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>2.814788</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="59"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_5R"/>
+								<m_fStartTime>1.688832</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="60"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_8R"/>
+								<m_fStartTime>1.733256</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="61"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_8R"/>
+								<m_fStartTime>1.965351</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="62"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_5R"/>
+								<m_fStartTime>1.903701</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="63"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_8R"/>
+								<m_fStartTime>2.241869</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="64"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_5R"/>
+								<m_fStartTime>2.162087</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="65"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_5R"/>
+								<m_fStartTime>2.468524</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="66"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_8R"/>
+								<m_fStartTime>2.530174</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="67"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_5R"/>
+								<m_fStartTime>2.750482</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="68"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_GunAA_8R"/>
+								<m_fStartTime>2.808506</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="48"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierAntiAirAttackVolley"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.642871</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="69"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierAntiAirAttackVolley"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.693148</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="70"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierAntiAirAttackVolley"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.624074</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>2</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="71"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierAntiAirAttackVolley"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.717780</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>3</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="77"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarSweep_Slow"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.229630</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>4</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="78"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarBeep"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.994253</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>4</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="5"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Ship_Sinking_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>3.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="6"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal_L"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_02"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="7"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_01"/>
+								<m_fStartTime>0.054735</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>2</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="8"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_03"/>
+								<m_fStartTime>0.212593</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>3</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="107"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="108"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.585304</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="109"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.618222</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="110"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.037343</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="111"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.192680</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="112"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.075926</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="106"/>
+								<m_Description text=""/>
+								<m_FXName text="TankDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.005556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="281"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Unit_Movement_Master"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>2</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="IDLE_COMBAT_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_IdleA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="83"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarSweep_Slow"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.048129</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="84"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarBeep"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>2.024691</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="85"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarSweep_Slow"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>4.023442</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="86"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarBeep"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>5.987654</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="ATTACK_P"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_AttackLeft"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="12"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Battleship_Big_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Gun_PortBow"/>
+								<m_fStartTime>0.332235</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="14"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Battleship_Big_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Gun_PortStern"/>
+								<m_fStartTime>0.462877</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="18"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Battleship_WaterShockwave_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Gun_PortBow_Shockwave"/>
+								<m_fStartTime>0.343979</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="19"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Battleship_WaterShockwave_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Gun_PortStern_Shockwave"/>
+								<m_fStartTime>0.477988</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>2</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="24"/>
+								<m_Description text=""/>
+								<m_FXName text="Battleship_Hit"/>
+								<m_CollectionName text="MaterialVFX"/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>0.601886</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="25"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Gun_StarbBow"/>
+								<m_fStartTime>0.602281</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="26"/>
+								<m_Description text=""/>
+								<m_FXName text="Battleship_Hit"/>
+								<m_CollectionName text="MaterialVFX"/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>0.743316</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="27"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Gun_StarbStern"/>
+								<m_fStartTime>0.739502</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="72"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierCannonAttack"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.325926</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="74"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierCannonAttack"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.459260</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_COMBAT"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_RunA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="1"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_Wake"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Wake"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="3"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_Bow_Wake"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_BowFroth"/>
+								<m_fStartTime>0.001852</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="91"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarSweep_Fast"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.060475</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="92"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarBeep"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.012346</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="93"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarSweep_Fast"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>2.011092</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="94"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarBeep"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>3.024688</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="103"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRun"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.007407</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="ATTACK_S"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_AttackRight"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="30"/>
+								<m_Description text=""/>
+								<m_FXName text="Battleship_Hit"/>
+								<m_CollectionName text="MaterialVFX"/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>0.601920</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="31"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Gun_PortStern"/>
+								<m_fStartTime>0.603291</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="32"/>
+								<m_Description text=""/>
+								<m_FXName text="Battleship_Hit"/>
+								<m_CollectionName text="MaterialVFX"/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>0.699439</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="33"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Gun_PortBow"/>
+								<m_fStartTime>0.701730</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="13"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Battleship_Big_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Gun_StarbBow"/>
+								<m_fStartTime>0.437679</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="15"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Battleship_Big_Muzzleflash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Gun_StarbStern"/>
+								<m_fStartTime>0.356309</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="16"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Battleship_WaterShockwave_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Gun_StarbStern_Shockwave"/>
+								<m_fStartTime>0.366201</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="17"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Battleship_WaterShockwave_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Gun_StarbBow_ShockWave"/>
+								<m_fStartTime>0.452062</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>2</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="75"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierCannonAttack"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.437037</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="76"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierCannonAttack"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.359260</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_COMBAT_STOP"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_RunStopA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="9"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_Bow_Wake"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_BowFroth"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="95"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarSweep_XFast"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.048129</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="96"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarBeep"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.790124</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="97"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarSweep_XFast"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.554302</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="98"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarBeep"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>2.308636</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="104"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRunStop"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.029630</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_STOP"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_RunStopA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="4"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_AircraftCarrier_Bow_Wake"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_BowFroth"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="99"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarSweep_XFast"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.048129</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="100"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarBeep"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.790124</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="101"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarSweep_XFast"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.554302</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="102"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRadarBeep"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>2.308636</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="105"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierRunStop"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.029630</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_1"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="113"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Ship_Sinking_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>3.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="114"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal_L"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_02"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="115"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_01"/>
+								<m_fStartTime>0.054735</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="116"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_03"/>
+								<m_fStartTime>0.212593</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="117"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="118"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.585304</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="119"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.037343</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="120"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.192680</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="121"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.075926</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="122"/>
+								<m_Description text=""/>
+								<m_FXName text="TankDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.005556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="123"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.618222</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="267"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Unit_Movement_Master"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_2"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="159"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="160"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.585304</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="161"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.037343</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="162"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.192680</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="163"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.075926</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="164"/>
+								<m_Description text=""/>
+								<m_FXName text="TankDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.005556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="165"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.618222</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="243"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Ship_Sinking_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>3.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="244"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal_L"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_02"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="245"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_01"/>
+								<m_fStartTime>0.054735</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="246"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_03"/>
+								<m_fStartTime>0.212593</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="273"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Unit_Movement_Master"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_3"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="166"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="167"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.585304</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="168"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.037343</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="169"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.192680</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="170"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.075926</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="171"/>
+								<m_Description text=""/>
+								<m_FXName text="TankDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.005556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="172"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.618222</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="239"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Ship_Sinking_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>3.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="240"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal_L"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_02"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="241"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_01"/>
+								<m_fStartTime>0.054735</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="242"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_03"/>
+								<m_fStartTime>0.212593</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="274"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Unit_Movement_Master"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_4"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="173"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="174"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.585304</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="175"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.037343</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="176"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.192680</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="177"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.075926</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="178"/>
+								<m_Description text=""/>
+								<m_FXName text="TankDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.005556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="179"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.618222</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="235"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Ship_Sinking_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>3.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="236"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal_L"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_02"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="237"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_01"/>
+								<m_fStartTime>0.054735</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="238"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_03"/>
+								<m_fStartTime>0.212593</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="275"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Unit_Movement_Master"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_5"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="180"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="181"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.585304</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="182"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.037343</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="183"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.192680</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="184"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.075926</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="185"/>
+								<m_Description text=""/>
+								<m_FXName text="TankDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.005556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="186"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.618222</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="231"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Ship_Sinking_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>3.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="232"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal_L"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_02"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="233"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_01"/>
+								<m_fStartTime>0.054735</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="234"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_03"/>
+								<m_fStartTime>0.212593</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="276"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Unit_Movement_Master"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_6"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="187"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="188"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.585304</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="189"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.037343</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="190"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.192680</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="191"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.075926</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="192"/>
+								<m_Description text=""/>
+								<m_FXName text="TankDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.005556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="193"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.618222</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="227"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Ship_Sinking_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>3.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="228"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal_L"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_02"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="229"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_01"/>
+								<m_fStartTime>0.054735</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="230"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_03"/>
+								<m_fStartTime>0.212593</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="277"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Unit_Movement_Master"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_7"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="194"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="195"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.585304</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="196"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.037343</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="197"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.192680</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="198"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.075926</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="199"/>
+								<m_Description text=""/>
+								<m_FXName text="TankDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.005556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="200"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.618222</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="223"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Ship_Sinking_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>3.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="224"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal_L"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_02"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="225"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_01"/>
+								<m_fStartTime>0.054735</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="226"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_03"/>
+								<m_fStartTime>0.212593</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="278"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Unit_Movement_Master"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_8"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="201"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="202"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.585304</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="203"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.037343</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="204"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.192680</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="205"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.075926</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="206"/>
+								<m_Description text=""/>
+								<m_FXName text="TankDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.005556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="207"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.618222</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="219"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Ship_Sinking_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>3.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="220"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal_L"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_02"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="221"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_01"/>
+								<m_fStartTime>0.054735</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="222"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_03"/>
+								<m_fStartTime>0.212593</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="279"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Unit_Movement_Master"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_10"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="124"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="125"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.585304</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="126"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.037343</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="127"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.192680</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="128"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.075926</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="129"/>
+								<m_Description text=""/>
+								<m_FXName text="TankDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.005556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="130"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.618222</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="263"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Ship_Sinking_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>3.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="264"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal_L"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_02"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="265"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_01"/>
+								<m_fStartTime>0.054735</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="266"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_03"/>
+								<m_fStartTime>0.212593</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="268"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Unit_Movement_Master"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_11"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="131"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="132"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.585304</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="133"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.037343</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="134"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.192680</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="135"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.075926</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="136"/>
+								<m_Description text=""/>
+								<m_FXName text="TankDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.005556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="137"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.618222</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="259"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Ship_Sinking_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>3.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="260"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal_L"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_02"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="261"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_01"/>
+								<m_fStartTime>0.054735</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="262"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_03"/>
+								<m_fStartTime>0.212593</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="269"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Unit_Movement_Master"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_12"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="138"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="139"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.585304</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="140"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.037343</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="141"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.192680</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="142"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.075926</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="143"/>
+								<m_Description text=""/>
+								<m_FXName text="TankDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.005556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="144"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.618222</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="255"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Ship_Sinking_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>3.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="256"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal_L"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_02"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="257"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_01"/>
+								<m_fStartTime>0.054735</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="258"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_03"/>
+								<m_fStartTime>0.212593</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="270"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Unit_Movement_Master"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_13"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="145"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="146"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.585304</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="147"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.037343</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="148"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.192680</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="149"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.075926</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="150"/>
+								<m_Description text=""/>
+								<m_FXName text="TankDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.005556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="151"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.618222</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="251"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Ship_Sinking_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>3.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="252"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal_L"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_02"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="253"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_01"/>
+								<m_fStartTime>0.054735</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="254"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_03"/>
+								<m_fStartTime>0.212593</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="272"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Unit_Movement_Master"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_14"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="152"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="153"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.585304</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="154"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.037343</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="155"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.192680</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="156"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.075926</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="157"/>
+								<m_Description text=""/>
+								<m_FXName text="TankDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.005556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="158"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.618222</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="247"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Ship_Sinking_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>3.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="248"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal_L"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_02"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="249"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_01"/>
+								<m_fStartTime>0.054735</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="250"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_03"/>
+								<m_fStartTime>0.212593</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="271"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Unit_Movement_Master"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_9"/>
+						<m_Description text=""/>
+						<m_AnimationName text="AircraftCarrier_DeathA"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="208"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="209"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.585304</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="210"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Large_NoDebris"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.037343</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="211"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.192680</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="212"/>
+								<m_Description text=""/>
+								<m_FXName text="CarrierDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.075926</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="213"/>
+								<m_Description text=""/>
+								<m_FXName text="TankDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.005556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="214"/>
+								<m_Description text=""/>
+								<m_FXName text="Explosion_Ship_Large"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.618222</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="215"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Ship_Sinking_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Sinking_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>3.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="216"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal_L"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_02"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="217"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_01"/>
+								<m_fStartTime>0.054735</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="218"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Metal"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_HitLoc_03"/>
+								<m_fStartTime>0.212593</m_fStartTime>
+								<m_fDuration>2.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="280"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Unit_Movement_Master"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+				</m_Timelines>
+			</m_timelines>
+			<m_attachmentPoints>
+				<m_Points>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Sinking_01"/>
+						<m_BoneName text="Root"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>0.750000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>-19.000000</x>
+							<y>3.000000</y>
+							<z>4.500000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_HitLoc_03"/>
+						<m_BoneName text="ship"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>0.300000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Wake"/>
+						<m_BoneName text="Root"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_BowFroth"/>
+						<m_BoneName text="Root"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Persistent_Idle"/>
+						<m_BoneName text="Root"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>1.720000</x>
+							<y>-0.130000</y>
+							<z>0.060000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_GunAA_8R"/>
+						<m_BoneName text="gunsRow8_right"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>0.070000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>1.750000</x>
+							<y>-0.025000</y>
+							<z>-0.060000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_GunAA_7R"/>
+						<m_BoneName text="gunsRow7_right"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>0.070000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>1.680000</x>
+							<y>-0.085000</y>
+							<z>0.090000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_GunAA_5R"/>
+						<m_BoneName text="gunsRow5_right"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>0.070000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>1.680000</x>
+							<y>-0.085000</y>
+							<z>0.090000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_GunAA_6R"/>
+						<m_BoneName text="gunsRow6_right"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>0.070000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>-19.620001</x>
+							<y>-6.090000</y>
+							<z>5.720000</z>
+						</m_position>
+						<m_orientation>
+							<x>1.308997</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Gun_StarbStern"/>
+						<m_BoneName text="ship"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>0.100000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>-19.620001</x>
+							<y>-6.090000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Gun_StarbStern_Shockwave"/>
+						<m_BoneName text="Root"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>0.100000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>16.370001</x>
+							<y>-6.620000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Gun_StarbBow_ShockWave"/>
+						<m_BoneName text="Root"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>0.100000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>16.370001</x>
+							<y>-6.620000</y>
+							<z>5.700000</z>
+						</m_position>
+						<m_orientation>
+							<x>1.308997</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Gun_StarbBow"/>
+						<m_BoneName text="ship"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>0.100000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>-6.500000</x>
+							<y>-2.300000</y>
+							<z>7.500000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_HitLoc_01"/>
+						<m_BoneName text="ship"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>0.500000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>2.000000</x>
+							<y>-3.800000</y>
+							<z>6.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_HitLoc_02"/>
+						<m_BoneName text="ship"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>0.700000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>16.370001</x>
+							<y>6.620000</y>
+							<z>5.700000</z>
+						</m_position>
+						<m_orientation>
+							<x>-1.308997</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Gun_PortBow"/>
+						<m_BoneName text="ship"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>0.100000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>16.370001</x>
+							<y>6.620000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Gun_PortBow_Shockwave"/>
+						<m_BoneName text="Root"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>0.100000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>-19.620001</x>
+							<y>6.090000</y>
+							<z>5.720000</z>
+						</m_position>
+						<m_orientation>
+							<x>-1.308997</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Gun_PortStern"/>
+						<m_BoneName text="ship"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>0.100000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>-19.620001</x>
+							<y>6.090000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Gun_PortStern_Shockwave"/>
+						<m_BoneName text="Root"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>0.100000</m_scale>
+					</Element>
+				</m_Points>
+			</m_attachmentPoints>
+			<m_stateSet/>
+		</m_behaviorDataSets>
+		<m_behaviorInstances/>
+		<m_dsgName text="Standard_Naval"/>
+		<m_referenceGeometryNames/>
+	</m_BehaviorData>
+	<m_GeometrySet>
+		<m_ModelInstances>
+			<Element>
+				<m_Name text="Root"/>
+				<m_GeoName text="AircraftCarrier"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Supercarrier"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="AircraftCarrier_Material"/>
+						<m_MeshName text="AircraftCarrierShape"/>
+						<m_StateName text="Default"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+		</m_ModelInstances>
+	</m_GeometrySet>
+	<m_SplineSet>
+		<m_Splines/>
+	</m_SplineSet>
+	<m_CookParams>
+		<m_Values/>
+	</m_CookParams>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ParticleEffects/>
+	<m_Geometries/>
+	<m_Animations/>
+	<m_Materials/>
+	<m_ClassName text="Unit"/>
+	<m_DataFiles/>
+	<m_Name text="Supercarrier"/>
+	<m_Description text=""/>
+	<m_Tags>
+		<Element text="Unit"/>
+	</m_Tags>
+</AssetObjects..AssetInstance>
+

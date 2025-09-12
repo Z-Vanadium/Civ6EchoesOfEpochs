@@ -2,7 +2,7 @@
 <Mod id="7b2fd0cc-894e-11f0-848b-743af48c76b0" version="143">
   <Properties>
     <Name>CCB 适配：扩展包 纪元回响 Echoes Of Epochs 1.4.3 WIP</Name>
-    <Description>【CCB 适配：扩展包 纪元回响 Echoes Of Epochs】是一个强度适配 CCB 的文明 6 PVP 领袖扩展包模组，包含 8 个新领袖、5 个新文明。所有美术素材均来自创意工坊同名优秀模组，在此向原作者表达感谢！
+    <Description>【CCB 适配：扩展包 纪元回响 Echoes Of Epochs】是一个强度适配 CCB 的文明 6 PVP 领袖扩展包模组，包含 10 个新领袖、6 个新文明。所有美术素材均来自创意工坊同名优秀模组，在此向原作者表达感谢！
 [NEWLINE][NEWLINE]奥登纳图斯、芝诺比娅领导的帕尔米拉
 [NEWLINE][NEWLINE]玛丽亚·特蕾莎领导的奥地利
 [NEWLINE][NEWLINE]叶卡捷琳娜领导的俄罗斯
@@ -11,6 +11,8 @@
 [NEWLINE][NEWLINE]奥雷利耶·安托万一世领导的马普切
 [NEWLINE][NEWLINE]克里斯蒂安四世领导的丹麦
 [NEWLINE][NEWLINE]路德维希二世领导的巴伐利亚
+[NEWLINE][NEWLINE]亚罗斯拉夫领导的基辅罗斯
+[NEWLINE][NEWLINE]特朗普领导的美国
 [NEWLINE][NEWLINE][NEWLINE][NEWLINE]游玩愉快的同时不要忘记给我和原作者点个订阅！如有 BUG 和平衡建议请立即反馈</Description>
     <Authors>Vanadium (alphabetical order)</Authors>
     <SpecialThanks>(3D, (Texture, EnigmaConundrum, Extractor), Gedemo, HoopThrower, JNR, Leugi, Lime, Merrick, Mikecro, Models), Sukritact, Vanadium (alphabetical order)</SpecialThanks>
@@ -223,31 +225,6 @@
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>899999</LoadOrder>
-</Properties>
-<File>Balance/Palmyra/GameData.sql</File>
-</UpdateDatabase>
-<UpdateColors id="NewAction">
-<Properties>
-<LoadOrder>899999</LoadOrder>
-</Properties>
-<File>Balance/Palmyra/Color.sql</File>
-</UpdateColors>
-<UpdateText id="NewAction">
-<Properties>
-<LoadOrder>899999</LoadOrder>
-</Properties>
-<File>Balance/Palmyra/Text.xml</File>
-</UpdateText>
-<UpdateDatabase id="NewAction">
-<Properties>
-<LoadOrder>899999</LoadOrder>
-</Properties>
-<File>Balance/Palmyra/Config.sql</File>
-</UpdateDatabase>
-
-<UpdateDatabase id="NewAction">
-<Properties>
 <LoadOrder>889999</LoadOrder>
 </Properties>
 <File>Balance/Austria/GameData.sql</File>
@@ -429,6 +406,31 @@
 <LoadOrder>819999</LoadOrder>
 </Properties>
 <File>Balance/KievanRus/Config.sql</File>
+</UpdateDatabase>
+
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>809999</LoadOrder>
+</Properties>
+<File>Balance/America_XP1/GameData.sql</File>
+</UpdateDatabase>
+<UpdateColors id="NewAction">
+<Properties>
+<LoadOrder>809999</LoadOrder>
+</Properties>
+<File>Balance/America_XP1/Color.sql</File>
+</UpdateColors>
+<UpdateText id="NewAction">
+<Properties>
+<LoadOrder>809999</LoadOrder>
+</Properties>
+<File>Balance/America_XP1/Text.xml</File>
+</UpdateText>
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>809999</LoadOrder>
+</Properties>
+<File>Balance/America_XP1/Config.sql</File>
 </UpdateDatabase>
 </FrontEndActions>
 <InGameActions>
@@ -711,25 +713,6 @@
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>899999</LoadOrder>
-</Properties>
-<File>Balance/Palmyra/GameData.sql</File>
-</UpdateDatabase>
-<UpdateColors id="NewAction">
-<Properties>
-<LoadOrder>899999</LoadOrder>
-</Properties>
-<File>Balance/Palmyra/Color.sql</File>
-</UpdateColors>
-<UpdateText id="NewAction">
-<Properties>
-<LoadOrder>899999</LoadOrder>
-</Properties>
-<File>Balance/Palmyra/Text.xml</File>
-</UpdateText>
-
-<UpdateDatabase id="NewAction">
-<Properties>
 <LoadOrder>889999</LoadOrder>
 </Properties>
 <File>Balance/Austria/GameData.sql</File>
@@ -869,6 +852,25 @@
 <LoadOrder>819999</LoadOrder>
 </Properties>
 <File>Balance/KievanRus/Text.xml</File>
+</UpdateText>
+
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>809999</LoadOrder>
+</Properties>
+<File>Balance/America_XP1/GameData.sql</File>
+</UpdateDatabase>
+<UpdateColors id="NewAction">
+<Properties>
+<LoadOrder>809999</LoadOrder>
+</Properties>
+<File>Balance/America_XP1/Color.sql</File>
+</UpdateColors>
+<UpdateText id="NewAction">
+<Properties>
+<LoadOrder>809999</LoadOrder>
+</Properties>
+<File>Balance/America_XP1/Text.xml</File>
 </UpdateText>
 </InGameActions>
 <Files>
@@ -2126,11 +2128,6 @@
 <File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/UITexture.blp</File>
 <File>Europe_XP1/KievanRus/Platforms/Windows/BLPs/Unit.blp</File>
 
-<File>Balance/Palmyra/Color.sql</File>
-<File>Balance/Palmyra/Config.sql</File>
-<File>Balance/Palmyra/GameData.sql</File>
-<File>Balance/Palmyra/Text.xml</File>
-
 <File>Balance/Austria/Color.sql</File>
 <File>Balance/Austria/Config.sql</File>
 <File>Balance/Austria/GameData.sql</File>
@@ -2168,6 +2165,11 @@
 <File>Balance/KievanRus/Config.sql</File>
 <File>Balance/KievanRus/GameData.sql</File>
 <File>Balance/KievanRus/Text.xml</File>
+
+<File>Balance/America_XP1/Color.sql</File>
+<File>Balance/America_XP1/Config.sql</File>
+<File>Balance/America_XP1/GameData.sql</File>
+<File>Balance/America_XP1/Text.xml</File>
 </Files>
 <ActionCriteria>
 <Criteria any="1" id="Expansion1">

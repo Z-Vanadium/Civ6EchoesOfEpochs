@@ -18,6 +18,7 @@ def get_mod_folders():
         'Europe_XP1/Denmark',
         'Europe_XP1/Bavaria',
         'Europe_XP1/KievanRus',
+        'NorthAmerica/America_XP1'
 
 
 
@@ -32,6 +33,7 @@ def get_mod_folders():
         'Balance/Denmark',
         'Balance/Bavaria',
         'Balance/KievanRus',
+        'Balance/America_XP1',
     ]
 
 def combine_modinfo_files():
@@ -107,7 +109,7 @@ def combine_modinfo_files():
 <Mod id="7b2fd0cc-894e-11f0-848b-743af48c76b0" version="143">
   <Properties>
     <Name>CCB 适配：扩展包 纪元回响 Echoes Of Epochs 1.4.3 WIP</Name>
-    <Description>【CCB 适配：扩展包 纪元回响 Echoes Of Epochs】是一个强度适配 CCB 的文明 6 PVP 领袖扩展包模组，包含 8 个新领袖、5 个新文明。所有美术素材均来自创意工坊同名优秀模组，在此向原作者表达感谢！
+    <Description>【CCB 适配：扩展包 纪元回响 Echoes Of Epochs】是一个强度适配 CCB 的文明 6 PVP 领袖扩展包模组，包含 10 个新领袖、6 个新文明。所有美术素材均来自创意工坊同名优秀模组，在此向原作者表达感谢！
 [NEWLINE][NEWLINE]奥登纳图斯、芝诺比娅领导的帕尔米拉
 [NEWLINE][NEWLINE]玛丽亚·特蕾莎领导的奥地利
 [NEWLINE][NEWLINE]叶卡捷琳娜领导的俄罗斯
@@ -116,6 +118,8 @@ def combine_modinfo_files():
 [NEWLINE][NEWLINE]奥雷利耶·安托万一世领导的马普切
 [NEWLINE][NEWLINE]克里斯蒂安四世领导的丹麦
 [NEWLINE][NEWLINE]路德维希二世领导的巴伐利亚
+[NEWLINE][NEWLINE]亚罗斯拉夫领导的基辅罗斯
+[NEWLINE][NEWLINE]特朗普领导的美国
 [NEWLINE][NEWLINE][NEWLINE][NEWLINE]游玩愉快的同时不要忘记给我和原作者点个订阅！如有 BUG 和平衡建议请立即反馈</Description>
     <Authors>{', '.join(sorted_authors)} (alphabetical order)</Authors>
     <SpecialThanks>{', '.join(sorted_special_thanks)} (alphabetical order)</SpecialThanks>
