@@ -18,7 +18,7 @@ def get_mod_folders():
         'Europe_XP1/Denmark',
         'Europe_XP1/Bavaria',
         'Europe_XP1/KievanRus',
-        'NorthAmerica/America_XP1'
+        'NorthAmerica/America_XP1',
 
 
 
