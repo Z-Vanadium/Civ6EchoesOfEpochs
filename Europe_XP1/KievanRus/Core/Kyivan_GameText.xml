@@ -214,7 +214,7 @@
 			<Text>罗斯真理</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_MER_KYIV_RUSSKAYA_PRAVDA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>政治哲学后，拥有维彻广场的城市 +2 [icon_culture]文化；中世纪集市后这个加成将翻倍。</Text>
+			<Text>防御战术后，拥有商业中心的城市 +1 [icon_culture] 文化值；中世纪集市后这个加成 +2。</Text>
 		</Row>
 		<Row Tag="LOC_MODIFIER_LEADER_MER_RUSSKAYA_PRAVDA_STRENGTH_DESC" Language="zh_Hans_CN">
 			<Text>每个同盟提供+{1_Amount} [ICON_Strength] 战斗力（最多+10）</Text>
