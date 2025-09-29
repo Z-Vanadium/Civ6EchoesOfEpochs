@@ -90,19 +90,19 @@ INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES
 ('REQ_VAN_PLOT_IS_DESERT_HILLS', 'TerrainType', 'TERRAIN_DESERT_HILLS');
 
 -- City center +1 prod from desert(hills)
--- INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
--- ('TRAIT_CIVILIZATION_MER_PEARL_OF_THE_DESERT', 'MODIFIER_VAN_CITY_CENTER_PROD_DESERT');
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+('TRAIT_CIVILIZATION_MER_PEARL_OF_THE_DESERT', 'MODIFIER_VAN_CITY_CENTER_PROD_DESERT');
 
--- INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
--- ('MODIFIER_VAN_CITY_CENTER_PROD_DESERT', 'MODIFIER_ALL_CITIES_TERRAIN_ADJACENCY', 0, 0, 0, 'BBG_UTILS_PLAYER_HAS_CIVIC_FOREIGN_TRADE_REQSET', NULL);
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODIFIER_VAN_CITY_CENTER_PROD_DESERT', 'MODIFIER_ALL_CITIES_TERRAIN_ADJACENCY', 0, 0, 0, 'BBG_UTILS_PLAYER_HAS_CIVIC_FOREIGN_TRADE_REQSET', NULL);
 
--- INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
--- ('MODIFIER_VAN_CITY_CENTER_PROD_DESERT', 'Amount', '1'), 
--- ('MODIFIER_VAN_CITY_CENTER_PROD_DESERT', 'Description', 'LOC_MODIFIER_VAN_CITY_CENTER_PROD_DESERT'), 
--- ('MODIFIER_VAN_CITY_CENTER_PROD_DESERT', 'DistrictType', 'DISTRICT_CITY_CENTER'), 
--- ('MODIFIER_VAN_CITY_CENTER_PROD_DESERT', 'TerrainType', 'TERRAIN_DESERT'), 
--- ('MODIFIER_VAN_CITY_CENTER_PROD_DESERT', 'TilesRequired', '1'), 
--- ('MODIFIER_VAN_CITY_CENTER_PROD_DESERT', 'YieldType', 'YIELD_PRODUCTION');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODIFIER_VAN_CITY_CENTER_PROD_DESERT', 'Amount', '1'), 
+('MODIFIER_VAN_CITY_CENTER_PROD_DESERT', 'Description', 'LOC_MODIFIER_VAN_CITY_CENTER_PROD_DESERT'), 
+('MODIFIER_VAN_CITY_CENTER_PROD_DESERT', 'DistrictType', 'DISTRICT_CITY_CENTER'), 
+('MODIFIER_VAN_CITY_CENTER_PROD_DESERT', 'TerrainType', 'TERRAIN_DESERT'), 
+('MODIFIER_VAN_CITY_CENTER_PROD_DESERT', 'TilesRequired', '1'), 
+('MODIFIER_VAN_CITY_CENTER_PROD_DESERT', 'YieldType', 'YIELD_PRODUCTION');
 
 --
 INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
@@ -154,6 +154,19 @@ DELETE FROM Adjacency_YieldChanges
 
 -- ui early to NULL
 UPDATE Improvements SET PrereqTech = NULL WHERE ImprovementType = 'IMPROVEMENT_MER_FUNERARY_TOWERS';
+
+-- ui +1 prod from CH
+INSERT INTO Improvement_YieldChanges VALUES ('IMPROVEMENT_MER_FUNERARY_TOWERS', 'YIELD_PRODUCTION', 0);
+INSERT INTO Improvement_Adjacencies VALUES ('IMPROVEMENT_MER_FUNERARY_TOWERS', 'VAN_Funerary_Prod_CH');
+INSERT INTO Adjacency_YieldChanges(ID, Description, YieldType, YieldChange, TilesRequired, AdjacentDistrict)
+      VALUES ('VAN_Funerary_Prod_CH', 'Placeholder', 'YIELD_PRODUCTION', 1, 1, 'DISTRICT_COMMERCIAL_HUB');
+
+-- ui +1 prod with apprenticeship
+INSERT INTO Improvement_BonusYieldChanges (PrereqCivic,PrereqTech,BonusYieldChange,YieldType,ImprovementType,Id)
+      VALUES (NULL,'TECH_APPRENTICESHIP',1,'YIELD_PRODUCTION','IMPROVEMENT_MER_FUNERARY_TOWERS',4111);
+
+-- ui plunder to gold
+UPDATE Improvements SET PlunderType='PLUNDER_GOLD' WHERE ImprovementType='IMPROVEMENT_MER_FUNERARY_TOWERS';
 
 -- Leader
 DELETE FROM TraitModifiers
