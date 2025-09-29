@@ -223,7 +223,7 @@
 			<Text>自瓦良格至希腊</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_MER_KYIV_VARANGIANS_TO_GREEKS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>您的 [ICON_TradeRoute] 贸易路线每行进5格单元格，即可额外获得 +1 [ICON_Gold] 金币。[NEWLINE]河流沿岸的已开发资源提供 +1 [ICON_Gold] 金币，营地与伐木场提供 +1 [ICON_Production] 生产力。[newline][newline][ICON_BULLET]出生地关联：T2河流、T4鹿、T4树林。</Text>
+			<Text>您的 [ICON_TradeRoute] 贸易路线每行进 10 格单元格，即可额外获得 +1 [ICON_Gold] 金币。[NEWLINE]河流沿岸的已开发资源提供 +1 [ICON_Gold] 金币，营地与伐木场提供 +1 [ICON_Production] 生产力。[newline][newline][ICON_BULLET]出生地关联：T2河流、T4鹿、T4树林。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_KYIV_DRUZHINA_NAME" Language="zh_Hans_CN">
 			<Text>亲兵队</Text>
