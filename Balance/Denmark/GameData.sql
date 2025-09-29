@@ -49,8 +49,8 @@ VALUES ('BBG_SHIPYARD_FISHERY_PRODUCTION', 'BUILDING_MER_TOJHUS'),
 -- INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
 -- ('VAN_TOJHUS_TRADE_CAPA', 'Amount', '1');
 
--- ub discount (290 -> 250)
-UPDATE Buildings SET Cost=250 WHERE BuildingType = 'BUILDING_MER_TOJHUS';
+-- ub discount (290 -> 220)
+UPDATE Buildings SET Cost=220 WHERE BuildingType = 'BUILDING_MER_TOJHUS';
 
 -- ub +4 culture
 INSERT INTO Building_YieldChanges (YieldChange, YieldType, BuildingType)
