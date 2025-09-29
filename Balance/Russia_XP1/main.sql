@@ -63,3 +63,11 @@ INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, Ow
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
 ('VAN_CATHERINE2_LAVRA_FOOD', 'Amount', '1'), 
 ('VAN_CATHERINE2_LAVRA_FOOD', 'YieldType', 'YIELD_FOOD');
+
+-- border expansion rate -30%
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+('TRAIT_LEADER_GEDEMO_CATHERINE2', 'VAN_CATHERINE2_BORDER_EXPANSION_DEBUFF');
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('VAN_CATHERINE2_BORDER_EXPANSION_DEBUFF', 'MODIFIER_ALL_CITIES_CULTURE_BORDER_EXPANSION', 0, 0, 0, NULL, NULL);
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('VAN_CATHERINE2_BORDER_EXPANSION_DEBUFF', 'Amount', '-30');
