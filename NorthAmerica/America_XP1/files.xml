@@ -79,22 +79,6 @@
     <File>Credits.txt</File>
     <File>JFD's America - Donald Trump.dep</File>
     <File>Materials/Supercarrier.mtl</File>
-    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_AircraftCarrier_AttackAirRight</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_AircraftCarrier_AttackLeft</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_AircraftCarrier_AttackRight</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_AircraftCarrier_DeathA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_AircraftCarrier_IdleA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_AircraftCarrier_RunA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_AircraftCarrier_RunStopA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_AircraftCarrier_ao</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_AircraftCarrier_g</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_AircraftCarrier_m</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_AircraftCarrier_n0</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_AircraftCarrier_n1</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Supercarrier_a_AircraftCarrier_t</File>
-    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
-    <File>Platforms/MacOS/BLPs/units/units.blp</File>
     <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_AircraftCarrier_AttackAirRight</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_AircraftCarrier_AttackLeft</File>

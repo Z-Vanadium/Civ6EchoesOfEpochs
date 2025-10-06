@@ -89,7 +89,6 @@
     <File>Database/Leaders_Orelie.sql</File>
     <File>Database/Traits_Orelie.sql</File>
     <File>LeugisOrelieI.dep</File>
-    <File>Platforms/MacOS/BLPs/LeaderFallback.blp</File>
     <File>Platforms/Windows/BLPs/LeaderFallback.blp</File>
     <File>Platforms/Windows/BLPs/UITexture.blp</File>
     <File>Textures/FALLBACK_NEUTRAL_LEU_ORELIE.dds</File>

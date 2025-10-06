@@ -56,8 +56,6 @@
     <File>Core/Zenobia_GameText.xml</File>
     <File>Core/Zenobia_IconDefinitions.sql</File>
     <File>Merrick's Zenobia (Palmyra).dep</File>
-    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
-    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
     <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
     <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
   </Files>

@@ -59,11 +59,6 @@
     <File>Core/Template_GameDefines.sql</File>
     <File>Gedemo Bismarck.dep</File>
     <File>Mod.Art.xml</File>
-    <File>Platforms/MacOS/BLPs/Icons.blp</File>
-    <File>Platforms/MacOS/BLPs/LeaderBackgrounds.blp</File>
-    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
-    <File>Platforms/MacOS/BLPs/LEADER_GEDEMO_BISMARK.blp</File>
-    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
     <File>Platforms/Windows/BLPs/Icons.blp</File>
     <File>Platforms/Windows/BLPs/LeaderBackgrounds.blp</File>
     <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>

@@ -56,11 +56,6 @@
     <File>Core/Template_GameDefines.sql</File>
     <File>Gedemo_Catherine.Art.xml</File>
     <File>Gedemo_Catherine.dep</File>
-    <File>Platforms/MacOS/BLPs/Icons.blp</File>
-    <File>Platforms/MacOS/BLPs/LeaderBackgrounds.blp</File>
-    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
-    <File>Platforms/MacOS/BLPs/LEADER_GEDEMO_CATHERINE2.blp</File>
-    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
     <File>Platforms/Windows/BLPs/Icons.blp</File>
     <File>Platforms/Windows/BLPs/LeaderBackgrounds.blp</File>
     <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
