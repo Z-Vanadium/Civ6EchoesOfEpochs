@@ -1,16 +1,24 @@
 -- Civilazation
 -- border expansion 30%
-DELETE FROM TraitModifiers
-      WHERE ModifierId = 'MODIFIER_MER_THERESIAN_REFORM_FREE_MELEE_ATTACH';
+-- DELETE FROM TraitModifiers
+--       WHERE ModifierId = 'MODIFIER_MER_THERESIAN_REFORM_FREE_MELEE_ATTACH';
 
+-- INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+-- ('TRAIT_CIVILIZATION_MER_CROWNLANDS', 'MODIFIER_VAN_AUSTRIA_BORDER_EXPANSION');
+
+-- INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+-- ('MODIFIER_VAN_AUSTRIA_BORDER_EXPANSION', 'MODIFIER_ALL_CITIES_CULTURE_BORDER_EXPANSION', 0, 0, 0, NULL, NULL);
+
+-- INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+-- ('MODIFIER_VAN_AUSTRIA_BORDER_EXPANSION', 'Amount', '30');
+
+-- +1 district from government
 INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
-('TRAIT_CIVILIZATION_MER_CROWNLANDS', 'MODIFIER_VAN_AUSTRIA_BORDER_EXPANSION');
-
+('TRAIT_LEADER_MER_THERESIAN_REFORM', 'VAN_AUSTRIA_EXTRA_DISTRICT_GOVERNMENT');
 INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
-('MODIFIER_VAN_AUSTRIA_BORDER_EXPANSION', 'MODIFIER_ALL_CITIES_CULTURE_BORDER_EXPANSION', 0, 0, 0, NULL, NULL);
-
+('VAN_AUSTRIA_EXTRA_DISTRICT_GOVERNMENT', 'MODIFIER_PLAYER_CITIES_EXTRA_DISTRICT', 0, 0, 0, NULL, 'BBG_CITY_HAS_DISTRICT_GOVERNMENT');
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
-('MODIFIER_VAN_AUSTRIA_BORDER_EXPANSION', 'Amount', '30');
+('VAN_AUSTRIA_EXTRA_DISTRICT_GOVERNMENT', 'Amount', '1');
 
 -- +1 dilpo slot with zzzx
 INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
@@ -22,12 +30,26 @@ INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, Ow
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
 ('MODIFIER_VAN_AUSTRIA_EXTRA_DILPO_SLOT', 'GovernmentSlotType', 'SLOT_DIPLOMATIC');
 
+-- +1 dilpo slot with humanism
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+('TRAIT_CIVILIZATION_MER_CROWNLANDS', 'MODIFIER_VAN_AUSTRIA_EXTRA_DILPO_SLOT_BONUS');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODIFIER_VAN_AUSTRIA_EXTRA_DILPO_SLOT_BONUS', 'MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER', 0, 0, 0, 'BBG_UTILS_PLAYER_HAS_CIVIC_HUMANISM_REQSET', NULL);
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODIFIER_VAN_AUSTRIA_EXTRA_DILPO_SLOT_BONUS', 'GovernmentSlotType', 'SLOT_DIPLOMATIC');
+
 -- remove start bias
 DELETE FROM StartBiasTerrains
       WHERE CivilizationType = 'CIVILIZATION_MER_AUSTRIA';
 
 DELETE FROM StartBiasRivers
       WHERE CivilizationType = 'CIVILIZATION_MER_AUSTRIA';
+
+-- t4 river bias
+INSERT INTO StartBiasRivers (CivilizationType, Tier) VALUES
+      ('CIVILIZATION_MER_AUSTRIA', '4');
 
 -- uu CS to 65/70, sight to 4
 UPDATE Units SET Combat = 65, RangedCombat = 70, BaseSightRange = 4 WHERE UnitType = 'UNIT_MER_GRENZER';
@@ -62,11 +84,40 @@ INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
 ('MODIFIER_VAN_GOVERNOR_PROD_DISTRICT', 'Amount', '40');
 
 -- +1 housing for special districts
+-- INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+-- ('TRAIT_LEADER_MER_THERESIAN_REFORM', 'VAN_THERESA_DISTRICT_HOUSING');
+
+-- INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+-- ('VAN_THERESA_DISTRICT_HOUSING', 'MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING', 0, 0, 0, NULL, 'BBG_IS_SPECIALTY_DISTRICT');
+
+-- INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+-- ('VAN_THERESA_DISTRICT_HOUSING', 'Amount', 1);
+
+-- extra standard adjacent bonus of CH from other districts
+INSERT INTO Adjacency_YieldChanges(ID, Description, YieldType, YieldChange, OtherDistrictAdjacent, TilesRequired) VALUES
+      ('VAN_CH_Austria_Districts', 'LOC_DISTRICT_DISTRICT_GOLD', 'YIELD_GOLD', 1, 1, 1);
+INSERT INTO District_Adjacencies(DistrictType, YieldChangeId) VALUES
+      ('DISTRICT_COMMERCIAL_HUB', 'VAN_CH_Austria_Districts');
+INSERT OR REPLACE INTO ExcludedAdjacencies (TraitType, YieldChangeId) SELECT
+      TraitType,
+      'VAN_CH_Austria_Districts'
+FROM LeaderTraits
+WHERE LeaderType != 'LEADER_MER_MARIA_THERESA';
+
+-- each citizen +0.3 sci +0.5 gold with humanism
 INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
-('TRAIT_LEADER_MER_THERESIAN_REFORM', 'VAN_THERESA_DISTRICT_HOUSING');
-
+('TRAIT_LEADER_MER_THERESIAN_REFORM', 'VAN_AUSTRIA_CITIZEN_SCI');
 INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
-('VAN_THERESA_DISTRICT_HOUSING', 'MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING', 0, 0, 0, NULL, 'BBG_IS_SPECIALTY_DISTRICT');
-
+('VAN_AUSTRIA_CITIZEN_SCI', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION', 0, 0, 0, 'BBG_UTILS_PLAYER_HAS_CIVIC_HUMANISM_REQSET', NULL);
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
-('VAN_THERESA_DISTRICT_HOUSING', 'Amount', 1);
+('VAN_AUSTRIA_CITIZEN_SCI', 'Amount', '0.3'), 
+('VAN_AUSTRIA_CITIZEN_SCI', 'YieldType', 'YIELD_SCIENCE');
+
+--
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+('TRAIT_LEADER_MER_THERESIAN_REFORM', 'VAN_AUSTRIA_CITIZEN_GOLD');
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('VAN_AUSTRIA_CITIZEN_GOLD', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION', 0, 0, 0, 'BBG_UTILS_PLAYER_HAS_CIVIC_HUMANISM_REQSET', NULL);
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('VAN_AUSTRIA_CITIZEN_GOLD', 'Amount', '0.5'), 
+('VAN_AUSTRIA_CITIZEN_GOLD', 'YieldType', 'YIELD_GOLD');

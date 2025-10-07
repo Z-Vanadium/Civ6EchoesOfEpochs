@@ -1,7 +1,33 @@
 -- Civilization
 -- T1 coast, T3 river
 UPDATE StartBiasTerrains SET Tier = '1'  WHERE TerrainType = 'TERRAIN_COAST' AND CivilizationType = 'CIVILIZATION_MER_DENMARK';
-INSERT INTO StartBiasRivers (Tier, CivilizationType) VALUES (3, 'CIVILIZATION_MER_DENMARK');
+-- INSERT INTO StartBiasRivers (Tier, CivilizationType) VALUES (3, 'CIVILIZATION_MER_DENMARK');
+
+-- extra naval from capital
+INSERT INTO TraitModifiers (TraitType, ModifierId) SELECT
+      'TRAIT_CIVILIZATION_MER_BALTIC_SEA_DOMINION',
+      'VAN_DENMARK_DOUBLE_' || UnitType
+FROM Units WHERE Domain = 'DOMAIN_SEA';
+
+INSERT INTO Modifiers (ModifierId, ModifierType) SELECT
+      'VAN_DENMARK_DOUBLE_' || UnitType, 
+      'VAN_PLAYER_CAPITAL_ADJUST_EXTRA_UNIT_COPY'
+FROM Units WHERE Domain = 'DOMAIN_SEA';
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) SELECT
+      'VAN_DENMARK_DOUBLE_'||UnitType,
+      'Amount',
+      '1'
+FROM Units WHERE Domain = 'DOMAIN_SEA' UNION SELECT
+      'VAN_DENMARK_DOUBLE_'||UnitType,
+      'UnitType',
+      UnitType
+FROM Units WHERE Domain = 'DOMAIN_SEA';
+
+INSERT INTO Types (Type, Kind) VALUES
+      ('VAN_PLAYER_CAPITAL_ADJUST_EXTRA_UNIT_COPY', 'KIND_MODIFIER');
+INSERT INTO DynamicModifiers (ModifierType, CollectionType, EffectType) VALUES
+      ('VAN_PLAYER_CAPITAL_ADJUST_EXTRA_UNIT_COPY', 'COLLECTION_PLAYER_CAPITAL_CITY', 'EFFECT_ADJUST_EXTRA_UNIT_COPY');
 
 -- canel no bonus
 DELETE FROM TraitModifiers

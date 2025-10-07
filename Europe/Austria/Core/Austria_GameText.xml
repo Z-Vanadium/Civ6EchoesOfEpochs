@@ -316,13 +316,13 @@
 			<Text>特蕾西亚改革</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_MER_THERESIAN_REFORM_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>特色区域提供 +1 [icon_Housing]住房。[newline][newline]有[ICON_Governor]总督就职的城市修建区域时 +40% [ICON_PRODUCTION] 生产力。</Text>
+			<Text>商业中心从其他 [ICON_DISTRICT] 区域获得额外的标准相邻加成。有[ICON_Governor]总督就职的城市修建区域时 +40% [ICON_PRODUCTION] 生产力。发现“人文主义”后，城市中每个 [ICON_CITIZEN] 人口提供 +0.3 [ICON_Science] 科技值、+0.5 [ICON_GOLD] 金币。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_MER_CROWNLANDS_NAME" Language="zh_Hans_CN">
 			<Text>皇室领地</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_MER_CROWNLANDS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>边界扩张速度 +30%。在政治哲学之后的所有政体中获得+1外交政策槽位。[newline][newline][ICON_BULLET]出生地关联：无。</Text>
+			<Text>拥有市政广场的城市可以无视 [ICON_CITIZEN] 人口限制，额外修建一个 [ICON_DISTRICT] 区域。发现“政治哲学”和“人文主义”后，所有 [ICON_Government] 政体分别 +1 外交政策槽位。[newline][newline][ICON_BULLET]出生地关联：T4河流。</Text>
 		</Row> 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_GRENZER_NAME" Language="zh_Hans_CN">
 			<Text>边防卫兵</Text>
