@@ -20,14 +20,14 @@ DELETE FROM TraitModifiers
 -- ('MODIFIER_VAN_LEU_ENCAMPMENT_FOREST_APPEAL', 'FeatureType', 'FEATURE_FOREST');
 
 -- +1 appeal with civic PP
-INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
-('TRAIT_LEADER_LEU_ORELIE', 'VAN_ORELIE_CITIES_APPEAL');
+-- INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+-- ('TRAIT_LEADER_LEU_ORELIE', 'VAN_ORELIE_CITIES_APPEAL');
 INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
 ('VAN_ORELIE_CITIES_APPEAL', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_APPEAL', 0, 0, 0, 'BBG_UTILS_PLAYER_HAS_CIVIC_POLITICAL_PHILOSOPHY_REQSET', NULL);
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
 ('VAN_ORELIE_CITIES_APPEAL', 'Amount', '1');
 
--- ui +2 faith
+-- ui +1 faith
 INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
 ('TRAIT_LEADER_LEU_ORELIE', 'VAN_ORELIE_UI_CULTURE_GIVER');
 INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
@@ -38,7 +38,7 @@ INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
 INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
 ('VAN_ORELIE_UI_CULTURE', 'MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD', 0, 0, 0, NULL, 'REQSET_VAN_PLOT_HAS_IMPROVEMENT_CHEMAMULL');
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
-('VAN_ORELIE_UI_CULTURE', 'Amount', '2'), 
+('VAN_ORELIE_UI_CULTURE', 'Amount', '1'), 
 ('VAN_ORELIE_UI_CULTURE', 'YieldType', 'YIELD_FAITH');
 
 INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES 

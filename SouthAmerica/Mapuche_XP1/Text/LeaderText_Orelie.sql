@@ -154,7 +154,7 @@ VALUES
 		"南方之星国王"),
 		("zh_Hans_CN",
 		"LOC_TRAIT_LEADER_LEU_ORELIE_DESCRIPTION",
-		"政治哲学后，所有地块 +1 魅力。马普切木人提供 +2 [ICON_FAITH] 信仰值，若单元格魅力达到 “惊艳的”，额外提供 +1 [ICON_FOOD] 食物。"),
+		"马普切木人提供 +1 [ICON_FAITH] 信仰值，若单元格魅力达到 “惊艳的”，额外提供 +1 [ICON_FOOD] 食物。"),
 
 		-- 附加能力
 		("zh_Hans_CN",
